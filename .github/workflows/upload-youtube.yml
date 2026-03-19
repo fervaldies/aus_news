@@ -1,0 +1,77 @@
+name: Upload to YouTube
+
+on:
+  push:
+    paths:
+      - '**News.mp4'
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install google-auth-oauthlib google-api-python-client pyyaml
+          sudo apt-get install -y ffmpeg
+
+      - name: Get changed video files
+        id: changed
+        run: |
+          git diff --name-only HEAD~1 HEAD | grep -E '.*News\.mp4$' > changed_videos.txt
+          cat changed_videos.txt
+
+      - name: Mix music into videos
+        run: |
+          while IFS= read -r video; do
+            echo "Mixing music into: $video"
+            ffmpeg -i "$video" -i music.mp3 \
+              -filter_complex "[1:a]volume=0.3[music];[0:a][music]amix=inputs=2:duration=shortest[aout]" \
+              -map 0:v -map "[aout]" \
+              -c:v copy -c:a aac \
+              -shortest \
+              "${video%.mp4}_final.mp4"
+            echo "${video%.mp4}_final.mp4" >> final_videos.txt
+          done < changed_videos.txt
+
+      - name: Upload each video to YouTube
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: |
+          while IFS= read -r video; do
+            echo "Uploading: $video"
+            python upload_youtube.py "$video"
+          done < final_videos.txt
+```
+
+---
+
+**What `volume=0.3` means:**
+The music is set to **30% volume** so it doesn't overpower any voiceover or sound effects in your video. You can tweak this:
+- `0.1` = very subtle background
+- `0.3` = noticeable but not dominant
+- `0.5` = equal with video audio
+- `1.0` = full volume
+
+---
+
+**Your public repo structure will look like this:**
+```
+├── .github/workflows/
+│   ├── daily-news.yml
+│   └── upload-youtube.yml
+├── music.mp3               ← your chosen track
+├── fetch_news.py
+├── upload_youtube.py
+├── MondayNewsEN.yml
+├── MondayNewsES.yml
+├── ThursdayNews.mp4        ← pushed from private repo
+└── ...
