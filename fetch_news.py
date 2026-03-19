@@ -54,9 +54,9 @@ def get_news(day_name):
 
     # --- Fetch 2 Australian news in English ---
     en_text = call_with_search(client, (
-        "Search for the 2 most important news today about or related to Australia. "
+        "Search for the 5 most important news today about or related to Australia. "
         "Return ONLY raw JSON, no markdown, no backticks, no explanation:\n"
-        '{"news": [{"title": "headline under 20 words"}, {"title": "headline under 20 words"}]}'
+        '{"news": [{"title": "headline under 20 words"}, {"title": "headline under 20 words"}, {"title": "headline under 20 words"}, {"title": "headline under 20 words"}, {"title": "headline under 20 words"}]}'
     ))
 
     print(f"Cleaned EN text: {repr(en_text)}")
