@@ -1,11 +1,22 @@
 import anthropic
 import sys
 import json
+import re
 from datetime import datetime
 
-def call_with_tools(client, messages):
-    """Handle the tool use loop and return final text."""
-    while True:
+def extract_json(text):
+    """Strip markdown fences and extract clean JSON."""
+    text = text.strip()
+    # Remove ```json ... ``` or ``` ... ```
+    text = re.sub(r"```(?:json)?\s*", "", text)
+    text = text.replace("```", "").strip()
+    return text
+
+def call_with_search(client, prompt):
+    """Call API with web search and return final text."""
+    messages = [{"role": "user", "content": prompt}]
+
+    for _ in range(5):  # max 5 iterations
         response = client.messages.create(
             model="claude-haiku-4-5-20251001",
             max_tokens=1000,
@@ -13,37 +24,42 @@ def call_with_tools(client, messages):
             messages=messages
         )
 
-        # If done, extract and return text
-        if response.stop_reason == "end_turn":
-            return "".join(b.text for b in response.content if hasattr(b, "text"))
+        print(f"stop_reason: {response.stop_reason}")
+        print(f"content blocks: {[b.type for b in response.content]}")
 
-        # Otherwise, process tool use and continue the loop
+        if response.stop_reason == "end_turn":
+            text = "".join(b.text for b in response.content if hasattr(b, "text"))
+            print(f"Raw response: {repr(text)}")
+            return extract_json(text)
+
+        # Append assistant response and continue
         messages.append({"role": "assistant", "content": response.content})
+
+        # For tool_use blocks, add tool_result
         tool_results = []
         for block in response.content:
             if block.type == "tool_use":
                 tool_results.append({
                     "type": "tool_result",
                     "tool_use_id": block.id,
-                    "content": block.input.get("query", "")
+                    "content": "Search completed."
                 })
-        messages.append({"role": "user", "content": tool_results})
+        if tool_results:
+            messages.append({"role": "user", "content": tool_results})
+
+    raise Exception("Max iterations reached without end_turn")
 
 def get_news(day_name):
     client = anthropic.Anthropic()
 
     # --- Fetch 2 Australian news in English ---
-    en_messages = [{
-        "role": "user",
-        "content": (
-            "Search for the 2 most important news today about or related to Australia. "
-            "Return ONLY a valid JSON object, no markdown, no explanation:\n"
-            '{"news": [{"title": "headline under 20 words"}, {"title": "headline under 20 words"}]}'
-        )
-    }]
+    en_text = call_with_search(client, (
+        "Search for the 2 most important news today about or related to Australia. "
+        "Return ONLY raw JSON, no markdown, no backticks, no explanation:\n"
+        '{"news": [{"title": "headline under 20 words"}, {"title": "headline under 20 words"}]}'
+    ))
 
-    en_text = call_with_tools(client, en_messages)
-    print(f"EN response: {en_text}")
+    print(f"Cleaned EN text: {repr(en_text)}")
     en_data = json.loads(en_text)
 
     # --- Translate to Spanish (Spain) ---
@@ -56,15 +72,15 @@ def get_news(day_name):
             "role": "user",
             "content": (
                 "Translate these headlines to Spanish from Spain. "
-                "Return ONLY a valid JSON object, no markdown, no explanation:\n"
+                "Return ONLY raw JSON, no markdown, no backticks, no explanation:\n"
                 '{"news": [{"title": "translated"}, {"title": "translated"}]}\n\n'
                 f"Headlines:\n{headlines}"
             )
         }]
     )
 
-    es_text = "".join(b.text for b in es_response.content if hasattr(b, "text"))
-    print(f"ES response: {es_text}")
+    es_text = extract_json("".join(b.text for b in es_response.content if hasattr(b, "text")))
+    print(f"Cleaned ES text: {repr(es_text)}")
     es_data = json.loads(es_text)
 
     # --- Write YML files ---
