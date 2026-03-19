@@ -8,7 +8,7 @@ def get_news(day_name):
 
     # --- Fetch 2 Australian news in English ---
     en_response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-haiku-4-5-20251001",
         max_tokens=1000,
         tools=[{"type": "web_search_20250305", "name": "web_search"}],
         messages=[{
@@ -28,7 +28,7 @@ def get_news(day_name):
     headlines = "\n".join(f"- {n['title']}" for n in en_data["news"])
 
     es_response = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-haiku-4-5-20251001",
         max_tokens=500,
         messages=[{
             "role": "user",
