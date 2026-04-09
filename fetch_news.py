@@ -2,6 +2,7 @@ import anthropic
 import sys
 import json
 import re
+import time
 from datetime import datetime
 
 def extract_json(text):
@@ -63,6 +64,7 @@ def get_news(day_name):
     en_data = json.loads(en_text)
 
     # --- Translate to Spanish (Spain) ---
+    time.sleep(10)  # wait for rate limit window to reset
     headlines = "\n".join(f"- {n['title']}" for n in en_data["news"])
 
     es_response = client.messages.create(
