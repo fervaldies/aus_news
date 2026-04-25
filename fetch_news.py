@@ -6,12 +6,15 @@ import time
 from datetime import datetime
 
 def extract_json(text):
-    """Strip markdown fences and extract clean JSON."""
+    """Extract the first complete JSON object from text, ignoring any preamble."""
     text = text.strip()
-    # Remove ```json ... ``` or ``` ... ```
     text = re.sub(r"```(?:json)?\s*", "", text)
     text = text.replace("```", "").strip()
-    return text
+    start = text.find("{")
+    end = text.rfind("}")
+    if start == -1 or end == -1:
+        raise ValueError(f"No JSON object found in response: {repr(text)}")
+    return text[start:end + 1]
 
 def call_with_search(client, prompt):
     """Call API with web search and return final text."""
