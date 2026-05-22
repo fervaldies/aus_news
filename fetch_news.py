@@ -18,21 +18,22 @@ def extract_json(text):
 
 
 def get_news(day_name):
-
+    import anthropic
     from ai_failover import generate_with_search
+
     en_text = generate_with_search(
         "Search for the 5 most important news today about or related to Australia. "
         "Return ONLY raw JSON, no markdown, no backticks, no explanation:\n"
         '{"news": [{"title": "headline under 20 words"}, {"title": "headline under 20 words"}, {"title": "headline under 20 words"}, {"title": "headline under 20 words"}, {"title": "headline under 20 words"}]}'
     )
-
+    en_text = extract_json(en_text)
     print(f"Cleaned EN text: {repr(en_text)}")
     en_data = json.loads(en_text)
 
     # --- Translate to Spanish (Spain) ---
-    time.sleep(10)  # wait for rate limit window to reset
+    time.sleep(10)
     headlines = "\n".join(f"- {n['title']}" for n in en_data["news"])
-
+    client = anthropic.Anthropic()
     es_response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=500,
@@ -41,12 +42,11 @@ def get_news(day_name):
             "content": (
                 "Translate these headlines to Spanish from Spain. "
                 "Return ONLY raw JSON, no markdown, no backticks, no explanation:\n"
-                '{"news": [{"title": "translated"}, {"title": "translated"}]}\n\n'
+                '{"news": [{"title": "translated"}, {"title": "translated"}, {"title": "translated"}, {"title": "translated"}, {"title": "translated"}]}\n\n'
                 f"Headlines:\n{headlines}"
             )
         }]
     )
-
     es_text = extract_json("".join(b.text for b in es_response.content if hasattr(b, "text")))
     print(f"Cleaned ES text: {repr(es_text)}")
     es_data = json.loads(es_text)
@@ -62,7 +62,6 @@ def get_news(day_name):
 
     with open(f"{day_name}NewsEN.yml", "w", encoding="utf-8") as f:
         f.write(build_yml(en_data))
-
     with open(f"{day_name}NewsES.yml", "w", encoding="utf-8") as f:
         f.write(build_yml(es_data))
 
