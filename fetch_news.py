@@ -5,6 +5,7 @@ import re
 import time
 from datetime import datetime
 
+
 def extract_json(text):
     """Extract the first complete JSON object from text, ignoring any preamble."""
     text = text.strip()
@@ -21,14 +22,25 @@ def get_news(day_name):
     import anthropic
     from ai_failover import generate_with_search
 
-    en_text = generate_with_search(
-        "Search for the 5 most important news today about or related to Australia. "
-        "Return ONLY raw JSON, no markdown, no backticks, no explanation:\n"
-        '{"news": [{"title": "headline under 20 words"}, {"title": "headline under 20 words"}, {"title": "headline under 20 words"}, {"title": "headline under 20 words"}, {"title": "headline under 20 words"}]}'
-    )
-    en_text = extract_json(en_text)
-    print(f"Cleaned EN text: {repr(en_text)}")
-    en_data = json.loads(en_text)
+    # --- Fetch 5 Australian news headlines in English (with retry) ---
+    en_data = None
+    for attempt in range(3):
+        en_text = generate_with_search(
+            "Search for the 5 most important news today about or related to Australia. "
+            "You MUST return ONLY a JSON object with no other text whatsoever. "
+            "No prose, no explanation, no apology — even if uncertain, pick the 5 best "
+            "headlines you found and return them in this exact format:\n"
+            '{"news": [{"title": "headline under 20 words"}, {"title": "headline under 20 words"}, {"title": "headline under 20 words"}, {"title": "headline under 20 words"}, {"title": "headline under 20 words"}]}'
+        )
+        try:
+            en_text = extract_json(en_text)
+            print(f"Cleaned EN text: {repr(en_text)}")
+            en_data = json.loads(en_text)
+            break
+        except (ValueError, json.JSONDecodeError) as e:
+            print(f"⚠️ Attempt {attempt + 1}/3 failed to get valid JSON: {e}")
+            if attempt == 2:
+                raise
 
     # --- Translate to Spanish (Spain) ---
     time.sleep(10)
@@ -66,6 +78,7 @@ def get_news(day_name):
         f.write(build_yml(es_data))
 
     print(f"✅ Created {day_name}NewsEN.yml and {day_name}NewsES.yml")
+
 
 if __name__ == "__main__":
     day_name = sys.argv[1]
