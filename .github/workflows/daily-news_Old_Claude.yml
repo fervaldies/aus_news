@@ -1,8 +1,8 @@
 name: Daily Australia News Old
 
 on:
-  schedule:
-    - cron: '0 2 * * *'  # Runs at 8 AM AEST daily
+  #schedule:
+    #- cron: '0 2 * * *'  # Runs at 8 AM AEST daily
   workflow_dispatch: # Allows manual trigger for testing
 
 jobs:
