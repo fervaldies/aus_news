@@ -1,7 +1,7 @@
 """
 fetch_news.py — aus_news
 ------------------------
-Fetches top Australian news headlines using GNews API (free),
+Fetches top Australian news headlines using GNews search API (free),
 then translates them to Spanish using GitHub Models (free).
 
 Required environment variables:
@@ -14,7 +14,7 @@ import json
 import re
 import os
 import urllib.request
-import urllib.error
+import urllib.parse
 from datetime import datetime
 
 GNEWS_API_KEY      = os.environ.get("GNEWS_API_KEY", "")
@@ -38,67 +38,38 @@ def extract_json(text):
 
 
 def clean_title(title):
-    """Remove source attribution like ' - ABC News' from the end of a headline."""
+    """
+    Remove trailing source attribution like ' - ABC News' or ' - Reuters'.
+    Only strips if the part after the LAST dash is short (likely a source name)
+    and does not look like part of a sentence.
+    """
     if " - " in title:
-        title = title.rsplit(" - ", 1)[0]
+        parts = title.rsplit(" - ", 1)
+        suffix = parts[1].strip()
+        # Only strip if suffix looks like a news source:
+        # short (under 30 chars) and no lowercase common sentence words
+        sentence_words = {"the", "a", "an", "and", "or", "but", "in",
+                          "on", "at", "to", "of", "for", "is", "are",
+                          "was", "were", "not", "new", "old", "it"}
+        words = suffix.lower().split()
+        looks_like_source = (
+            len(suffix) < 30 and
+            not any(w in sentence_words for w in words)
+        )
+        if looks_like_source:
+            return parts[0].strip()
     return title.strip()
 
 
-# ── news fetching ─────────────────────────────────────────────────────────────
-
-def fetch_australia_news():
-    """Fetch top Australian headlines from GNews API and return as dict."""
-    if not GNEWS_API_KEY:
-        raise ValueError("GNEWS_API_KEY is not set")
-
-    url = (
-        f"https://gnews.io/api/v4/top-headlines"
-        f"?country=au&lang=en&max=10&apikey={GNEWS_API_KEY}"
-    )
-    print(f"📰 Fetching from GNews API...")
-    with urllib.request.urlopen(url, timeout=15) as r:
-        data = json.loads(r.read().decode("utf-8"))
-
-    articles = data.get("articles", [])
-    print(f"  GNews returned {len(articles)} articles")
-
-    if len(articles) < 5:
-        raise ValueError(f"GNews returned only {len(articles)} articles — need at least 5")
-
-    headlines = []
-    for article in articles[:5]:
-        title = clean_title(article.get("title", ""))
-        if title:
-            headlines.append({"title": title})
-
-    if len(headlines) < 5:
-        raise ValueError(f"Only {len(headlines)} valid headlines after cleaning")
-
-    return {"news": headlines}
-
-
-# ── translation ───────────────────────────────────────────────────────────────
-
-def translate_with_github_models(headlines):
-    """Translate headlines to Spanish (Spain) using GitHub Models (free)."""
+def github_models_call(messages, max_tokens=600):
+    """Make a call to GitHub Models API and return the response text."""
     if not GITHUB_TOKEN:
         raise ValueError("GITHUB_TOKEN is not set")
 
-    headlines_text = "\n".join(f"- {n['title']}" for n in headlines)
-
     payload = json.dumps({
         "model": GITHUB_MODEL,
-        "messages": [{
-            "role": "user",
-            "content": (
-                "Translate these headlines to Spanish from Spain. "
-                "Return ONLY raw JSON, no markdown, no backticks, no explanation:\n"
-                '{"news": [{"title": "translated"}, {"title": "translated"}, '
-                '{"title": "translated"}, {"title": "translated"}, {"title": "translated"}]}\n\n'
-                f"Headlines:\n{headlines_text}"
-            )
-        }],
-        "max_tokens": 600
+        "messages": messages,
+        "max_tokens": max_tokens
     }).encode("utf-8")
 
     req = urllib.request.Request(
@@ -110,29 +81,126 @@ def translate_with_github_models(headlines):
         }
     )
 
-    print("🌐 Translating via GitHub Models...")
     with urllib.request.urlopen(req, timeout=30) as r:
         result = json.loads(r.read().decode("utf-8"))
 
-    text = result["choices"][0]["message"]["content"]
+    return result["choices"][0]["message"]["content"]
+
+
+# ── news fetching ─────────────────────────────────────────────────────────────
+
+def fetch_australia_news():
+    """
+    Fetch headlines specifically ABOUT Australia using GNews search endpoint.
+    Uses q=Australia to find articles about Australia, not just from Australian sources.
+    """
+    if not GNEWS_API_KEY:
+        raise ValueError("GNEWS_API_KEY is not set")
+
+    params = urllib.parse.urlencode({
+        "q":      "Australia",
+        "lang":   "en",
+        "max":    "10",
+        "apikey": GNEWS_API_KEY
+    })
+    url = f"https://gnews.io/api/v4/search?{params}"
+
+    print("📰 Fetching Australia news from GNews search API...")
+    with urllib.request.urlopen(url, timeout=15) as r:
+        data = json.loads(r.read().decode("utf-8"))
+
+    articles = data.get("articles", [])
+    print(f"  GNews returned {len(articles)} articles")
+
+    if len(articles) < 5:
+        raise ValueError(f"GNews returned only {len(articles)} articles — need at least 5")
+
+    headlines = []
+    for article in articles:
+        title = clean_title(article.get("title", ""))
+        if title and len(title) > 10:  # skip empty or very short titles
+            headlines.append(title)
+
+    if len(headlines) < 5:
+        raise ValueError(f"Only {len(headlines)} valid headlines after cleaning")
+
+    return headlines
+
+
+def pick_best_5_australia(headlines):
+    """Use GitHub Models to pick the 5 most important Australia-specific stories."""
+    numbered = "\n".join(f"{i}. {h}" for i, h in enumerate(headlines))
+
+    print("🤖 Picking best 5 via GitHub Models...")
+    text = github_models_call([{
+        "role": "user",
+        "content": (
+            "You are an Australian news editor. From the list below, pick the 5 most "
+            "important and interesting stories specifically about Australia or Australians. "
+            "Prioritise variety of topics. Ignore any headlines that are not specifically "
+            "about Australia. "
+            "Return ONLY raw JSON, no markdown, no backticks:\n"
+            '{"selected_indexes": [0, 1, 2, 3, 4]}\n\n'
+            "Indexes are 0-based. Stories:\n\n"
+            f"{numbered}"
+        )
+    }], max_tokens=100)
+
+    text    = extract_json(text)
+    indexes = json.loads(text)["selected_indexes"]
+    selected = [headlines[i] for i in indexes if i < len(headlines)]
+
+    # Pad if needed
+    if len(selected) < 5:
+        for h in headlines:
+            if h not in selected:
+                selected.append(h)
+            if len(selected) == 5:
+                break
+
+    return [{"title": t} for t in selected[:5]]
+
+
+# ── translation ───────────────────────────────────────────────────────────────
+
+def translate_to_spanish(headlines):
+    """Translate headlines to Spanish (Spain) using GitHub Models."""
+    headlines_text = "\n".join(f"- {n['title']}" for n in headlines)
+
+    print("🌐 Translating via GitHub Models...")
+    text = github_models_call([{
+        "role": "user",
+        "content": (
+            "Translate these headlines to Spanish from Spain. "
+            "Return ONLY raw JSON, no markdown, no backticks, no explanation:\n"
+            '{"news": [{"title": "translated"}, {"title": "translated"}, '
+            '{"title": "translated"}, {"title": "translated"}, {"title": "translated"}]}\n\n'
+            f"Headlines:\n{headlines_text}"
+        )
+    }])
+
     return extract_json(text)
 
 
 # ── main ──────────────────────────────────────────────────────────────────────
 
 def get_news(day_name):
-    # Step 1 — fetch Australian news
-    en_data = fetch_australia_news()
-    print(f"✅ {len(en_data['news'])} headlines fetched:")
+    # Step 1 — fetch Australia-specific news
+    all_headlines = fetch_australia_news()
+
+    # Step 2 — pick 5 best Australia-specific stories
+    en_news  = pick_best_5_australia(all_headlines)
+    en_data  = {"news": en_news}
+    print(f"✅ Selected {len(en_data['news'])} headlines:")
     for n in en_data["news"]:
         print(f"  - {n['title']}")
 
-    # Step 2 — translate to Spanish
-    es_text = translate_with_github_models(en_data["news"])
+    # Step 3 — translate to Spanish
+    es_text = translate_to_spanish(en_data["news"])
     es_data = json.loads(es_text)
     print("✅ Translation complete")
 
-    # Step 3 — write YML files
+    # Step 4 — write YML files
     date_str = datetime.now().strftime("%Y-%m-%d")
 
     def build_yml(data):
