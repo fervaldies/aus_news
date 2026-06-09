@@ -214,6 +214,7 @@ def get_news(day_name):
 
     # Step 2 — pick 5 best Australia-specific stories
     en_news  = pick_best_5_australia(all_headlines)
+    en_news  = rewrite_headlines(en_news)
     en_data  = {"news": en_news}
     print(f"✅ Selected {len(en_data['news'])} headlines:")
     for n in en_data["news"]:
