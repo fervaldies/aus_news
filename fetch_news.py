@@ -100,7 +100,7 @@ def fetch_australia_news():
     params = urllib.parse.urlencode({
         "q":      "Australia",
         "lang":   "en",
-        "max":    "10",
+        "max":    "25",
         "apikey": GNEWS_API_KEY
     })
     url = f"https://gnews.io/api/v4/search?{params}"
@@ -132,34 +132,34 @@ def fetch_australia_news():
 def pick_best_5_australia(headlines):
     """Use GitHub Models to pick the 5 most important Australia-specific stories."""
     numbered = "\n".join(f"{i}. {h}" for i, h in enumerate(headlines))
-
     print("🤖 Picking best 5 via GitHub Models...")
     text = github_models_call([{
         "role": "user",
         "content": (
             "You are an Australian news editor. From the list below, pick the 5 most "
-            "important and interesting stories specifically about Australia or Australians. "
-            "Prioritise variety of topics. Ignore any headlines that are not specifically "
-            "about Australia. "
+            "important and interesting stories specifically about Australia or Australians.\n\n"
+            "AVOID headlines that:\n"
+            "- Are vague or could apply to any day (e.g. 'Group tackles issues head-on')\n"
+            "- Mention no specific person, place, company, or concrete event\n"
+            "- Are about local sport lineups or minor celebrity news\n"
+            "- Read like opinion or feature teasers rather than hard news\n"
+            "- Are not specifically about Australia\n\n"
+            "PREFER headlines that name a specific Australian person, place, company, "
+            "or concrete event. Prioritise variety of topics.\n\n"
             "Return ONLY raw JSON, no markdown, no backticks:\n"
             '{"selected_indexes": [0, 1, 2, 3, 4]}\n\n'
-            "Indexes are 0-based. Stories:\n\n"
-            f"{numbered}"
+            f"Indexes are 0-based. Stories:\n\n{numbered}"
         )
     }], max_tokens=100)
-
     text    = extract_json(text)
     indexes = json.loads(text)["selected_indexes"]
     selected = [headlines[i] for i in indexes if i < len(headlines)]
-
-    # Pad if needed
     if len(selected) < 5:
         for h in headlines:
             if h not in selected:
                 selected.append(h)
             if len(selected) == 5:
                 break
-
     return [{"title": t} for t in selected[:5]]
 
 
