@@ -89,44 +89,94 @@ def github_models_call(messages, max_tokens=600):
 
 # ── news fetching ─────────────────────────────────────────────────────────────
 
+import random
+
+# ── topic pool ──────────────────────────────────────────────────────────────
+
+AUSTRALIA_TOPIC_POOL = [
+    "Sydney",
+    "Melbourne",
+    "Brisbane",
+    "Perth",
+    "Adelaide",
+    "Canberra",
+    "Australian government",
+    "Australian economy",
+    "Australian politics",
+    "Australian sport",
+    "Australian rules football OR AFL",
+    "NRL",
+    "Australian weather OR bushfire OR flood",
+    "Australian immigration",
+    "Australian housing market",
+    "Australian technology",
+    "Australian health",
+    "Australian education",
+    "Australian environment OR climate",
+    "Australian crime",
+    "Australian business",
+    "Queensland",
+    "New South Wales",
+    "Victoria Australia",
+    "Western Australia",
+    "Australian tourism",
+    "Australian mining",
+    "Australian wildlife",
+    "Australian indigenous",
+    "Australian defence OR military",
+]
+
+
 def fetch_australia_news():
     """
     Fetch headlines specifically ABOUT Australia using GNews search endpoint.
-    Uses q=Australia to find articles about Australia, not just from Australian sources.
+    Always includes the general 'Australia' query (so top national stories
+    never get missed), plus 2 randomly chosen topics from a larger pool each
+    day for variety. Free GNews tier caps each request at 10 articles
+    regardless of the 'max' param, so variety comes from multiple queries.
     """
     if not GNEWS_API_KEY:
         raise ValueError("GNEWS_API_KEY is not set")
 
-    params = urllib.parse.urlencode({
-        "q":      "Australia",
-        "lang":   "en",
-        "max":    "25",
-        "apikey": GNEWS_API_KEY
-    })
-    url = f"https://gnews.io/api/v4/search?{params}"
+    random_topics = random.sample(AUSTRALIA_TOPIC_POOL, 2)
+    queries = ["Australia"] + random_topics
 
-    print("📰 Fetching Australia news from GNews search API...")
-    with urllib.request.urlopen(url, timeout=15) as r:
-        data = json.loads(r.read().decode("utf-8"))
+    print(f"🎲 Today's topics: {queries}")
 
-    articles = data.get("articles", [])
-    print(f"  GNews returned {len(articles)} articles")
-
-    if len(articles) < 5:
-        raise ValueError(f"GNews returned only {len(articles)} articles — need at least 5")
-
-    headlines = []
+    all_headlines = []
     seen = set()
-    for article in articles:
-        title = clean_title(article.get("title", ""))
-        if title and len(title) > 10 and title not in seen:
-            seen.add(title)
-            headlines.append(title)
 
-    if len(headlines) < 5:
-        raise ValueError(f"Only {len(headlines)} valid headlines after cleaning")
+    for q in queries:
+        params = urllib.parse.urlencode({
+            "q":      q,
+            "lang":   "en",
+            "max":    "10",   # free tier caps at 10 regardless
+            "apikey": GNEWS_API_KEY
+        })
+        url = f"https://gnews.io/api/v4/search?{params}"
 
-    return headlines
+        print(f"📰 Fetching news for query: {q!r}...")
+        try:
+            with urllib.request.urlopen(url, timeout=15) as r:
+                data = json.loads(r.read().decode("utf-8"))
+        except Exception as e:
+            print(f"  ⚠️ Query {q!r} failed: {e}")
+            continue
+
+        articles = data.get("articles", [])
+        print(f"  → {len(articles)} articles")
+
+        for article in articles:
+            title = clean_title(article.get("title", ""))
+            if title and len(title) > 10 and title not in seen:
+                seen.add(title)
+                all_headlines.append(title)
+
+    if len(all_headlines) < 5:
+        raise ValueError(f"Only {len(all_headlines)} valid headlines after merging — need at least 5")
+
+    print(f"✅ Total unique headlines collected: {len(all_headlines)}")
+    return all_headlines
 
 
 def pick_best_5_australia(headlines):
