@@ -8,6 +8,9 @@ on:
 jobs:
   fetch-news:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      models: read
     steps:
       - uses: actions/checkout@v4
 
