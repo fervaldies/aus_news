@@ -15,6 +15,8 @@ import re
 import os
 import urllib.request
 import urllib.parse
+import urllib.error
+import time
 from datetime import datetime
 
 GNEWS_API_KEY      = os.environ.get("GNEWS_API_KEY", "")
