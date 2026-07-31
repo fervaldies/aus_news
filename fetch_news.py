@@ -22,7 +22,7 @@ from datetime import datetime
 GNEWS_API_KEY      = os.environ.get("GNEWS_API_KEY", "")
 GITHUB_TOKEN       = os.environ.get("GITHUB_TOKEN", "")
 GITHUB_MODELS_URL  = "https://models.github.ai/inference/chat/completions"
-GITHUB_MODEL       = "openai/gpt-4o-mini"
+GITHUB_MODEL       = "openai/gpt-5-mini"
 
 
 # ── helpers ───────────────────────────────────────────────────────────────────
