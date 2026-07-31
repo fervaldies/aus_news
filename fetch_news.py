@@ -20,9 +20,9 @@ import time
 from datetime import datetime
 
 GNEWS_API_KEY      = os.environ.get("GNEWS_API_KEY", "")
-GITHUB_TOKEN       = os.environ.get("GITHUB_TOKEN", "")
-GITHUB_MODELS_URL  = "https://models.github.ai/inference/chat/completions"
-GITHUB_MODEL       = "openai/gpt-5-mini"
+GEMINI_API_KEY  = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_MODEL    = "gemini-2.5-flash"
+GEMINI_URL      = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
 
 # ── helpers ───────────────────────────────────────────────────────────────────
