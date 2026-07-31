@@ -146,7 +146,10 @@ def fetch_australia_news():
     all_headlines = []
     seen = set()
 
-    for q in queries:
+    for i, q in enumerate(queries):
+        if i > 0:
+            time.sleep(2)  # avoid tripping GNews's short-window rate limit
+
         params = urllib.parse.urlencode({
             "q":      q,
             "lang":   "en",
@@ -156,11 +159,25 @@ def fetch_australia_news():
         url = f"https://gnews.io/api/v4/search?{params}"
 
         print(f"📰 Fetching news for query: {q!r}...")
-        try:
-            with urllib.request.urlopen(url, timeout=15) as r:
-                data = json.loads(r.read().decode("utf-8"))
-        except Exception as e:
-            print(f"  ⚠️ Query {q!r} failed: {e}")
+        data = None
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(url, timeout=15) as r:
+                    data = json.loads(r.read().decode("utf-8"))
+                break
+            except urllib.error.HTTPError as e:
+                if e.code == 429 and attempt < 2:
+                    wait = 5 * (attempt + 1)
+                    print(f"  ⏳ Rate limited, retrying in {wait}s...")
+                    time.sleep(wait)
+                else:
+                    print(f"  ⚠️ Query {q!r} failed: {e}")
+                    break
+            except Exception as e:
+                print(f"  ⚠️ Query {q!r} failed: {e}")
+                break
+
+        if data is None:
             continue
 
         articles = data.get("articles", [])
