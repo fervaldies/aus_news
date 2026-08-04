@@ -13,16 +13,19 @@ import sys
 import json
 import re
 import os
+import time
 import urllib.request
 import urllib.parse
 import urllib.error
-import time
 from datetime import datetime
 
 GNEWS_API_KEY      = os.environ.get("GNEWS_API_KEY", "")
-GEMINI_API_KEY  = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL    = "gemini-3.5-flash-lite"
-GEMINI_URL      = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+GEMINI_API_KEY     = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_MODEL       = "gemini-3.5-flash-lite"
+GEMINI_URL         = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+
+ANTHROPIC_API_KEY  = os.environ.get("ANTHROPIC_API_KEY", "")
+ANTHROPIC_MODEL    = "claude-haiku-4-5-20251001"
 
 
 # ── helpers ───────────────────────────────────────────────────────────────────
@@ -63,13 +66,11 @@ def clean_title(title):
     return title.strip()
 
 
-def github_models_call(messages, max_tokens=600):
-    """Make a call to Gemini API and return the response text.
-    Keeps the same function name/interface so callers don't need to change."""
+def gemini_call(messages, max_tokens=600):
+    """Make a call to Gemini API and return the response text."""
     if not GEMINI_API_KEY:
         raise ValueError("GEMINI_API_KEY is not set")
 
-    # Gemini has no separate "system" role — fold everything into one user turn
     prompt_text = "\n\n".join(m["content"] for m in messages)
 
     payload = json.dumps({
@@ -90,12 +91,52 @@ def github_models_call(messages, max_tokens=600):
                 result = json.loads(r.read().decode("utf-8"))
             return result["candidates"][0]["content"]["parts"][0]["text"]
         except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 2:
+            error_body = e.read().decode("utf-8")
+            print(f"  ❌ Gemini API error {e.code}: {error_body}")
+            transient = e.code == 429 or 500 <= e.code < 600
+            if transient and attempt < 2:
                 wait = 5 * (attempt + 1)
-                print(f"  ⏳ Gemini rate limited, retrying in {wait}s...")
+                print(f"  ⏳ Gemini transient error, retrying in {wait}s...")
                 time.sleep(wait)
             else:
                 raise
+
+
+def claude_call(messages, max_tokens=600):
+    """Fallback: call Claude Haiku via the Anthropic API."""
+    if not ANTHROPIC_API_KEY:
+        raise ValueError("ANTHROPIC_API_KEY is not set")
+
+    prompt_text = "\n\n".join(m["content"] for m in messages)
+
+    payload = json.dumps({
+        "model": ANTHROPIC_MODEL,
+        "max_tokens": max_tokens,
+        "messages": [{"role": "user", "content": prompt_text}]
+    }).encode("utf-8")
+
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages",
+        data=payload,
+        headers={
+            "Content-Type":      "application/json",
+            "x-api-key":         ANTHROPIC_API_KEY,
+            "anthropic-version": "2023-06-01"
+        }
+    )
+    with urllib.request.urlopen(req, timeout=30) as r:
+        result = json.loads(r.read().decode("utf-8"))
+    return result["content"][0]["text"]
+
+
+def github_models_call(messages, max_tokens=600):
+    """Try Gemini first (free); fall back to Claude Haiku if Gemini is down.
+    Keeps the same function name/interface so callers don't need to change."""
+    try:
+        return gemini_call(messages, max_tokens)
+    except Exception as e:
+        print(f"  ⚠️ Gemini unavailable after retries ({e}) — falling back to Claude Haiku...")
+        return claude_call(messages, max_tokens)
 
 
 # ── news fetching ─────────────────────────────────────────────────────────────
