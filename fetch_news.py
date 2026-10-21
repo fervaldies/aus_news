@@ -329,6 +329,60 @@ def rewrite_headlines(headlines):
     rewritten = json.loads(text)["news"]
     return rewritten
 
+def clean_hashtags(tags):
+    """Keep 3-4 clean single-word hashtags like #Sydney or #InterestRates."""
+    generic = {"news", "australia", "breaking", "breakingnews", "shorts", "noticias",
+               "australianews", "noticiasaustralia", "ultimahora", "últimahora"}
+    out = []
+    for t in tags or []:
+        t = re.sub(r"[^\w]", "", str(t).replace("#", ""), flags=re.UNICODE)
+        if t.lower() in generic:
+            continue
+        if 2 <= len(t) <= 30 and ("#" + t).lower() not in [o.lower() for o in out]:
+            out.append("#" + t)
+    return out[:4]
+
+
+def generate_extras(headlines):
+    """Topic hashtags + an engagement question about the top story, EN and ES.
+    Never fatal: if anything goes wrong the videos simply use the fixed defaults."""
+    numbered = "\n".join(f"{i+1}. {n['title']}" for i, n in enumerate(headlines))
+    print("🏷️ Generating hashtags and question...")
+    try:
+        text = github_models_call([{
+            "role": "user",
+            "content": (
+                "You are a social media editor for a daily Australia news channel. "
+                "Based on today's 5 headlines below, return:\n"
+                "- hashtags_en: 4 hashtags in English specific to these stories (people, "
+                "places, organisations or topics actually mentioned), CamelCase, no spaces. "
+                "Do NOT use generic ones like #News, #Australia, #Breaking.\n"
+                "- hashtags_es: the same idea in Spanish from Spain (4 hashtags).\n"
+                "- question_en: one short question (max 15 words) about headline 1 that "
+                "invites viewers to share their opinion in the comments. Neutral, not "
+                "taking sides, no emojis.\n"
+                "- question_es: the same question in natural Spanish from Spain.\n"
+                "Return ONLY raw JSON, no markdown, no backticks:\n"
+                '{"hashtags_en": ["#A", "#B", "#C", "#D"], "hashtags_es": ["#A", "#B", "#C", "#D"], '
+                '"question_en": "...", "question_es": "..."}\n\n'
+                f"Headlines:\n{numbered}"
+            )
+        }], max_tokens=300)
+        data = json.loads(extract_json(text))
+        extras = {
+            "en": {"hashtags": clean_hashtags(data.get("hashtags_en")),
+                   "question": str(data.get("question_en", "")).strip()},
+            "es": {"hashtags": clean_hashtags(data.get("hashtags_es")),
+                   "question": str(data.get("question_es", "")).strip()},
+        }
+        print(f"  EN: {extras['en']}")
+        print(f"  ES: {extras['es']}")
+        return extras
+    except Exception as e:
+        print(f"  ⚠️ Could not generate extras (non-fatal): {e}")
+        return {"en": {"hashtags": [], "question": ""}, "es": {"hashtags": [], "question": ""}}
+
+
 # ── main ──────────────────────────────────────────────────────────────────────
 
 def get_news(day_name):
@@ -348,20 +402,26 @@ def get_news(day_name):
     es_data = json.loads(es_text)
     print("✅ Translation complete")
 
+    # Step 3b — topic hashtags + engagement question (optional extras)
+    extras = generate_extras(en_data["news"])
+
     # Step 4 — write YML files
     date_str = datetime.now().strftime("%Y-%m-%d")
 
-    def build_yml(data):
+    def build_yml(data, ex):
         lines = [f"date: {date_str}", f"day: {day_name}", "news:"]
         for item in data["news"]:
             title = item["title"].replace('"', "'")
             lines.append(f'  - title: "{title}"')
+        # extras used by the upload scripts (JSON quoting is valid YAML)
+        lines.append(f"hashtags: {json.dumps(ex['hashtags'], ensure_ascii=False)}")
+        lines.append(f"question: {json.dumps(ex['question'], ensure_ascii=False)}")
         return "\n".join(lines) + "\n"
 
     with open(f"{day_name}NewsEN.yml", "w", encoding="utf-8") as f:
-        f.write(build_yml(en_data))
+        f.write(build_yml(en_data, extras["en"]))
     with open(f"{day_name}NewsES.yml", "w", encoding="utf-8") as f:
-        f.write(build_yml(es_data))
+        f.write(build_yml(es_data, extras["es"]))
 
     print(f"✅ Created {day_name}NewsEN.yml and {day_name}NewsES.yml")
 
