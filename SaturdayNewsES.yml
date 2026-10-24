@@ -1,8 +1,10 @@
-date: 2026-10-17
+date: 2026-10-24
 day: Saturday
 news:
-  - title: "Victoria acaba de aprobar el parque eólico más grande del hemisferio sur."
-  - title: "A un hombre de Canberra acusado de introducir material de abuso infantil en Australia se le ha negado la libertad bajo fianza."
-  - title: "Los profesores de la escuela pública en Canberra planean huelgas matutinas."
-  - title: "Gigantes musicales mundiales critican duramente el plan de derechos de autor de IA del gobierno de Albanese."
-  - title: "Supervivientes comparten desgarradoras acusaciones de abusos en un centro de detención de menores de Canberra."
+  - title: "Un vídeo capta a un periodista de televisión rescatando a un hombre de un coche atrapado en una inundación"
+  - title: "Australia desvela nuevos planes militares de AUKUS mientras se estancan las negociaciones comerciales con la UE"
+  - title: "Australia demanda a Meta, TikTok y YouTube por no proteger a los usuarios jóvenes"
+  - title: "El gigante biotecnológico CSL se enfrenta a una demanda colectiva de accionistas por sus previsiones de beneficios"
+  - title: "Un exjefe de informática acusado de un fraude telefónico de 8 millones de dólares en la Galería Nacional de Victoria"
+hashtags: ["#AUKUS", "#Meta", "#CSL", "#GaleriaNacionalDeVictoria"]
+question: "Deberian los periodistas intervenir para rescatar personas durante situaciones de emergencia como las inundaciones?"
