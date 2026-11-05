@@ -1,10 +1,10 @@
-date: 2026-10-29
+date: 2026-11-05
 day: Thursday
 news:
-  - title: "Cricket Australia shares shock update on Steve Smith’s neck injury"
-  - title: "Australia moves to ban AI chatbots from forming emotional bonds with children"
-  - title: "MotoGP race cancelled at Phillip Island after bad weather grounds the medical helicopter"
-  - title: "Why everyone is watching a potential West Coast Eagles draft trade"
-  - title: "Prosecutors ask for more time in the Chanukah Bondi Beach terror attack case"
-hashtags: ["#SteveSmith", "#PhillipIsland", "#WestCoastEagles", "#BondiBeach"]
-question: "How will Steve Smith's neck injury impact the upcoming cricket matches?"
+  - title: "MongoDB names Alex Newman to head its Australia and New Zealand operations."
+  - title: "Former Australian sprint champion Jake Doran charged with child abuse."
+  - title: "An Australian mining heiress and her husband donate $120 million to environmental groups after a massive iron-ore sale."
+  - title: "Australian Greens push to raise the tax-free threshold to tax the wealthiest one percent."
+  - title: "Australian shares dip as losses by banks outweigh gains in the mining sector."
+hashtags: ["#AlexNewman", "#JakeDoran", "#AustralianGreens", "#MongoDB"]
+question: "What do you think of MongoDB appointing Alex Newman to lead its ANZ operations?"

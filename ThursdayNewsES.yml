@@ -1,10 +1,10 @@
-date: 2026-10-29
+date: 2026-11-05
 day: Thursday
 news:
-  - title: "Cricket Australia comparte una impactante actualización sobre la lesión en el cuello de Steve Smith"
-  - title: "Australia toma medidas para prohibir que los chatbots de inteligencia artificial establezcan vínculos emocionales con los niños"
-  - title: "Cancelan la carrera de MotoGP en Phillip Island después de que el mal tiempo impidiera volar al helicóptero médico"
-  - title: "Por qué todo el mundo está pendiente de un posible traspaso en el draft de los West Coast Eagles"
-  - title: "La fiscalía pide más tiempo en el caso del atentado terrorista de Janucá en Bondi Beach"
-hashtags: ["#SteveSmith", "#PhillipIsland", "#WestCoastEagles", "#BondiBeach"]
-question: "¿Cómo afectará la lesión en el cuello de Steve Smith a los próximos partidos de críquet?"
+  - title: "MongoDB nombra a Alex Newman para dirigir sus operaciones en Australia y Nueva Zelanda."
+  - title: "El exatleta olímpico y campeón de velocidad australiano Jake Doran, acusado de abusos a menores."
+  - title: "Una heredera de la minería australiana y su marido donan 120 millones de dólares a grupos ecologistas tras una venta masiva de mineral de hierro."
+  - title: "Los Verdes australianos presionan para elevar el mínimo exento de impuestos y gravar al uno por ciento más rico."
+  - title: "Las acciones australianas caen debido a que las pérdidas de los bancos superan las ganancias del sector minero."
+hashtags: ["#AlexNewman", "#JakeDoran", "#VerdesAustralianos", "#MongoDB"]
+question: "¿Qué te parece el nombramiento de Alex Newman al frente de las operaciones de MongoDB en ANZ?"
