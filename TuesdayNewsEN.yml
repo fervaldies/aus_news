@@ -1,10 +1,59 @@
 date: 2026-11-10
 day: Tuesday
 news:
-  - title: "Traditional owners are fighting a secret Woodside gas deal and opposing the Browse project."
-  - title: "Why a $148,000 salary still isn't fixing the air traffic controller shortage."
-  - title: "Formula 1 world champion and racing legend Alan Jones has died after a short illness."
-  - title: "Former Australian sprint champion Jake Doran has been charged with child abuse."
-  - title: "Why Google might be forced to block Gmail for kids in Australia."
-hashtags: []
-question: ""
+- title: Cricket Australia responds to Usman Khawaja's claims as its sandpaper stance faces new questions
+  why: ''
+  source: FOX SPORTS
+  url: https://www.foxsports.com.au/cricket/cricket-2026-todd-greenberg-against-reopening-cape-town-ball-tampering-investigation-usman-khawaja-says-everyone-new-in-autobiography-sabr-pat-cummins-to-speak-to-public-interview-latest-news/news-story/ef84a44254b4c1c213b40ac1a5117a40
+  cat: SPORT
+  good: false
+  visual:
+    type: icon
+- title: Traditional owners oppose a confidential Woodside gas deal and reject the Browse project
+  why: New gas projects impact local land rights, regional environments, and energy prices.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-10/traditional-owners-confidential-woodside-gas-deal-oppose-browse/107170088
+  cat: ENERGY
+  good: false
+  visual:
+    type: map
+    country: Australia
+    place: Browse Basin
+    lat: -14.0
+    lon: 123.5
+    span: 12
+- title: Why a $148,000 salary still isn't fixing the air traffic controller shortage
+  why: Air traffic shortages cause widespread flight delays and affect your travel plans.
+  source: Fortune
+  url: https://fortune.com/2026/11/09/air-traffic-controller-shortage-global-hiring-us-citizenship/
+  cat: TRANSPORT
+  good: false
+  visual:
+    type: icon
+- title: Australian executive avoids jail after billing taxpayers $50,000 for business flights to China
+  why: ''
+  source: Hindustan Times
+  url: https://www.hindustantimes.com/trending/australian-executive-avoids-jail-after-charging-taxpayers-50-000-for-business-class-flights-to-china-101794212431462.html
+  cat: JUSTICE
+  good: false
+  visual:
+    type: icon
+- title: A historic wreath takes center stage in Canberra for the 85th anniversary of Remembrance Day
+  why: ''
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/australia/remembrance-day-historic-wreath-to-take-centre-stage-in-canberra-for-remembrance-days-85th-anniversary-c-23137126
+  cat: SOCIETY
+  good: false
+  visual:
+    type: map
+    country: Australia
+    place: Canberra
+    lat: -35.2809
+    lon: 149.13
+    span: 3
+hashtags:
+- '#UsmanKhawaja'
+- '#Woodside'
+- '#BrowseProject'
+- '#RemembranceDay'
+question: Should Cricket Australia address Usman Khawaja's claims about their sandpaper stance?

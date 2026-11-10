@@ -1,8 +1,53 @@
 date: 2026-11-10
 day: Tuesday
 news:
-  - title: "Donos tradicionais combatem acordo secreto de gás da Woodside e se opõem ao projeto Browse."
-  - title: "Por que um salário de US$ 148.000 ainda não resolve a escassez de controladores de tráfego aéreo."
-  - title: "O campeão mundial de Fórmula 1 e lenda das pistas Alan Jones morre após breve doença."
-  - title: "O ex-campeão australiano de velocidade Jake Doran é acusado de abuso infantil."
-  - title: "Por que o Google pode ser forçado a bloquear o Gmail para crianças na Austrália."
+- title: Cricket Australia responde a acusações de Usman Khawaja enquanto postura sobre lixa enfrenta novas perguntas
+  why: ''
+  source: FOX SPORTS
+  url: https://www.foxsports.com.au/cricket/cricket-2026-todd-greenberg-against-reopening-cape-town-ball-tampering-investigation-usman-khawaja-says-everyone-new-in-autobiography-sabr-pat-cummins-to-speak-to-public-interview-latest-news/news-story/ef84a44254b4c1c213b40ac1a5117a40
+  cat: SPORT
+  good: false
+  visual:
+    type: icon
+- title: Donos tradicionais se opõem a acordo confidencial de gás da Woodside e rejeitam o projeto Browse
+  why: Novos projetos de gás afetam os direitos de terras locais, os ambientes regionais e os preços da energia.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-10/traditional-owners-confidential-woodside-gas-deal-oppose-browse/107170088
+  cat: ENERGY
+  good: false
+  visual:
+    type: map
+    country: Australia
+    place: Browse Basin
+    lat: -14.0
+    lon: 123.5
+    span: 12
+- title: Por que um salário de US$ 148.000 ainda não resolve a escassez de controladores de tráfego aéreo
+  why: A escassez de tráfego aéreo causa atrasos generalizados em voos e afeta seus planos de viagem.
+  source: Fortune
+  url: https://fortune.com/2026/11/09/air-traffic-controller-shortage-global-hiring-us-citizenship/
+  cat: TRANSPORT
+  good: false
+  visual:
+    type: icon
+- title: Executivo australiano evita prisão após faturar US$ 50.000 em voos de negócios para a China para os contribuintes
+  why: ''
+  source: Hindustan Times
+  url: https://www.hindustantimes.com/trending/australian-executive-avoids-jail-after-charging-taxpayers-50-000-for-business-class-flights-to-china-101794212431462.html
+  cat: JUSTICE
+  good: false
+  visual:
+    type: icon
+- title: Coroa de flores histórica ganha destaque em Camberra no 85º aniversário do Dia da Lembrança
+  why: ''
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/australia/remembrance-day-historic-wreath-to-take-centre-stage-in-canberra-for-remembrance-days-85th-anniversary-c-23137126
+  cat: SOCIETY
+  good: false
+  visual:
+    type: map
+    country: Australia
+    place: Canberra
+    lat: -35.2809
+    lon: 149.13
+    span: 3

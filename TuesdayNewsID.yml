@@ -1,8 +1,53 @@
 date: 2026-11-10
 day: Tuesday
 news:
-  - title: "Masyarakat Adat Menentang Kesepakatan Gas Rahasia Woodside dan Proyek Browse"
-  - title: "Alasan Gaji Sebesar $148.000 Masih Belum Mengatasi Kekurangan Pemandu Lalu Lintas Udara"
-  - title: "Juara Dunia Formula 1 dan Legenda Balap Alan Jones Meninggal Dunia Setelah Sakit Singkat"
-  - title: "Mantan Juara Lari Cepat Australia Jake Doran Didakwa Terkait Kekerasan Anak"
-  - title: "Alasan Google Mungkin Terpaksa Memblokir Gmail untuk Anak-Anak di Australia"
+- title: Cricket Australia Tanggapi Klaim Usman Khawaja Saat Sikap Soal Amplas Hadapi Pertanyaan Baru
+  why: ''
+  source: FOX SPORTS
+  url: https://www.foxsports.com.au/cricket/cricket-2026-todd-greenberg-against-reopening-cape-town-ball-tampering-investigation-usman-khawaja-says-everyone-new-in-autobiography-sabr-pat-cummins-to-speak-to-public-interview-latest-news/news-story/ef84a44254b4c1c213b40ac1a5117a40
+  cat: SPORT
+  good: false
+  visual:
+    type: icon
+- title: Pemilik Tradisional Menentang Kesepakatan Gas Woodside yang Rahasia dan Tolak Proyek Browse
+  why: Proyek gas baru berdampak pada hak tanah lokal, lingkungan regional, dan harga energi.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-10/traditional-owners-confidential-woodside-gas-deal-oppose-browse/107170088
+  cat: ENERGY
+  good: false
+  visual:
+    type: map
+    country: Australia
+    place: Browse Basin
+    lat: -14.0
+    lon: 123.5
+    span: 12
+- title: Mengapa Gaji $148.000 Masih Belum Mengatasi Kekurangan Pengawas Lalu Lintas Udara
+  why: Kekurangan lalu lintas udara menyebabkan penutupan penerbangan yang luas dan memengaruhi rencana perjalanan Anda.
+  source: Fortune
+  url: https://fortune.com/2026/11/09/air-traffic-controller-shortage-global-hiring-us-citizenship/
+  cat: TRANSPORT
+  good: false
+  visual:
+    type: icon
+- title: Eksekutif Australia Lolos dari Penjara Usai Tagih $50.000 ke Pembayar Pajak untuk Penerbangan Bisnis ke China
+  why: ''
+  source: Hindustan Times
+  url: https://www.hindustantimes.com/trending/australian-executive-avoids-jail-after-charging-taxpayers-50-000-for-business-class-flights-to-china-101794212431462.html
+  cat: JUSTICE
+  good: false
+  visual:
+    type: icon
+- title: Karangan Bunga Bersejarah Jadi Sorotan Utama di Canberra untuk Peringatan 85 Tahun Hari Remembrance
+  why: ''
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/australia/remembrance-day-historic-wreath-to-take-centre-stage-in-canberra-for-remembrance-days-85th-anniversary-c-23137126
+  cat: SOCIETY
+  good: false
+  visual:
+    type: map
+    country: Australia
+    place: Canberra
+    lat: -35.2809
+    lon: 149.13
+    span: 3

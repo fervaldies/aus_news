@@ -1,10 +1,59 @@
 date: 2026-11-10
 day: Tuesday
 news:
-  - title: "Los propietarios tradicionales luchan contra un acuerdo secreto de gas de Woodside y se oponen al proyecto Browse."
-  - title: "Por qué un salario de 148.000 dólares sigue sin solucionar la escasez de controladores aéreos."
-  - title: "El campeón del mundo de Fórmula 1 y leyenda del automovilismo Alan Jones ha fallecido tras una breve enfermedad."
-  - title: "El exatleta australiano y campeón de velocidad Jake Doran ha sido acusado de abusos infantiles."
-  - title: "Por qué Google podría verse obligado a bloquear Gmail para niños en Australia."
-hashtags: []
-question: ""
+- title: Cricket Australia responde a las acusaciones de Usman Khawaja mientras su postura sobre el escándalo de la lija se enfrenta a nuevas dudas
+  why: ''
+  source: FOX SPORTS
+  url: https://www.foxsports.com.au/cricket/cricket-2026-todd-greenberg-against-reopening-cape-town-ball-tampering-investigation-usman-khawaja-says-everyone-new-in-autobiography-sabr-pat-cummins-to-speak-to-public-interview-latest-news/news-story/ef84a44254b4c1c213b40ac1a5117a40
+  cat: SPORT
+  good: false
+  visual:
+    type: icon
+- title: Propietarios tradicionales se oponen a un acuerdo confidencial de gas con Woodside y rechazan el proyecto Browse
+  why: Los nuevos proyectos de gas afectan a los derechos de las tierras locales, los entornos regionales y los precios de la energía.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-10/traditional-owners-confidential-woodside-gas-deal-oppose-browse/107170088
+  cat: ENERGY
+  good: false
+  visual:
+    type: map
+    country: Australia
+    place: Browse Basin
+    lat: -14.0
+    lon: 123.5
+    span: 12
+- title: Por qué un salario de 148.000 dólares sigue sin solucionar la escasez de controladores aéreos
+  why: La escasez de tráfico aéreo causa retrasos generalizados en los vuelos y afecta a sus planes de viaje.
+  source: Fortune
+  url: https://fortune.com/2026/11/09/air-traffic-controller-shortage-global-hiring-us-citizenship/
+  cat: TRANSPORT
+  good: false
+  visual:
+    type: icon
+- title: Un directivo australiano evita la cárcel tras cargar a los contribuyentes 50.000 dólares en vuelos de negocios a China
+  why: ''
+  source: Hindustan Times
+  url: https://www.hindustantimes.com/trending/australian-executive-avoids-jail-after-charging-taxpayers-50-000-for-business-class-flights-to-china-101794212431462.html
+  cat: JUSTICE
+  good: false
+  visual:
+    type: icon
+- title: Una corona de flores histórica acoge el protagonismo en Canberra por el 85 aniversario del Día del Armisticio
+  why: ''
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/australia/remembrance-day-historic-wreath-to-take-centre-stage-in-canberra-for-remembrance-days-85th-anniversary-c-23137126
+  cat: SOCIETY
+  good: false
+  visual:
+    type: map
+    country: Australia
+    place: Canberra
+    lat: -35.2809
+    lon: 149.13
+    span: 3
+hashtags:
+- '#UsmanKhawaja'
+- '#Woodside'
+- '#ProyectoBrowse'
+- '#DiaDelRecuerdo'
+question: ¿Debería Cricket Australia responder a las declaraciones de Usman Khawaja sobre su postura?
