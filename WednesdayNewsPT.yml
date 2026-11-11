@@ -1,8 +1,63 @@
 date: 2026-11-11
 day: Wednesday
 news:
-  - title: "Jóquei Izzy Neale, de 22 anos, morre após queda fatal de cavalo em corrida na Austrália"
-  - title: "TV aberta limitada está elevando custos de dados para residências indígenas remotas na Austrália"
-  - title: "Mais rápido, mais jovem e menos previsível: como a radicalização está mudando na Austrália"
-  - title: "Duas pessoas morrem em batida entre moto e carro em Narre Warren, em Melbourne"
-  - title: "Ex-número um do tênis Sinner mira retorno ao Australian Open"
+- title: Jóquei Izzy Neale, de 22 anos, morre após queda fatal de cavalo em corrida na Austrália
+  source: ''
+  url: ''
+  good: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+- title: TV aberta limitada está elevando custos de dados para residências indígenas remotas na Austrália
+  source: ''
+  url: ''
+  good: false
+  why: As famílias em zonas remotas enfrentam custos mais elevados para aceder à televisão básica em direto online.
+  cat: TECH
+  visual:
+    type: map
+    country: Australia
+    place: Austrália
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+- title: 'Mais rápido, mais jovem e menos previsível: como a radicalização está mudando na Austrália'
+  source: ''
+  url: ''
+  good: false
+  why: Os padrões mutáveis de radicalização ameaçam diretamente a segurança comunitária e a segurança nacional.
+  cat: SOCIETY
+  visual:
+    type: map
+    country: Australia
+    place: Austrália
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+- title: Duas pessoas morrem em batida entre moto e carro em Narre Warren, em Melbourne
+  source: ''
+  url: ''
+  good: false
+  why: ''
+  cat: TRANSPORT
+  visual:
+    type: map
+    country: Australia
+    place: Narre Warren
+    lat: -38.0167
+    lon: 145.3
+    span: 3
+- title: Ex-número um do tênis Sinner mira retorno ao Australian Open
+  source: ''
+  url: ''
+  good: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: map
+    country: Australia
+    place: Austrália
+    lat: -25.2744
+    lon: 133.7751
+    span: 25

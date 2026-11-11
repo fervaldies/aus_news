@@ -1,10 +1,69 @@
 date: 2026-11-11
 day: Wednesday
 news:
-  - title: "Twenty-two-year-old jockey Izzy Neale dies after a fatal horse fall during an Australian race"
-  - title: "Limited free-to-air TV is driving up data costs for remote First Nations households in Australia"
-  - title: "Faster, younger, and less predictable: How radicalisation is changing in Australia"
-  - title: "Two people killed in a crash between a motorcycle and a car in Melbourne's Narre Warren"
-  - title: "Former tennis number one Sinner targets an Australian Open comeback"
-hashtags: ["#IzzyNeale", "#FirstNations", "#NarreWarren", "#JannikSinner"]
-question: "What measures should be taken to improve safety for jockeys in horse racing?"
+- title: Twenty-two-year-old jockey Izzy Neale dies after a fatal horse fall during an Australian race
+  source: ''
+  url: ''
+  good: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+- title: Limited free-to-air TV is driving up data costs for remote First Nations households in Australia
+  source: ''
+  url: ''
+  good: false
+  why: Remote households face higher costs accessing basic broadcast television online.
+  cat: TECH
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+- title: 'Faster, younger, and less predictable: How radicalisation is changing in Australia'
+  source: ''
+  url: ''
+  good: false
+  why: Shifting radicalisation patterns directly threaten community safety and national security.
+  cat: SOCIETY
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+- title: Two people killed in a crash between a motorcycle and a car in Melbourne's Narre Warren
+  source: ''
+  url: ''
+  good: false
+  why: ''
+  cat: TRANSPORT
+  visual:
+    type: map
+    country: Australia
+    place: Narre Warren
+    lat: -38.0167
+    lon: 145.3
+    span: 3
+- title: Former tennis number one Sinner targets an Australian Open comeback
+  source: ''
+  url: ''
+  good: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+hashtags:
+- '#IzzyNeale'
+- '#FirstNations'
+- '#NarreWarren'
+- '#JannikSinner'
+question: What measures should be taken to improve safety for jockeys in horse racing?

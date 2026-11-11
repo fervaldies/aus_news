@@ -1,10 +1,69 @@
 date: 2026-11-11
 day: Wednesday
 news:
-  - title: "La jinete Izzy Neale, de veintidós años, muere tras una caída fatal de un caballo en una carrera en Australia"
-  - title: "La televisión en abierto limitada está disparando los costes de datos para los hogares indígenas remotos en Australia"
-  - title: "Más rápida, más joven y menos predecible: cómo está cambiando la radicalización en Australia"
-  - title: "Dos personas mueren en una colisión entre una motocicleta y un coche en el suburbio melburniano de Narre Warren"
-  - title: "El ex número uno de tenis Sinner apunta a su regreso en el Abierto de Australia"
-hashtags: ["#IzzyNeale", "#PrimerasNaciones", "#NarreWarren", "#JannikSinner"]
-question: "¿Qué medidas se deberían tomar para mejorar la seguridad de los jinetes en las carreras de caballos?"
+- title: La jinete Izzy Neale, de veintidós años, muere tras una caída fatal de un caballo en una carrera en Australia
+  source: ''
+  url: ''
+  good: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+- title: La televisión en abierto limitada está disparando los costes de datos para los hogares indígenas remotos en Australia
+  source: ''
+  url: ''
+  good: false
+  why: Los hogares remotos se enfrentan a mayores costes al acceder a la televisión básica en abierto por Internet.
+  cat: TECH
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+- title: 'Más rápida, más joven y menos predecible: cómo está cambiando la radicalización en Australia'
+  source: ''
+  url: ''
+  good: false
+  why: Los patrones cambiantes de radicalización amenazan directamente la seguridad comunitaria y la seguridad nacional.
+  cat: SOCIETY
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+- title: Dos personas mueren en una colisión entre una motocicleta y un coche en el suburbio melburniano de Narre Warren
+  source: ''
+  url: ''
+  good: false
+  why: ''
+  cat: TRANSPORT
+  visual:
+    type: map
+    country: Australia
+    place: Narre Warren
+    lat: -38.0167
+    lon: 145.3
+    span: 3
+- title: El ex número uno de tenis Sinner apunta a su regreso en el Abierto de Australia
+  source: ''
+  url: ''
+  good: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+hashtags:
+- '#IzzyNeale'
+- '#PrimerasNaciones'
+- '#NarreWarren'
+- '#JannikSinner'
+question: ¿Qué medidas se deberían tomar para mejorar la seguridad de los jinetes en las carreras de caballos?

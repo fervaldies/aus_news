@@ -1,8 +1,63 @@
 date: 2026-11-11
 day: Wednesday
 news:
-  - title: "Joki berusia 22 tahun Izzy Neale meninggal dunia setelah jatuh dari kuda dalam balapan di Australia"
-  - title: "TV terestrial gratis yang terbatas picu lonjakan biaya data rumah tangga masyarakat adat terpencil di Australia"
-  - title: "Lebih cepat, lebih muda, dan sulit diprediksi: Bagaimana radikalisasi berubah di Australia"
-  - title: "Dua orang tewas dalam tabrakan antara sepeda motor dan mobil di Narre Warren, Melbourne"
-  - title: "Mantan petenis nomor satu Sinner bidik <i>comeback</i> di Australian Open"
+- title: Joki berusia 22 tahun Izzy Neale meninggal dunia setelah jatuh dari kuda dalam balapan di Australia
+  source: ''
+  url: ''
+  good: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+- title: TV terestrial gratis yang terbatas picu lonjakan biaya data rumah tangga masyarakat adat terpencil di Australia
+  source: ''
+  url: ''
+  good: false
+  why: Rumah tangga di daerah terpencil menghadapi biaya yang lebih tinggi untuk mengakses siaran televisi dasar secara online.
+  cat: TECH
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+- title: 'Lebih cepat, lebih muda, dan sulit diprediksi: Bagaimana radikalisasi berubah di Australia'
+  source: ''
+  url: ''
+  good: false
+  why: Perubahan pola radikalisasi secara langsung mengancam keamanan komunitas dan keamanan nasional.
+  cat: SOCIETY
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+- title: Dua orang tewas dalam tabrakan antara sepeda motor dan mobil di Narre Warren, Melbourne
+  source: ''
+  url: ''
+  good: false
+  why: ''
+  cat: TRANSPORT
+  visual:
+    type: map
+    country: Australia
+    place: Narre Warren
+    lat: -38.0167
+    lon: 145.3
+    span: 3
+- title: Mantan petenis nomor satu Sinner bidik <i>comeback</i> di Australian Open
+  source: ''
+  url: ''
+  good: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
