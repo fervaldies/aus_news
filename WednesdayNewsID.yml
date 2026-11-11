@@ -1,7 +1,7 @@
 date: 2026-11-11
 day: Wednesday
 news:
-- title: Joki Izzy Neale yang berusia 22 tahun meninggal dunia setelah terjatuh dari kuda dalam balapan di Australia
+- title: Joki Izzy Neale Meninggal Dunia Setelah Kudanya Jatuh dalam Balapan di Australia
   source: CBS News
   url: https://www.cbsnews.com/news/izzy-neale-dies-jockey-horse-fatal-fall-race-australia/
   good: false
@@ -14,51 +14,46 @@ news:
     lat: -25.2744
     lon: 133.7751
     span: 25
-- title: Buruknya siaran TV terestrial bebas paksa rumah-rumah Masyarakat Adat Australia di daerah terpencil bayar lebih mahal untuk data
-  source: Phys.org
-  url: https://phys.org/news/2026-11-free-air-tv-failures-remote.html
-  good: false
-  why: Rumah tangga di daerah terpencil menghadapi biaya yang lebih tinggi untuk akses TV dan data.
-  cat: TECH
-  visual:
-    type: map
-    country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
-- title: Pencuri curi 200 meter kabel tembaga dari pusat Redbank Plains, paksa penutupan massal
-  source: PerthNow
-  url: https://www.perthnow.com.au/news/crime/thieves-strip-200m-of-copper-wiring-from-redbank-plains-centre-forcing-mass-closures-c-23143370
-  good: false
-  why: ''
-  cat: JUSTICE
-  visual:
-    type: map
-    country: Australia
-    place: Redbank Plains
-    lat: -27.6333
-    lon: 152.8833
-    span: 3
-- title: Tiga tugu peringatan perang Queensland dirusak menjelang Hari Peringatan (Remembrance Day)
-  source: 7NEWS Australia
-  url: https://7news.com.au/news/three-queensland-war-memorials-desecrated-in-shocking-spree-of-vandalism-ahead-of-remembrance-day-c-23141371
+- title: Abhishek Awasthi Jadi Wali Kota Keturunan India Pertama di Greater Bendigo
+  source: Firstpost
+  url: https://www.firstpost.com/explainers/who-is-abhishek-awasthi-the-first-indian-origin-mayor-of-australias-greater-bendigo-14059012.html
   good: false
   why: ''
   cat: SOCIETY
   visual:
     type: map
     country: Australia
-    place: Queensland
-    lat: -20.9176
-    lon: 142.7028
-    span: 12
-- title: Aksi jual saham bank seret bursa saham Australia melemah
-  source: MarketScreener
-  url: https://www.marketscreener.com/news/bank-selloff-drags-australian-shares-lower-ce785dd2db8ef723
+    place: Greater Bendigo
+    lat: -36.757
+    lon: 144.2794
+    span: 3
+- title: Glenn Maxwell Pensiun dari Kriket Internasional Setelah 14 Tahun
+  source: The Economic Times
+  url: https://economictimes.indiatimes.com/news/sports/cricket/australias-glenn-maxwell-announces-retirement-from-international-cricket-after-14-year-career/articleshow/135483637.cms
+  good: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+- title: Miliarder Perth Sumbangkan $120 Juta untuk Kelompok Konservasi
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-10/nt-conservation-donation-makes-dream-of-managing-5-per-cent-land/107367198
   good: false
   why: ''
   cat: BUSINESS
+  visual:
+    type: map
+    country: Australia
+    place: Perth
+    lat: -31.9505
+    lon: 115.8605
+    span: 3
+- title: Australia Setujui Lokasi Penyimpanan Karbon Dasar Laut untuk Perusahaan Jepang
+  source: The Atlanta Journal-Constitution
+  url: https://www.ajc.com/news/2026/11/australia-approves-seabed-site-where-a-japanese-company-will-store-carbon-pollution/
+  good: false
+  why: Proyek penyimpanan karbon industri memengaruhi ekosistem laut lokal dan biaya energi.
+  cat: ENERGY
   visual:
     type: map
     country: Australia
