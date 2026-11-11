@@ -1,69 +1,59 @@
-date: 2026-11-11
+date: 2026-11-12
 day: Wednesday
 news:
-- title: La jocketa Izzy Neale muere tras la caída de su caballo en una carrera australiana
-  source: CBS News
-  url: https://www.cbsnews.com/news/izzy-neale-dies-jockey-horse-fatal-fall-race-australia/
+- title: Las solicitudes de hipotecas del Commonwealth Bank cayeron un 16 por ciento al aumentar los pagos atrasados.
+  source: MarketScreener
+  url: https://www.marketscreener.com/news/commonwealth-bank-of-australia-q1-home-loan-applications-fall-16-arrears-rise-ce785edbd98bf027
   good: false
-  why: ''
-  cat: SPORT
+  trending: false
+  why: El aumento de la morosidad y la caída de solicitudes indican un creciente estrés hipotecario en los hogares.
+  cat: ECONOMY
   visual:
-    type: map
-    country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
-- title: Abhishek Awasthi se convierte en el primer alcalde de origen indio de Greater Bendigo
-  source: Firstpost
-  url: https://www.firstpost.com/explainers/who-is-abhishek-awasthi-the-first-indian-origin-mayor-of-australias-greater-bendigo-14059012.html
+    type: icon
+- title: Los australianos conmemoraron los 108 años desde el final de la Primera Guerra Mundial en los servicios del Día del Armisticio.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-11/remembrance-day-services-held-across-australia/107137596
   good: false
+  trending: false
   why: ''
   cat: SOCIETY
   visual:
+    type: icon
+- title: Un hombre de Canberra multado por pegatinas de odio se enfrenta ahora a prisión por hacer el saludo nazi.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-10-30/act-man-sentenced-nazi-salute-white-supremacist-stickers-anu/107328220
+  good: false
+  trending: false
+  why: ''
+  cat: JUSTICE
+  visual:
     type: map
     country: Australia
-    place: Greater Bendigo
-    lat: -36.757
-    lon: 144.2794
+    place: Canberra
+    lat: -35.2809
+    lon: 149.13
     span: 3
-- title: Glenn Maxwell se retira del críquet internacional tras 14 años
-  source: The Economic Times
-  url: https://economictimes.indiatimes.com/news/sports/cricket/australias-glenn-maxwell-announces-retirement-from-international-cricket-after-14-year-career/articleshow/135483637.cms
+- title: El jefe de Fortescue, Andrew Forrest, afirma que la Fórmula 1 pertenece a un museo.
+  source: The Star
+  url: https://www.thestar.com.my/sport/motorsport/2026/11/07/motor-racing-fortescue-boss-forrest-says-formula-one-should-be-in-a-museum
   good: false
+  trending: false
   why: ''
   cat: SPORT
   visual:
     type: icon
-- title: Multimillonarios de Perth donan 120 millones de dólares a grupos conservacionistas
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-10/nt-conservation-donation-makes-dream-of-managing-5-per-cent-land/107367198
+- title: Una pareja de multimillonarios de la minería australiana prometió 120 millones de dólares a grupos ecologistas tras una masiva venta de mineral de hierro.
+  source: Times of India
+  url: https://timesofindia.indiatimes.com/world/rest-of-world/an-australian-mining-heiress-and-her-husband-have-pledged-a120-million-to-10-environmental-groups-including-a25-million-for-greenpeace-following-a-multibillion-dollar-sale-of-family-iron-ore-interests/articleshow/135550665.cms
   good: false
+  trending: false
   why: ''
-  cat: BUSINESS
+  cat: CLIMATE
   visual:
-    type: map
-    country: Australia
-    place: Perth
-    lat: -31.9505
-    lon: 115.8605
-    span: 3
-- title: Australia aprueba un sitio de almacenamiento de carbono en el lecho marino para una empresa japonesa
-  source: The Atlanta Journal-Constitution
-  url: https://www.ajc.com/news/2026/11/australia-approves-seabed-site-where-a-japanese-company-will-store-carbon-pollution/
-  good: false
-  why: Los proyectos industriales de almacenamiento de carbono afectan a los ecosistemas marinos locales y a los costes energéticos.
-  cat: ENERGY
-  visual:
-    type: map
-    country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
+    type: icon
 hashtags:
-- '#IzzyNeale'
-- '#AbhishekAwasthi'
-- '#GlennMaxwell'
-- '#GreaterBendigo'
-question: ¿Cómo deberían las autoridades hípicas mejorar las medidas de seguridad tras trágicos incidentes como este?
+- '#CommonwealthBank'
+- '#DiaDelArmisticio'
+- '#AndrewForrest'
+- '#Fortescue'
+question: Son el aumento de los atrasos y la caída de hipotecas síntoma de tiempos más difíciles?
