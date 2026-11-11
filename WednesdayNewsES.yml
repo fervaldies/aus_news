@@ -1,19 +1,24 @@
 date: 2026-11-11
 day: Wednesday
 news:
-- title: La jinete Izzy Neale, de veintidós años, muere tras una caída fatal de un caballo en una carrera en Australia
-  source: ''
-  url: ''
+- title: La jinete Izzy Neale, de veintidós años, muere tras una caída fatal de un caballo en una carrera australiana
+  source: CBS News
+  url: https://www.cbsnews.com/news/izzy-neale-dies-jockey-horse-fatal-fall-race-australia/
   good: false
   why: ''
   cat: SPORT
   visual:
-    type: icon
-- title: La televisión en abierto limitada está disparando los costes de datos para los hogares indígenas remotos en Australia
-  source: ''
-  url: ''
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+- title: La mala recepción de la televisión en abierto obliga a los hogares indígenas de zonas remotas de Australia a pagar más por los datos
+  source: Phys.org
+  url: https://phys.org/news/2026-11-free-air-tv-failures-remote.html
   good: false
-  why: Los hogares remotos se enfrentan a mayores costes al acceder a la televisión básica en abierto por Internet.
+  why: Los hogares alejados afrontan mayores costos de acceso a televisión y datos esenciales.
   cat: TECH
   visual:
     type: map
@@ -22,38 +27,38 @@ news:
     lat: -25.2744
     lon: 133.7751
     span: 25
-- title: 'Más rápida, más joven y menos predecible: cómo está cambiando la radicalización en Australia'
-  source: ''
-  url: ''
+- title: Unos ladrones roban 200 metros de cable de cobre de un centro en Redbank Plains y obligan a su cierre masivo
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/crime/thieves-strip-200m-of-copper-wiring-from-redbank-plains-centre-forcing-mass-closures-c-23143370
   good: false
-  why: Los patrones cambiantes de radicalización amenazan directamente la seguridad comunitaria y la seguridad nacional.
+  why: ''
+  cat: JUSTICE
+  visual:
+    type: map
+    country: Australia
+    place: Redbank Plains
+    lat: -27.6333
+    lon: 152.8833
+    span: 3
+- title: Tres monumentos a los caídos de Queensland son vandalizados justo antes del Día del Armisticio
+  source: 7NEWS Australia
+  url: https://7news.com.au/news/three-queensland-war-memorials-desecrated-in-shocking-spree-of-vandalism-ahead-of-remembrance-day-c-23141371
+  good: false
+  why: ''
   cat: SOCIETY
   visual:
     type: map
     country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
-- title: Dos personas mueren en una colisión entre una motocicleta y un coche en el suburbio melburniano de Narre Warren
-  source: ''
-  url: ''
+    place: Queensland
+    lat: -20.9176
+    lon: 142.7028
+    span: 12
+- title: La venta masiva de acciones bancarias arrastra a la baja a la bolsa australiana
+  source: MarketScreener
+  url: https://www.marketscreener.com/news/bank-selloff-drags-australian-shares-lower-ce785dd2db8ef723
   good: false
   why: ''
-  cat: TRANSPORT
-  visual:
-    type: map
-    country: Australia
-    place: Narre Warren
-    lat: -38.0167
-    lon: 145.3
-    span: 3
-- title: El ex número uno de tenis Sinner apunta a su regreso en el Abierto de Australia
-  source: ''
-  url: ''
-  good: false
-  why: ''
-  cat: SPORT
+  cat: BUSINESS
   visual:
     type: map
     country: Australia
@@ -63,7 +68,7 @@ news:
     span: 25
 hashtags:
 - '#IzzyNeale'
-- '#PrimerasNaciones'
-- '#NarreWarren'
-- '#JannikSinner'
-question: ¿Qué medidas se deberían tomar para mejorar la seguridad de los jinetes en las carreras de caballos?
+- '#RedbankPlains'
+- '#RemembranceDay'
+- '#BolsaAustraliana'
+question: Cómo se puede mejorar la seguridad de los jockeys durante las carreras de caballos?

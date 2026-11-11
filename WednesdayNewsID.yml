@@ -1,19 +1,24 @@
 date: 2026-11-11
 day: Wednesday
 news:
-- title: Joki berusia 22 tahun Izzy Neale meninggal dunia setelah jatuh dari kuda dalam balapan di Australia
-  source: ''
-  url: ''
+- title: Joki Izzy Neale yang berusia 22 tahun meninggal dunia setelah terjatuh dari kuda dalam balapan di Australia
+  source: CBS News
+  url: https://www.cbsnews.com/news/izzy-neale-dies-jockey-horse-fatal-fall-race-australia/
   good: false
   why: ''
   cat: SPORT
   visual:
-    type: icon
-- title: TV terestrial gratis yang terbatas picu lonjakan biaya data rumah tangga masyarakat adat terpencil di Australia
-  source: ''
-  url: ''
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+- title: Buruknya siaran TV terestrial bebas paksa rumah-rumah Masyarakat Adat Australia di daerah terpencil bayar lebih mahal untuk data
+  source: Phys.org
+  url: https://phys.org/news/2026-11-free-air-tv-failures-remote.html
   good: false
-  why: Rumah tangga di daerah terpencil menghadapi biaya yang lebih tinggi untuk mengakses siaran televisi dasar secara online.
+  why: Rumah tangga di daerah terpencil menghadapi biaya yang lebih tinggi untuk akses TV dan data.
   cat: TECH
   visual:
     type: map
@@ -22,38 +27,38 @@ news:
     lat: -25.2744
     lon: 133.7751
     span: 25
-- title: 'Lebih cepat, lebih muda, dan sulit diprediksi: Bagaimana radikalisasi berubah di Australia'
-  source: ''
-  url: ''
+- title: Pencuri curi 200 meter kabel tembaga dari pusat Redbank Plains, paksa penutupan massal
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/crime/thieves-strip-200m-of-copper-wiring-from-redbank-plains-centre-forcing-mass-closures-c-23143370
   good: false
-  why: Perubahan pola radikalisasi secara langsung mengancam keamanan komunitas dan keamanan nasional.
+  why: ''
+  cat: JUSTICE
+  visual:
+    type: map
+    country: Australia
+    place: Redbank Plains
+    lat: -27.6333
+    lon: 152.8833
+    span: 3
+- title: Tiga tugu peringatan perang Queensland dirusak menjelang Hari Peringatan (Remembrance Day)
+  source: 7NEWS Australia
+  url: https://7news.com.au/news/three-queensland-war-memorials-desecrated-in-shocking-spree-of-vandalism-ahead-of-remembrance-day-c-23141371
+  good: false
+  why: ''
   cat: SOCIETY
   visual:
     type: map
     country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
-- title: Dua orang tewas dalam tabrakan antara sepeda motor dan mobil di Narre Warren, Melbourne
-  source: ''
-  url: ''
+    place: Queensland
+    lat: -20.9176
+    lon: 142.7028
+    span: 12
+- title: Aksi jual saham bank seret bursa saham Australia melemah
+  source: MarketScreener
+  url: https://www.marketscreener.com/news/bank-selloff-drags-australian-shares-lower-ce785dd2db8ef723
   good: false
   why: ''
-  cat: TRANSPORT
-  visual:
-    type: map
-    country: Australia
-    place: Narre Warren
-    lat: -38.0167
-    lon: 145.3
-    span: 3
-- title: Mantan petenis nomor satu Sinner bidik <i>comeback</i> di Australian Open
-  source: ''
-  url: ''
-  good: false
-  why: ''
-  cat: SPORT
+  cat: BUSINESS
   visual:
     type: map
     country: Australia

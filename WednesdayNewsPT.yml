@@ -1,19 +1,24 @@
 date: 2026-11-11
 day: Wednesday
 news:
-- title: Jóquei Izzy Neale, de 22 anos, morre após queda fatal de cavalo em corrida na Austrália
-  source: ''
-  url: ''
+- title: Jóquei de 22 anos Izzy Neale morre após queda fatal de cavalo durante corrida na Austrália
+  source: CBS News
+  url: https://www.cbsnews.com/news/izzy-neale-dies-jockey-horse-fatal-fall-race-australia/
   good: false
   why: ''
   cat: SPORT
   visual:
-    type: icon
-- title: TV aberta limitada está elevando custos de dados para residências indígenas remotas na Austrália
-  source: ''
-  url: ''
+    type: map
+    country: Australia
+    place: Austrália
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+- title: Pobre recepção de TV aberta obriga lares indígenas remotos na Austrália a pagarem mais por dados
+  source: Phys.org
+  url: https://phys.org/news/2026-11-free-air-tv-failures-remote.html
   good: false
-  why: As famílias em zonas remotas enfrentam custos mais elevados para aceder à televisão básica em direto online.
+  why: Famílias remotas enfrentam custos mais altos para acesso essencial a TV e dados.
   cat: TECH
   visual:
     type: map
@@ -22,38 +27,38 @@ news:
     lat: -25.2744
     lon: 133.7751
     span: 25
-- title: 'Mais rápido, mais jovem e menos previsível: como a radicalização está mudando na Austrália'
-  source: ''
-  url: ''
+- title: Ladrões roubam 200m de fiação de cobre de centro em Redbank Plains e forçam fechamentos em massa
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/crime/thieves-strip-200m-of-copper-wiring-from-redbank-plains-centre-forcing-mass-closures-c-23143370
   good: false
-  why: Os padrões mutáveis de radicalização ameaçam diretamente a segurança comunitária e a segurança nacional.
+  why: ''
+  cat: JUSTICE
+  visual:
+    type: map
+    country: Australia
+    place: Redbank Plains
+    lat: -27.6333
+    lon: 152.8833
+    span: 3
+- title: Três memoriais de guerra de Queensland são vandalizados pouco antes do Dia da Lembrança
+  source: 7NEWS Australia
+  url: https://7news.com.au/news/three-queensland-war-memorials-desecrated-in-shocking-spree-of-vandalism-ahead-of-remembrance-day-c-23141371
+  good: false
+  why: ''
   cat: SOCIETY
   visual:
     type: map
     country: Australia
-    place: Austrália
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
-- title: Duas pessoas morrem em batida entre moto e carro em Narre Warren, em Melbourne
-  source: ''
-  url: ''
+    place: Queensland
+    lat: -20.9176
+    lon: 142.7028
+    span: 12
+- title: Venda de ações de bancos arrasta mercado australiano para baixo
+  source: MarketScreener
+  url: https://www.marketscreener.com/news/bank-selloff-drags-australian-shares-lower-ce785dd2db8ef723
   good: false
   why: ''
-  cat: TRANSPORT
-  visual:
-    type: map
-    country: Australia
-    place: Narre Warren
-    lat: -38.0167
-    lon: 145.3
-    span: 3
-- title: Ex-número um do tênis Sinner mira retorno ao Australian Open
-  source: ''
-  url: ''
-  good: false
-  why: ''
-  cat: SPORT
+  cat: BUSINESS
   visual:
     type: map
     country: Australia
