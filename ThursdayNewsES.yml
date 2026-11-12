@@ -1,10 +1,100 @@
-date: 2026-11-05
+date: 2026-11-12
 day: Thursday
 news:
-  - title: "MongoDB nombra a Alex Newman para dirigir sus operaciones en Australia y Nueva Zelanda."
-  - title: "El exatleta olímpico y campeón de velocidad australiano Jake Doran, acusado de abusos a menores."
-  - title: "Una heredera de la minería australiana y su marido donan 120 millones de dólares a grupos ecologistas tras una venta masiva de mineral de hierro."
-  - title: "Los Verdes australianos presionan para elevar el mínimo exento de impuestos y gravar al uno por ciento más rico."
-  - title: "Las acciones australianas caen debido a que las pérdidas de los bancos superan las ganancias del sector minero."
-hashtags: ["#AlexNewman", "#JakeDoran", "#VerdesAustralianos", "#MongoDB"]
-question: "¿Qué te parece el nombramiento de Alex Newman al frente de las operaciones de MongoDB en ANZ?"
+- title: Australia del Sur registra su primera muerte por meningococos desde 2023 tras el fallecimiento de un joven
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/south-australia-records-first-meningococcal-death-since-2023-after-young-adult-dies-c-23151169
+  good: false
+  trending: false
+  why: La enfermedad meningocócica es poco frecuente pero potencialmente mortal; la vacunación y el tratamiento precoz son fundamentales.
+  cat: HEALTH
+  visual:
+    type: map
+    country: Australia
+    place: Australia Meridional
+    lat: -34.4
+    lon: 140.6
+    span: 12
+- title: Australia se quedará sin la vacuna contra la fiebre Q esta semana
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-12/q-fever-vaccine-shortage-in-australia/107374986
+  good: false
+  trending: false
+  why: La escasez de vacuna contra la fiebre Q podría dejar a las personas vulnerables desprotegidas contra enfermedades infecciosas.
+  cat: HEALTH
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.3
+    lon: 133.8
+    span: 25
+- title: Conoce a Abhishek Awasthi, el primer alcalde de origen indio del área de Greater Bendigo en Australia
+  source: Firstpost
+  url: https://www.firstpost.com/explainers/who-is-abhishek-awasthi-the-first-indian-origin-mayor-of-australias-greater-bendigo-14059012.html
+  good: false
+  trending: false
+  why: ''
+  cat: SOCIETY
+  visual:
+    type: map
+    country: Australia
+    place: Greater Bendigo
+    lat: -36.76
+    lon: 144.27
+    span: 3
+  chart_check:
+    result: 'not used: one number without a change — the count-up number is used instead'
+- title: Economistas se unen para exigir que los partidos de Victoria se comprometan a un plan de reducción de deuda antes de las elecciones de noviembre
+  source: EUROPE SAYS
+  url: https://www.europesays.com/3351889/
+  good: false
+  trending: false
+  why: ''
+  cat: POLITICS
+  visual:
+    type: map
+    country: Australia
+    place: Victoria
+    lat: -37.0
+    lon: 144.0
+    span: 12
+- title: El australiano Glenn Maxwell se retira del críquet internacional tras una carrera de 14 años
+  source: The Economic Times
+  url: https://economictimes.indiatimes.com/news/sports/cricket/australias-glenn-maxwell-announces-retirement-from-international-cricket-after-14-year-career/articleshow/135483637.cms
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: chart
+    chart: bars
+    unit: ''
+    prefix: ''
+    decimals: 0
+    source: News
+    hedge: true
+    title_en: Glenn Maxwell international cricket runs
+    labels_en:
+    - ODIs
+    - T20Is
+    values:
+    - 4000
+    - 2900
+    title_es: Carreras de críquet internacional de Glenn Maxwell
+    labels_es:
+    - ODIs
+    - T20Is
+    fallback:
+      type: number
+      number: '14'
+      label: year career
+  chart_check:
+    result: ok
+    template: bars
+hashtags:
+- '#Meningococo'
+- '#FiebreQ'
+- '#GreaterBendigo'
+- '#GlennMaxwell'
+question: Deberian las autoridades sanitarias hacer mas para prevenir brotes de enfermedad meningococica en jovenes?

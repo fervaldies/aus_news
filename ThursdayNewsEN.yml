@@ -1,10 +1,96 @@
-date: 2026-11-05
+date: 2026-11-12
 day: Thursday
 news:
-  - title: "MongoDB names Alex Newman to head its Australia and New Zealand operations."
-  - title: "Former Australian sprint champion Jake Doran charged with child abuse."
-  - title: "An Australian mining heiress and her husband donate $120 million to environmental groups after a massive iron-ore sale."
-  - title: "Australian Greens push to raise the tax-free threshold to tax the wealthiest one percent."
-  - title: "Australian shares dip as losses by banks outweigh gains in the mining sector."
-hashtags: ["#AlexNewman", "#JakeDoran", "#AustralianGreens", "#MongoDB"]
-question: "What do you think of MongoDB appointing Alex Newman to lead its ANZ operations?"
+- title: South Australia records its first meningococcal death since 2023 after a young adult passes away
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/south-australia-records-first-meningococcal-death-since-2023-after-young-adult-dies-c-23151169
+  good: false
+  trending: false
+  why: Meningococcal disease is rare but life-threatening; vaccination and early treatment are critical.
+  cat: HEALTH
+  visual:
+    type: map
+    country: Australia
+    place: South Australia
+    lat: -34.4
+    lon: 140.6
+    span: 12
+- title: Australia is set to run out of Q fever vaccine this week
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-12/q-fever-vaccine-shortage-in-australia/107374986
+  good: false
+  trending: false
+  why: Q fever vaccine shortage could leave vulnerable people unprotected against infectious disease.
+  cat: HEALTH
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.3
+    lon: 133.8
+    span: 25
+- title: Meet Abhishek Awasthi, the first Indian-origin mayor of Australia's Greater Bendigo
+  source: Firstpost
+  url: https://www.firstpost.com/explainers/who-is-abhishek-awasthi-the-first-indian-origin-mayor-of-australias-greater-bendigo-14059012.html
+  good: false
+  trending: false
+  why: ''
+  cat: SOCIETY
+  visual:
+    type: map
+    country: Australia
+    place: Greater Bendigo
+    lat: -36.76
+    lon: 144.27
+    span: 3
+  chart_check:
+    result: 'not used: one number without a change — the count-up number is used instead'
+- title: Economists unite to demand Victorian parties commit to a debt reduction plan before the November election
+  source: EUROPE SAYS
+  url: https://www.europesays.com/3351889/
+  good: false
+  trending: false
+  why: ''
+  cat: POLITICS
+  visual:
+    type: map
+    country: Australia
+    place: Victoria
+    lat: -37.0
+    lon: 144.0
+    span: 12
+- title: Australia's Glenn Maxwell retires from international cricket after a 14-year career
+  source: The Economic Times
+  url: https://economictimes.indiatimes.com/news/sports/cricket/australias-glenn-maxwell-announces-retirement-from-international-cricket-after-14-year-career/articleshow/135483637.cms
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: chart
+    chart: bars
+    unit: ''
+    prefix: ''
+    decimals: 0
+    source: News
+    hedge: true
+    title_en: Glenn Maxwell international cricket runs
+    labels_en:
+    - ODIs
+    - T20Is
+    values:
+    - 4000
+    - 2900
+    fallback:
+      type: number
+      number: '14'
+      label: year career
+  chart_check:
+    result: ok
+    template: bars
+hashtags:
+- '#Meningococcal'
+- '#QFever'
+- '#GreaterBendigo'
+- '#GlennMaxwell'
+question: Should health authorities do more to prevent meningococcal disease outbreaks in young adults?
