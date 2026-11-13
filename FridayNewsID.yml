@@ -1,0 +1,67 @@
+date: 2026-11-13
+day: Friday
+news:
+- title: Data Pajak Australia Picu Kekhawatiran Baru soal Perusahaan yang Alihkan Laba ke Luar Negeri
+  source: Bloomberg Tax News
+  url: https://news.bloombergtax.com/daily-tax-report/australia-public-tax-data-raises-fresh-profit-shifting-concerns
+  good: false
+  trending: false
+  why: Pengalihan keuntungan perusahaan mengurangi pendapatan pajak yang tersedia untuk layanan publik.
+  cat: ECONOMY
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  chart_check:
+    result: 'not used: one number without a change — the count-up number is used instead'
+- title: Craig McRae dan Justin Longmuir Latih Tim Negara Bagian dalam Laga Origin AFL Mendatang
+  source: 7NEWS Australia
+  url: https://7news.com.au/sport/afl/craig-mcrae-to-coach-south-australia-and-justin-longmuir-to-coach-western-australia-in-afls-next-state-of-origin-battle-c-23156639
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+- title: Bukti Kasus Pembunuhan Jamur Erin Patterson Tetap Rahasia akibat Perhatian Besar Media
+  source: The New Zealand Herald
+  url: https://www.nzherald.co.nz/world/mushroom-murders-evidence-in-erin-patterson-case-to-stay-secret-due-to-massive-publicity/L4EMLOYZMBC3XK7NZVNQ6DVCPE/
+  good: false
+  trending: false
+  why: ''
+  cat: JUSTICE
+  visual:
+    type: map
+    country: Australia
+    place: Victoria
+    lat: -37.8136
+    lon: 144.9631
+    span: 12
+- title: Australia Luncurkan Pengawas Keamanan Kecerdasan Buatan Menyusul Pelanggaran OpenAI
+  source: New York Daily News
+  url: https://www.nydailynews.com/2026/11/10/australia-ai-safety-regulator/
+  good: false
+  trending: false
+  why: ''
+  cat: TECH
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+- title: Remaja Autis Australia yang Hilang Ditemukan Selamat Usai Enam Hari di Alam Liar
+  source: Free Press Journal
+  url: https://www.freepressjournal.in/world/australian-teen-with-autism-found-alive-after-6-days-missing-in-wilderness-as-police-helicopter-rescues-17-year-old-near-melbourne-watch
+  good: true
+  trending: false
+  why: ''
+  cat: GOOD NEWS
+  visual:
+    type: number
+    number: '6'
+    label: hari di alam liar
