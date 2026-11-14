@@ -1,10 +1,74 @@
-date: 2026-11-07
+date: 2026-11-14
 day: Saturday
 news:
-  - title: "La grasa animal podría resolver inesperadamente la escasez de combustible en Australia"
-  - title: "Clive Palmer arremete en los tribunales tras retirarse su acusación"
-  - title: "La australiana Erin Patterson, acusada de asesinato con setas, pierde su recurso"
-  - title: "El primer ministro culpa a la política nativista de bloquear el acuerdo comercial con la UE"
-  - title: "Una venta masiva de la banca arrastra a la baja a las acciones australianas"
-hashtags: ["#ClivePalmer", "#ErinPatterson", "#AcuerdoUE", "#GrasaAnimal"]
-question: "¿Crees que la grasa animal es una solución práctica para la escasez de combustible?"
+- title: El capitán de críquet de Australia, Pat Cummins, califica de absoluta tontería la afirmación de Khawaja sobre el caso de la lija
+  source: The Economic Times
+  url: https://economictimes.indiatimes.com/news/sports/cricket/australia-cricket-captain-pat-cummins-describes-khawajas-sandpapergate-claim-as-utter-nonsense/articleshow/135815790.cms
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+- title: Australia y Filipinas cierran un importante acuerdo de defensa en medio de las crecientes tensiones con China
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-14/major-defence-deal-astralia-philippines-clashes-china/107381694
+  good: false
+  trending: false
+  why: Afecta a la seguridad regional y a la posible participación militar en conflictos.
+  cat: POLITICS
+  visual:
+    type: map
+    country: Australia
+    place: Australia y Filipinas
+    lat: -15.0
+    lon: 125.0
+    span: 25
+    country2: Philippines
+    place2: Filipinas
+    lat2: 12.8797
+    lon2: 121.774
+- title: El Ministerio del Interior encarceló ilegalmente a un ciudadano australiano durante 945 días, según el Defensor del Pueblo
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-10-15/federal-politics-australian-citizen-among-30-unlawfully-detained/107270564
+  good: false
+  trending: false
+  why: Pone de relieve un error gubernamental que podría poner en peligro a cualquiera con una detención injusta.
+  cat: JUSTICE
+  visual:
+    type: number
+    number: '945'
+    label: días de detención
+  chart_check:
+    result: 'not used: 0 isn''t in the article'
+- title: Una investigación revela malos tratos a madres indígenas en el Hospital David Berry
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-11/berry-hospital-aboriginal-engagement-report/107362854
+  good: false
+  trending: false
+  why: ''
+  cat: HEALTH
+  visual:
+    type: map
+    country: Australia
+    place: David Berry Hospital
+    lat: -34.865
+    lon: 150.753
+    span: 3
+- title: La jinete Izzy Neale muere a los 22 años tras una terrible caída mientras su familia le rinde homenaje
+  source: The daily Star
+  url: https://www.dailystar.co.uk/sport/horse-racing/breaking-izzy-neale-jockey-dead-37860981
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+  chart_check:
+    result: 'not used: 0 isn''t in the article'
+hashtags:
+- '#PatCummins'
+- '#UsmanKhawaja'
+- '#HomeAffairs'
+- '#DavidBerryHospital'
+question: ¿Estás de acuerdo con Pat Cummins respecto a las recientes declaraciones de Usman Khawaja sobre el caso Sandpapergate?

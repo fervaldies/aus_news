@@ -1,10 +1,74 @@
-date: 2026-11-07
+date: 2026-11-14
 day: Saturday
 news:
-  - title: "Animal fat could unexpectedly solve Australia's fuel shortage"
-  - title: "Clive Palmer lashes out in court after his charge is dropped"
-  - title: "Accused Australian mushroom murderer Erin Patterson loses her appeal"
-  - title: "The PM blames nativist politics for blocking the EU trade deal"
-  - title: "A bank selloff drags Australian shares lower"
-hashtags: ["#ClivePalmer", "#ErinPatterson", "#EUTradeDeal", "#AnimalFat"]
-question: "Do you think animal fat is a practical solution for the fuel shortage?"
+- title: Australia cricket captain Pat Cummins calls Khawaja's Sandpapergate claim utter nonsense
+  source: The Economic Times
+  url: https://economictimes.indiatimes.com/news/sports/cricket/australia-cricket-captain-pat-cummins-describes-khawajas-sandpapergate-claim-as-utter-nonsense/articleshow/135815790.cms
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+- title: Australia and the Philippines strike major defence deal amid rising tensions with China
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-14/major-defence-deal-astralia-philippines-clashes-china/107381694
+  good: false
+  trending: false
+  why: It affects regional security and potential military involvement in conflicts.
+  cat: POLITICS
+  visual:
+    type: map
+    country: Australia
+    place: Australia & Philippines
+    lat: -15.0
+    lon: 125.0
+    span: 25
+    country2: Philippines
+    place2: Philippines
+    lat2: 12.8797
+    lon2: 121.774
+- title: Home Affairs unlawfully jailed an Australian citizen for 945 days, ombudsman finds
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-10-15/federal-politics-australian-citizen-among-30-unlawfully-detained/107270564
+  good: false
+  trending: false
+  why: It highlights government failure that could risk anyone's wrongful detention.
+  cat: JUSTICE
+  visual:
+    type: number
+    number: '945'
+    label: days in detention
+  chart_check:
+    result: 'not used: 0 isn''t in the article'
+- title: Investigation reveals mistreatment of Indigenous mothers at David Berry Hospital
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-11/berry-hospital-aboriginal-engagement-report/107362854
+  good: false
+  trending: false
+  why: ''
+  cat: HEALTH
+  visual:
+    type: map
+    country: Australia
+    place: David Berry Hospital
+    lat: -34.865
+    lon: 150.753
+    span: 3
+- title: Jockey Izzy Neale dies at 22 after a horror fall as her family pays tribute
+  source: The daily Star
+  url: https://www.dailystar.co.uk/sport/horse-racing/breaking-izzy-neale-jockey-dead-37860981
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+  chart_check:
+    result: 'not used: 0 isn''t in the article'
+hashtags:
+- '#PatCummins'
+- '#UsmanKhawaja'
+- '#HomeAffairs'
+- '#DavidBerryHospital'
+question: Do you agree with Pat Cummins regarding Usman Khawaja's recent Sandpapergate claims?

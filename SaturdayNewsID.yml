@@ -1,0 +1,68 @@
+date: 2026-11-14
+day: Saturday
+news:
+- title: Kapten Kriket Australia Pat Cummins Sebut Klaim Sandpapergate Khawaja Omong Kosong
+  source: The Economic Times
+  url: https://economictimes.indiatimes.com/news/sports/cricket/australia-cricket-captain-pat-cummins-describes-khawajas-sandpapergate-claim-as-utter-nonsense/articleshow/135815790.cms
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+- title: Australia dan Filipina Teken Kesepakatan Pertahanan Utama di Tengah Meningkatnya Ketegangan dengan China
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-14/major-defence-deal-astralia-philippines-clashes-china/107381694
+  good: false
+  trending: false
+  why: Ini memengaruhi keamanan regional dan potensi keterlibatan militer dalam konflik.
+  cat: POLITICS
+  visual:
+    type: map
+    country: Australia
+    place: Australia & Filipina
+    lat: -15.0
+    lon: 125.0
+    span: 25
+    country2: Philippines
+    place2: Filipina
+    lat2: 12.8797
+    lon2: 121.774
+- title: Ombudsman Temukan Kementerian Dalam Negeri Secara Melawan Hukum Penjara Warga Negara Australia Selama 945 Hari
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-10-15/federal-politics-australian-citizen-among-30-unlawfully-detained/107270564
+  good: false
+  trending: false
+  why: Ini menyoroti kegagalan pemerintah yang dapat mempertaruhkan penahanan semena-mena siapa pun.
+  cat: JUSTICE
+  visual:
+    type: number
+    number: '945'
+    label: hari dalam penahanan
+  chart_check:
+    result: 'not used: 0 isn''t in the article'
+- title: Investigasi Ungkap Perlakuan Buruk terhadap Ibu-Ibu Pribumi di David Berry Hospital
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-11/berry-hospital-aboriginal-engagement-report/107362854
+  good: false
+  trending: false
+  why: ''
+  cat: HEALTH
+  visual:
+    type: map
+    country: Australia
+    place: David Berry Hospital
+    lat: -34.865
+    lon: 150.753
+    span: 3
+- title: Joki Izzy Neale Meninggal pada Usia 22 Tahun Akibat Kecelakaan Mengerikan Saat Keluarga Berikan Penghormatan
+  source: The daily Star
+  url: https://www.dailystar.co.uk/sport/horse-racing/breaking-izzy-neale-jockey-dead-37860981
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+  chart_check:
+    result: 'not used: 0 isn''t in the article'

@@ -1,0 +1,68 @@
+date: 2026-11-14
+day: Saturday
+news:
+- title: Capitão do críquete da Austrália, Pat Cummins, chama alegação de Khawaja sobre Sandpapergate de total absurdo
+  source: The Economic Times
+  url: https://economictimes.indiatimes.com/news/sports/cricket/australia-cricket-captain-pat-cummins-describes-khawajas-sandpapergate-claim-as-utter-nonsense/articleshow/135815790.cms
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+- title: Austrália e Filipinas fecham grande acordo de defesa em meio a crescentes tensões com a China
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-14/major-defence-deal-astralia-philippines-clashes-china/107381694
+  good: false
+  trending: false
+  why: Afeta a segurança regional e o potencial envolvimento militar em conflitos.
+  cat: POLITICS
+  visual:
+    type: map
+    country: Australia
+    place: Austrália e Filipinas
+    lat: -15.0
+    lon: 125.0
+    span: 25
+    country2: Philippines
+    place2: Filipinas
+    lat2: 12.8797
+    lon2: 121.774
+- title: Home Affairs prendeu ilegalmente cidadão australiano por 945 dias, conclui ouvidoria
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-10-15/federal-politics-australian-citizen-among-30-unlawfully-detained/107270564
+  good: false
+  trending: false
+  why: Destaca a falha do governo que pode arriscar a detenção injusta de qualquer pessoa.
+  cat: JUSTICE
+  visual:
+    type: number
+    number: '945'
+    label: dias de detenção
+  chart_check:
+    result: 'not used: 0 isn''t in the article'
+- title: Investigação revela maus-tratos a mães indígenas no David Berry Hospital
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-11/berry-hospital-aboriginal-engagement-report/107362854
+  good: false
+  trending: false
+  why: ''
+  cat: HEALTH
+  visual:
+    type: map
+    country: Australia
+    place: David Berry Hospital
+    lat: -34.865
+    lon: 150.753
+    span: 3
+- title: Jóquei Izzy Neale morre aos 22 anos após queda terrível, e família presta homenagem
+  source: The daily Star
+  url: https://www.dailystar.co.uk/sport/horse-racing/breaking-izzy-neale-jockey-dead-37860981
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+  chart_check:
+    result: 'not used: 0 isn''t in the article'
