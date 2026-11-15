@@ -1,9 +1,46 @@
 date: 2026-11-15
 day: Sunday
 news:
-- title: PM Australia Terekam Buat Lelucon soal Alat Kelaminnya dalam Keadaan Mikrofon Menyala
-  source: The Manila Times
-  url: https://www.manilatimes.net/2026/11/15/world/asia-oceania/australian-pm-genitalia-joke-caught-on-hot-mic/2470083
+- title: Setahun setelah serangan Pantai Bondi, pahlawan Ahmed Al Ahmed hadapi cacat permanen dan tekanan keluarga.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-15/nsw-bondi-terror-attack-hero-ahmed-al-ahmed-one-year-on/107379802
+  good: false
+  trending: false
+  why: ''
+  cat: JUSTICE
+  visual:
+    type: number
+    number: '1'
+    label: tahun setelah serangan
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Sydney_%28AU%29%2C_Bondi_Beach_--_2019_--_2354.jpg/1280px-Sydney_%28AU%29%2C_Bondi_Beach_--_2019_--_2354.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Bondi_Beach_--_2019_--_2354.jpg
+    query: Bondi Beach
+- title: Pemain ski Australia Madison Hoffman tembus 10 besar untuk pertama kalinya di slalom Levi.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-15/madison-hoffman-fis-world-cup-levi-eighth-place-slalom/107387056
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: map
+    country: Finland
+    place: Levi
+    lat: 67.8042
+    lon: 24.8114
+    span: 3
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Brelin_from_slope_on_snowy_day.jpg/1280px-Brelin_from_slope_on_snowy_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: DimiTalen · CC0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Brelin_from_slope_on_snowy_day.jpg
+    query: snowy ski slope
+  chart_check:
+    result: 'not used: one number without a change — the count-up number is used instead; 8 isn''t in the article'
+- title: Anthony Albanese hadapi benturan antara target iklim dan tekanan politik di COP31.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-15/climate-ambition-political-reality-cop31-albanese/107383424
   good: false
   trending: false
   why: ''
@@ -14,15 +51,29 @@ news:
     place: Canberra
     lat: -35.2809
     lon: 149.13
-    span: 25
+    span: 12
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Canberra_%28AU%29%2C_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg/1280px-Canberra_%28AU%29%2C_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Canberra_(AU),_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg
-    query: Parliament House Canberra
-- title: Remaja Autis Diselamatkan Setelah Bertahan Hidup Enam Hari Tersesat di Alam Liar Australia
-  source: Breitbart News Network
-  url: https://www.breitbart.com/health/2026/11/13/watch-autistic-teen-rescued-after-six-days-and-nights-lost-in-the-australian-wilderness/
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Parlament_Wien_abends.jpg/1280px-Parlament_Wien_abends.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Thomas Wolf , www.foto-tw.de · CC BY-SA 3.0 de · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Parlament_Wien_abends.jpg
+    query: parliament building
+- title: Pat Cummins sebut dirinya siap bahas klaim peng bola Usman Khawaja dengan media.
+  source: Firstpost
+  url: https://www.firstpost.com/firstcricket/pat-cummins-to-present-his-side-over-khawajas-ball-tampering-allegations-happy-to-speak-with-media-14059450.html
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Loughton_Cricket_Club_cricket_pitch_covers_at_Loughton%2C_Essex%2C_England_01.jpg/1280px-Loughton_Cricket_Club_cricket_pitch_covers_at_Loughton%2C_Essex%2C_England_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Acabashi · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Loughton_Cricket_Club_cricket_pitch_covers_at_Loughton,_Essex,_England_01.jpg
+    query: cricket pitch
+- title: Sekitar 335.000 orang memadati Adelaide Christmas Pageant untuk awali musim perayaan.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-14/father-christmas-arrives-in-adelaide-at-annual-christmas-pageant/107385880
   good: false
   trending: false
   why: ''
@@ -30,66 +81,14 @@ news:
   visual:
     type: map
     country: Australia
-    place: Semak belukar Australia
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
+    place: Adelaide
+    lat: -34.9285
+    lon: 138.6007
+    span: 3
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/BradleyReserveMosman.jpg/1280px-BradleyReserveMosman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Poyt448, Peter Woodard · CC BY-SA 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:BradleyReserveMosman.jpg
-    query: Australian bushland
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Snoopy_float_Dunedin_Christmas_parade_2023.jpg/1280px-Snoopy_float_Dunedin_Christmas_parade_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: DrThneed · CC BY 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Snoopy_float_Dunedin_Christmas_parade_2023.jpg
+    query: Christmas parade float
   chart_check:
-    result: 'not used: one number without a change — the count-up number is used instead; 6 isn''t in the article'
-- title: Tes Genetik Baru untuk Cegah Efek Samping Kemoterapi Parah Raih Persetujuan di Australia
-  source: News-Medical.net
-  url: https://www.news-medical.net/news/20261111/Yourgene-Health-Insight-DPYD-assay-secures-TGA-regulatory-approval-in-Australia.aspx
-  good: false
-  trending: false
-  why: ''
-  cat: HEALTH
-  visual:
-    type: map
-    country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg/1280px-Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Goleisureintl · CC BY 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai,_India.jpg
-    query: medical laboratory
-- title: Seorang Dewasa Muda Meninggal Dunia Akibat Penyakit Meningokokus
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-11/young-adult-dies-from-meningococcal-disease/107375060
-  good: false
-  trending: false
-  why: ''
-  cat: HEALTH
-  visual:
-    type: icon
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Mugda_Medical_College_Hospital_Building.jpg/1280px-Mugda_Medical_College_Hospital_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: MdAbeerHussain · CC0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Mugda_Medical_College_Hospital_Building.jpg
-    query: medical hospital
-- title: Australia Luncurkan Regulator Keamanan AI Menyusul Kebocoran Data OpenAI
-  source: Santa Rosa Press Democrat
-  url: https://www.pressdemocrat.com/2026/11/10/australia-ai-safety-regulator/
-  good: false
-  trending: false
-  why: ''
-  cat: TECH
-  visual:
-    type: map
-    country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Google_server%2C_circa_1999%2C_Computer_History_Museum.jpg/1280px-Google_server%2C_circa_1999%2C_Computer_History_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: The wub · CC BY-SA 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Google_server,_circa_1999,_Computer_History_Museum.jpg
-    query: computer server
+    result: 'not used: one number without a change — the count-up number is used instead'
