@@ -1,0 +1,95 @@
+date: 2026-11-15
+day: Sunday
+news:
+- title: PM Australia Terekam Buat Lelucon soal Alat Kelaminnya dalam Keadaan Mikrofon Menyala
+  source: The Manila Times
+  url: https://www.manilatimes.net/2026/11/15/world/asia-oceania/australian-pm-genitalia-joke-caught-on-hot-mic/2470083
+  good: false
+  trending: false
+  why: ''
+  cat: POLITICS
+  visual:
+    type: map
+    country: Australia
+    place: Canberra
+    lat: -35.2809
+    lon: 149.13
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Canberra_%28AU%29%2C_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg/1280px-Canberra_%28AU%29%2C_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Canberra_(AU),_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg
+    query: Parliament House Canberra
+- title: Remaja Autis Diselamatkan Setelah Bertahan Hidup Enam Hari Tersesat di Alam Liar Australia
+  source: Breitbart News Network
+  url: https://www.breitbart.com/health/2026/11/13/watch-autistic-teen-rescued-after-six-days-and-nights-lost-in-the-australian-wilderness/
+  good: false
+  trending: false
+  why: ''
+  cat: SOCIETY
+  visual:
+    type: map
+    country: Australia
+    place: Semak belukar Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/BradleyReserveMosman.jpg/1280px-BradleyReserveMosman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Poyt448, Peter Woodard · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:BradleyReserveMosman.jpg
+    query: Australian bushland
+  chart_check:
+    result: 'not used: one number without a change — the count-up number is used instead; 6 isn''t in the article'
+- title: Tes Genetik Baru untuk Cegah Efek Samping Kemoterapi Parah Raih Persetujuan di Australia
+  source: News-Medical.net
+  url: https://www.news-medical.net/news/20261111/Yourgene-Health-Insight-DPYD-assay-secures-TGA-regulatory-approval-in-Australia.aspx
+  good: false
+  trending: false
+  why: ''
+  cat: HEALTH
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg/1280px-Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Goleisureintl · CC BY 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Clinical_Pathology_Blood_Testing_Laboratory_in_Navi_Mumbai,_India.jpg
+    query: medical laboratory
+- title: Seorang Dewasa Muda Meninggal Dunia Akibat Penyakit Meningokokus
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-11/young-adult-dies-from-meningococcal-disease/107375060
+  good: false
+  trending: false
+  why: ''
+  cat: HEALTH
+  visual:
+    type: icon
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Mugda_Medical_College_Hospital_Building.jpg/1280px-Mugda_Medical_College_Hospital_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: MdAbeerHussain · CC0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Mugda_Medical_College_Hospital_Building.jpg
+    query: medical hospital
+- title: Australia Luncurkan Regulator Keamanan AI Menyusul Kebocoran Data OpenAI
+  source: Santa Rosa Press Democrat
+  url: https://www.pressdemocrat.com/2026/11/10/australia-ai-safety-regulator/
+  good: false
+  trending: false
+  why: ''
+  cat: TECH
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Google_server%2C_circa_1999%2C_Computer_History_Museum.jpg/1280px-Google_server%2C_circa_1999%2C_Computer_History_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: The wub · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Google_server,_circa_1999,_Computer_History_Museum.jpg
+    query: computer server
