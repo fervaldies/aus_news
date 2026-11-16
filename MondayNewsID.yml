@@ -1,8 +1,97 @@
-date: 2026-11-09
+date: 2026-11-16
 day: Monday
 news:
-  - title: "SUV kotak baru BYD resmi disetujui untuk dijual di Australia"
-  - title: "Balapan MotoGP di Phillip Island dibatalkan setelah cuaca buruk landasi helikopter medis"
-  - title: "Melanie Lynskey akan bintangi peran Erin Patterson dalam serial baru tentang pembunuhan jamur"
-  - title: "Remaja Australia didakwa atas kejahatan kebencian setelah melecehkan sebuah keluarga secara rasial dan mengancam apartemen mereka"
-  - title: "Australia kirim drone laut untuk berantas kejahatan narkoba di Pasifik"
+- title: Penolakan Meluas atas Rencana Kawasan Little India Pertama di Australia
+  source: EUROPE SAYS
+  url: https://www.europesays.com/3377733/
+  good: false
+  trending: false
+  why: Perubahan pada kawasan budaya lokal memengaruhi identitas komunitas dan bisnis lokal.
+  cat: SOCIETY
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Little_Italy_2.jpg/1280px-Little_Italy_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Sgroey · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Little_Italy_2.jpg
+    query: cultural precinct street
+  chart_check:
+    result: 'not used: a quoted sentence isn''t in the article; the year 2024 isn''t in the article'
+- title: Qantas Alihkan 850 Pekerjaan Kantor Pusat ke Accenture
+  source: Devdiscourse
+  url: https://www.devdiscourse.com/article/business/4004249-qantas-airways-to-outsource-850-head-office-jobs-to-accenture-services-to-be-largely-delivered-from-india
+  good: false
+  trending: false
+  why: ''
+  cat: BUSINESS
+  visual:
+    type: icon
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Cummins_Corporate_Office_Building_-_April_2008_-_Holly_Higgins_03.jpg/1280px-Cummins_Corporate_Office_Building_-_April_2008_-_Holly_Higgins_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Holly Higgins · CC BY 2.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Cummins_Corporate_Office_Building_-_April_2008_-_Holly_Higgins_03.jpg
+    query: corporate office building
+- title: Tinjau Desain Awal Rumah Sakit Baru North Canberra
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-16/early-designs-for-new-north-canberra-hospital/107387498
+  good: false
+  trending: false
+  why: ''
+  cat: HEALTH
+  visual:
+    type: map
+    country: Australia
+    place: Canberra Utara
+    lat: -35.2535
+    lon: 149.1344
+    span: 3
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/19th_century_hospital_building_at_Figeac._Innerside_rather_modern_-_panoramio.jpg/1280px-19th_century_hospital_building_at_Figeac._Innerside_rather_modern_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Henk Monster · CC BY 3.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:19th_century_hospital_building_at_Figeac._Innerside_rather_modern_-_panoramio.jpg
+    query: modern hospital building
+  chart_check:
+    result: 'not used: a size comparison needs 2–4 amounts'
+- title: Partai Canberra Liberals Dorong Legalisasi Panel Surya Plug-in untuk Penyewa
+  source: The Canberra Times
+  url: https://www.canberratimes.com.au/story/9391279/canberra-liberals-push-to-legalise-renter-friendly-plug-in-solar/
+  good: false
+  trending: false
+  why: ''
+  cat: ECONOMY
+  visual:
+    type: map
+    country: Australia
+    place: Canberra
+    lat: -35.2809
+    lon: 149.13
+    span: 3
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Solar_panels_on_house_roof.jpg/1280px-Solar_panels_on_house_roof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Gray Watson User:E090 · CC BY-SA 3.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Solar_panels_on_house_roof.jpg
+    query: solar panels roof
+- title: Keluarga di Canberra Terlantar dan Hadapi Pemotongan Dana NDIS
+  source: The Canberra Times
+  url: https://www.canberratimes.com.au/story/9391581/ndis-cuts-canberra-families-stranded-as-funding-slashed/
+  good: false
+  trending: false
+  why: Pemotongan pendanaan berdampak langsung pada layanan dukungan disabilitas esensial bagi keluarga.
+  cat: HEALTH
+  visual:
+    type: map
+    country: Australia
+    place: Canberra
+    lat: -35.2809
+    lon: 149.13
+    span: 3
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Interior_view_of_Holcombe_family_home_with_guests%2C_Stillwater%2C_Minnesota_-_DPLA_-_2689ce12f9d2e74315cf2b72cc532734.jpg/1280px-Interior_view_of_Holcombe_family_home_with_guests%2C_Stillwater%2C_Minnesota_-_DPLA_-_2689ce12f9d2e74315cf2b72cc532734.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Holcombe, Frederick · Public domain · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Interior_view_of_Holcombe_family_home_with_guests,_Stillwater,_Minnesota_-_DPLA_-_2689ce12f9d2e74315cf2b72cc532734.jpg
+    query: family home interior
