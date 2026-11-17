@@ -1,53 +1,110 @@
-date: 2026-11-10
+date: 2026-11-17
 day: Tuesday
 news:
-- title: Cricket Australia responde a acusações de Usman Khawaja enquanto postura sobre lixa enfrenta novas perguntas
-  why: ''
-  source: FOX SPORTS
-  url: https://www.foxsports.com.au/cricket/cricket-2026-todd-greenberg-against-reopening-cape-town-ball-tampering-investigation-usman-khawaja-says-everyone-new-in-autobiography-sabr-pat-cummins-to-speak-to-public-interview-latest-news/news-story/ef84a44254b4c1c213b40ac1a5117a40
-  cat: SPORT
+- title: Deputado australiano deixa hospital após perder as duas pernas em atropelamento.
+  source: U.S. News & World Report
+  url: https://www.usnews.com/news/world/articles/2026-11-15/australian-lawmaker-leaves-hospital-after-losing-both-legs-in-car-attack
   good: false
-  visual:
-    type: icon
-- title: Donos tradicionais se opõem a acordo confidencial de gás da Woodside e rejeitam o projeto Browse
-  why: Novos projetos de gás afetam os direitos de terras locais, os ambientes regionais e os preços da energia.
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-10/traditional-owners-confidential-woodside-gas-deal-oppose-browse/107170088
-  cat: ENERGY
-  good: false
-  visual:
-    type: map
-    country: Australia
-    place: Browse Basin
-    lat: -14.0
-    lon: 123.5
-    span: 12
-- title: Por que um salário de US$ 148.000 ainda não resolve a escassez de controladores de tráfego aéreo
-  why: A escassez de tráfego aéreo causa atrasos generalizados em voos e afeta seus planos de viagem.
-  source: Fortune
-  url: https://fortune.com/2026/11/09/air-traffic-controller-shortage-global-hiring-us-citizenship/
-  cat: TRANSPORT
-  good: false
-  visual:
-    type: icon
-- title: Executivo australiano evita prisão após faturar US$ 50.000 em voos de negócios para a China para os contribuintes
-  why: ''
-  source: Hindustan Times
-  url: https://www.hindustantimes.com/trending/australian-executive-avoids-jail-after-charging-taxpayers-50-000-for-business-class-flights-to-china-101794212431462.html
+  trending: false
+  why: Ataques violentos contra figuras públicas levantam preocupações sobre segurança de parlamentares.
   cat: JUSTICE
-  good: false
-  visual:
-    type: icon
-- title: Coroa de flores histórica ganha destaque em Camberra no 85º aniversário do Dia da Lembrança
-  why: ''
-  source: PerthNow
-  url: https://www.perthnow.com.au/news/australia/remembrance-day-historic-wreath-to-take-centre-stage-in-canberra-for-remembrance-days-85th-anniversary-c-23137126
-  cat: SOCIETY
-  good: false
   visual:
     type: map
     country: Australia
-    place: Canberra
-    lat: -35.2809
-    lon: 149.13
-    span: 3
+    place: Austrália
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Guangzhou_Fosun_Chancheng_Hospital_Building_Exterior.jpg/1280px-Guangzhou_Fosun_Chancheng_Hospital_Building_Exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Cx1son · CC0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Guangzhou_Fosun_Chancheng_Hospital_Building_Exterior.jpg
+    query: hospital building
+- title: Asean e Austrália prometem fortalecer cooperação em comércio, educação e clima.
+  source: The Tribune
+  url: https://www.tribuneindia.com/news/world/asean-australia-vow-to-deepen-ties-in-trade-education-and-climate-action/
+  good: false
+  trending: false
+  why: ''
+  cat: WORLD
+  visual:
+    type: map
+    country: Australia
+    place: Austrália
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+    country2: Indonesia
+    place2: região da ASEAN
+    lat2: -2.5489
+    lon2: 118.0149
+    span2: 25
+- title: Robert Irwin gera novo debate ao afirmar que a Austrália inventou a pavlova.
+  source: The New Zealand Herald
+  url: https://www.nzherald.co.nz/entertainment/robert-irwin-claims-australia-invented-pavlova-reignites-transtasman-debate/V2TBWPFCJFD2ZMZCOL6MG74KJY/
+  good: false
+  trending: false
+  why: ''
+  cat: SOCIETY
+  visual:
+    type: icon
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Pavlova_dessert.JPG/1280px-Pavlova_dessert.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Hazel Fowler · Public domain · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Pavlova_dessert.JPG
+    query: pavlova dessert
+- title: Segunda pílula para emagrecer chega às prateleiras australianas em poucos dias.
+  source: Australian Financial Review
+  url: https://www.afr.com/companies/healthcare-and-fitness/second-weight-loss-pill-to-be-sold-in-australia-within-days-20261117-p61eps
+  good: false
+  trending: false
+  why: O acesso a medicamentos para perda de peso expande opções de tratamento para australianos.
+  cat: HEALTH
+  visual:
+    type: icon
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Medication_WV_banner.jpg/1280px-Medication_WV_banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Unknown author · CC BY-SA 3.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Medication_WV_banner.jpg
+    query: medication pill capsule
+- title: Proprietários em Darwin vendem imóveis antes de potencial queda no mercado.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-10-24/darwin-home-owners-sell-property-possible-house-price-downturn/107295680
+  good: false
+  trending: false
+  why: ''
+  cat: ECONOMY
+  visual:
+    type: chart
+    chart: bars
+    unit: '%'
+    prefix: ''
+    decimals: 1
+    source: Cotality
+    hedge: false
+    title_en: Property price changes in September
+    labels_en:
+    - House prices
+    - Units
+    values:
+    - 0.3
+    - 0.8
+    title_pt: Variação dos preços dos imóveis em setembro
+    labels_pt:
+    - Preços de casas
+    - Unidades
+    fallback:
+      type: map
+      country: Australia
+      place: Darwin
+      lat: -12.4634
+      lon: 130.8456
+      span: 3
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Ardmore_residential_gnangarra-1.jpg/1280px-Ardmore_residential_gnangarra-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: User:Gnangarra · CC BY 2.5 au · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Ardmore_residential_gnangarra-1.jpg
+    query: residential houses street
+  chart_check:
+    result: ok
+    template: bars

@@ -1,59 +1,112 @@
-date: 2026-11-10
+date: 2026-11-17
 day: Tuesday
 news:
-- title: Cricket Australia responde a las acusaciones de Usman Khawaja mientras su postura sobre el escándalo de la lija se enfrenta a nuevas dudas
-  why: ''
-  source: FOX SPORTS
-  url: https://www.foxsports.com.au/cricket/cricket-2026-todd-greenberg-against-reopening-cape-town-ball-tampering-investigation-usman-khawaja-says-everyone-new-in-autobiography-sabr-pat-cummins-to-speak-to-public-interview-latest-news/news-story/ef84a44254b4c1c213b40ac1a5117a40
-  cat: SPORT
+- title: Un parlamentario australiano sale del hospital tras perder ambas piernas en un atropello intencionado
+  source: U.S. News & World Report
+  url: https://www.usnews.com/news/world/articles/2026-11-15/australian-lawmaker-leaves-hospital-after-losing-both-legs-in-car-attack
   good: false
-  visual:
-    type: icon
-- title: Propietarios tradicionales se oponen a un acuerdo confidencial de gas con Woodside y rechazan el proyecto Browse
-  why: Los nuevos proyectos de gas afectan a los derechos de las tierras locales, los entornos regionales y los precios de la energía.
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-10/traditional-owners-confidential-woodside-gas-deal-oppose-browse/107170088
-  cat: ENERGY
-  good: false
-  visual:
-    type: map
-    country: Australia
-    place: Browse Basin
-    lat: -14.0
-    lon: 123.5
-    span: 12
-- title: Por qué un salario de 148.000 dólares sigue sin solucionar la escasez de controladores aéreos
-  why: La escasez de tráfico aéreo causa retrasos generalizados en los vuelos y afecta a sus planes de viaje.
-  source: Fortune
-  url: https://fortune.com/2026/11/09/air-traffic-controller-shortage-global-hiring-us-citizenship/
-  cat: TRANSPORT
-  good: false
-  visual:
-    type: icon
-- title: Un directivo australiano evita la cárcel tras cargar a los contribuyentes 50.000 dólares en vuelos de negocios a China
-  why: ''
-  source: Hindustan Times
-  url: https://www.hindustantimes.com/trending/australian-executive-avoids-jail-after-charging-taxpayers-50-000-for-business-class-flights-to-china-101794212431462.html
+  trending: false
+  why: Los ataques violentos contra figuras públicas generan preocupaciones sobre la seguridad de los legisladores.
   cat: JUSTICE
-  good: false
-  visual:
-    type: icon
-- title: Una corona de flores histórica acoge el protagonismo en Canberra por el 85 aniversario del Día del Armisticio
-  why: ''
-  source: PerthNow
-  url: https://www.perthnow.com.au/news/australia/remembrance-day-historic-wreath-to-take-centre-stage-in-canberra-for-remembrance-days-85th-anniversary-c-23137126
-  cat: SOCIETY
-  good: false
   visual:
     type: map
     country: Australia
-    place: Canberra
-    lat: -35.2809
-    lon: 149.13
-    span: 3
-hashtags:
-- '#UsmanKhawaja'
-- '#Woodside'
-- '#ProyectoBrowse'
-- '#DiaDelRecuerdo'
-question: ¿Debería Cricket Australia responder a las declaraciones de Usman Khawaja sobre su postura?
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Guangzhou_Fosun_Chancheng_Hospital_Building_Exterior.jpg/1280px-Guangzhou_Fosun_Chancheng_Hospital_Building_Exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Cx1son · CC0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Guangzhou_Fosun_Chancheng_Hospital_Building_Exterior.jpg
+    query: hospital building
+- title: La ASEAN y Australia se comprometen a reforzar la cooperación en comercio, educación y clima
+  source: The Tribune
+  url: https://www.tribuneindia.com/news/world/asean-australia-vow-to-deepen-ties-in-trade-education-and-climate-action/
+  good: false
+  trending: false
+  why: ''
+  cat: WORLD
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+    country2: Indonesia
+    place2: región de ASEAN
+    lat2: -2.5489
+    lon2: 118.0149
+    span2: 25
+- title: Robert Irwin desata un nuevo debate al afirmar que Australia inventó la pavlova
+  source: The New Zealand Herald
+  url: https://www.nzherald.co.nz/entertainment/robert-irwin-claims-australia-invented-pavlova-reignites-transtasman-debate/V2TBWPFCJFD2ZMZCOL6MG74KJY/
+  good: false
+  trending: false
+  why: ''
+  cat: SOCIETY
+  visual:
+    type: icon
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Pavlova_dessert.JPG/1280px-Pavlova_dessert.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Hazel Fowler · Public domain · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Pavlova_dessert.JPG
+    query: pavlova dessert
+- title: Una segunda pastilla para adelgazar llegará a las farmacias australianas en pocos días
+  source: Australian Financial Review
+  url: https://www.afr.com/companies/healthcare-and-fitness/second-weight-loss-pill-to-be-sold-in-australia-within-days-20261117-p61eps
+  good: false
+  trending: false
+  why: El acceso a medicamentos para perder peso amplía opciones de tratamiento para australianos.
+  cat: HEALTH
+  visual:
+    type: icon
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Medication_WV_banner.jpg/1280px-Medication_WV_banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Unknown author · CC BY-SA 3.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Medication_WV_banner.jpg
+    query: medication pill capsule
+- title: Los propietarios de viviendas en Darwin venden sus inmuebles ante una posible caída del mercado
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-10-24/darwin-home-owners-sell-property-possible-house-price-downturn/107295680
+  good: false
+  trending: false
+  why: ''
+  cat: ECONOMY
+  visual:
+    type: chart
+    chart: bars
+    unit: '%'
+    prefix: ''
+    decimals: 1
+    source: Cotality
+    hedge: false
+    title_en: Property price changes in September
+    labels_en:
+    - House prices
+    - Units
+    values:
+    - 0.3
+    - 0.8
+    title_es: Variación de los precios de la vivienda en septiembre
+    labels_es:
+    - Precios de viviendas
+    - Pisos
+    fallback:
+      type: map
+      country: Australia
+      place: Darwin
+      lat: -12.4634
+      lon: 130.8456
+      span: 3
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Ardmore_residential_gnangarra-1.jpg/1280px-Ardmore_residential_gnangarra-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: User:Gnangarra · CC BY 2.5 au · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Ardmore_residential_gnangarra-1.jpg
+    query: residential houses street
+  chart_check:
+    result: ok
+    template: bars
+hashtags: []
+question: ''
