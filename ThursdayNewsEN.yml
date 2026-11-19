@@ -1,53 +1,75 @@
-date: 2026-11-12
+date: 2026-11-19
 day: Thursday
 news:
-- title: South Australia records its first meningococcal death since 2023 after a young adult passes away
-  source: PerthNow
-  url: https://www.perthnow.com.au/news/south-australia-records-first-meningococcal-death-since-2023-after-young-adult-dies-c-23151169
+- title: Richard Marles insists Australia backs Ukraine after Anthony Albanese poses with Vladimir Putin
+  source: 7NEWS Australia
+  url: https://7news.com.au/sunrise/richard-marles-insists-australias-support-for-ukraine-remains-unchanged-after-anthony-albanese-poses-alongside-vladimir-putin-c-23182894
   good: false
   trending: false
-  why: Meningococcal disease is rare but life-threatening; vaccination and early treatment are critical.
-  cat: HEALTH
+  why: It affects international alliances and foreign aid for the ongoing war.
+  cat: CONFLICT
   visual:
     type: map
-    country: Australia
-    place: South Australia
-    lat: -34.4
-    lon: 140.6
-    span: 12
-- title: Australia is set to run out of Q fever vaccine this week
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-12/q-fever-vaccine-shortage-in-australia/107374986
-  good: false
-  trending: false
-  why: Q fever vaccine shortage could leave vulnerable people unprotected against infectious disease.
-  cat: HEALTH
-  visual:
-    type: map
-    country: Australia
-    place: Australia
-    lat: -25.3
-    lon: 133.8
+    country: Ukraine
+    place: Ukraine
+    lat: 48.3794
+    lon: 31.1656
     span: 25
-- title: Meet Abhishek Awasthi, the first Indian-origin mayor of Australia's Greater Bendigo
-  source: Firstpost
-  url: https://www.firstpost.com/explainers/who-is-abhishek-awasthi-the-first-indian-origin-mayor-of-australias-greater-bendigo-14059012.html
+- title: Former Australian teacher pleads guilty to abusing a 12-year-old student for over a year
+  source: Times of India
+  url: https://timesofindia.indiatimes.com/world/rest-of-world/australian-former-music-teacher-caught-sexually-assaulting-12-year-old-student-on-cctv-installed-by-his-mother-abused-him-for-over-a-year-gave-birth-to-his-baby-pleads-guilty-to-12-child-abuse-offences/articleshow/135971556.cms
   good: false
   trending: false
   why: ''
-  cat: SOCIETY
+  cat: JUSTICE
+  visual:
+    type: icon
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Courtroom_One_Gavel_-_Flickr_-_Joe_Gratz.jpg/1280px-Courtroom_One_Gavel_-_Flickr_-_Joe_Gratz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Joe Gratz · CC0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Courtroom_One_Gavel_-_Flickr_-_Joe_Gratz.jpg
+    query: courtroom gavel
+- title: Major energy companies tapped to drill a gas project in Western Australia
+  source: OilPrice
+  url: https://oilprice.com/Latest-Energy-News/World-News/Fracking-Giants-Tapped-to-Drill-Gas-Project-in-Western-Australia.html
+  good: false
+  trending: false
+  why: It impacts domestic gas supply and local energy prices.
+  cat: ENERGY
   visual:
     type: map
     country: Australia
-    place: Greater Bendigo
-    lat: -36.76
-    lon: 144.27
-    span: 3
-  chart_check:
-    result: 'not used: one number without a change — the count-up number is used instead'
-- title: Economists unite to demand Victorian parties commit to a debt reduction plan before the November election
-  source: EUROPE SAYS
-  url: https://www.europesays.com/3351889/
+    place: Western Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Engineering_Design_Unit_%28EDU%29_from_a_NASA_customer%2C_Radian_Aerospace%2C_being_tested_in_the_burner_rig_%28GRC-2024-C-01483%29.jpg/1280px-Engineering_Design_Unit_%28EDU%29_from_a_NASA_customer%2C_Radian_Aerospace%2C_being_tested_in_the_burner_rig_%28GRC-2024-C-01483%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: NASA Glenn Research Center / NASA/GRC/Sara Lowthia · Public domain · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Engineering_Design_Unit_(EDU)_from_a_NASA_customer,_Radian_Aerospace,_being_tested_in_the_burner_rig_(GRC-2024-C-01483).jpg
+    query: natural gas rig
+- title: New pact makes the Philippines a defense hub for Australian troops
+  source: DefenseNews.com
+  url: https://www.defensenews.com/global/asia-pacific/2026/11/17/new-pact-positions-the-philippines-as-a-defense-hub-for-australian-troops/
+  good: false
+  trending: false
+  why: ''
+  cat: POLITICS
+  visual:
+    type: map
+    country: Philippines
+    place: Philippines
+    lat: 12.8797
+    lon: 121.774
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Texel_-_Nature_Reserve_De_Hors_-_Panorama_View_of_the_East_side_of_South_Texel_-_Military_Base_Joost_Dourlein_-_TESO_Veerhaven_06.jpg/1280px-Texel_-_Nature_Reserve_De_Hors_-_Panorama_View_of_the_East_side_of_South_Texel_-_Military_Base_Joost_Dourlein_-_TESO_Veerhaven_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Txllxt TxllxT · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Texel_-_Nature_Reserve_De_Hors_-_Panorama_View_of_the_East_side_of_South_Texel_-_Military_Base_Joost_Dourlein_-_TESO_Veerhaven_06.jpg
+    query: military base
+- title: PM pays tribute to defense personnel for Remembrance Day en route to COP31
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-11/federal-politics-live-blog-nov-11/107371364
   good: false
   trending: false
   why: ''
@@ -55,42 +77,18 @@ news:
   visual:
     type: map
     country: Australia
-    place: Victoria
-    lat: -37.0
-    lon: 144.0
-    span: 12
-- title: Australia's Glenn Maxwell retires from international cricket after a 14-year career
-  source: The Economic Times
-  url: https://economictimes.indiatimes.com/news/sports/cricket/australias-glenn-maxwell-announces-retirement-from-international-cricket-after-14-year-career/articleshow/135483637.cms
-  good: false
-  trending: false
-  why: ''
-  cat: SPORT
-  visual:
-    type: chart
-    chart: bars
-    unit: ''
-    prefix: ''
-    decimals: 0
-    source: News
-    hedge: true
-    title_en: Glenn Maxwell international cricket runs
-    labels_en:
-    - ODIs
-    - T20Is
-    values:
-    - 4000
-    - 2900
-    fallback:
-      type: number
-      number: '14'
-      label: year career
-  chart_check:
-    result: ok
-    template: bars
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Sydney_%28AU%29%2C_Darling_Harbour_--_2019_--_2073.jpg/1280px-Sydney_%28AU%29%2C_Darling_Harbour_--_2019_--_2073.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Darling_Harbour_--_2019_--_2073.jpg
+    query: Australian flag
 hashtags:
-- '#Meningococcal'
-- '#QFever'
-- '#GreaterBendigo'
-- '#GlennMaxwell'
-question: Should health authorities do more to prevent meningococcal disease outbreaks in young adults?
+- '#RichardMarles'
+- '#AnthonyAlbanese'
+- '#WesternAustralia'
+- '#COP31'
+question: Should Australia continue its current level of support for Ukraine?
