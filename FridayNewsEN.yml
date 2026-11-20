@@ -1,73 +1,108 @@
-date: 2026-11-13
+date: 2026-11-20
 day: Friday
 news:
-- title: Australia tax data sparks fresh concern over companies shifting profits overseas
-  source: Bloomberg Tax News
-  url: https://news.bloombergtax.com/daily-tax-report/australia-public-tax-data-raises-fresh-profit-shifting-concerns
-  good: false
-  trending: false
-  why: Corporate profit shifting reduces tax revenue available for public services.
-  cat: ECONOMY
-  visual:
-    type: map
-    country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
-  chart_check:
-    result: 'not used: one number without a change — the count-up number is used instead'
-- title: Craig McRae and Justin Longmuir to coach state teams in AFL's upcoming Origin clash
-  source: 7NEWS Australia
-  url: https://7news.com.au/sport/afl/craig-mcrae-to-coach-south-australia-and-justin-longmuir-to-coach-western-australia-in-afls-next-state-of-origin-battle-c-23156639
+- title: Michael Clarke and Mitchell Johnson blast the handling of Sandpapergate following new Cameron Bancroft claims
+  source: The New Zealand Herald
+  url: https://www.nzherald.co.nz/sport/cricket/sandpapergate-michael-clarke-mitchell-johnson-critial-over-handling-of-scandal-after-cameron-bancroft-allegations/OUJ7P3QIIVABBF5SANYDL23UYY/
   good: false
   trending: false
   why: ''
   cat: SPORT
   visual:
     type: icon
-- title: Evidence in the Erin Patterson mushroom murder case will stay secret due to massive media attention
-  source: The New Zealand Herald
-  url: https://www.nzherald.co.nz/world/mushroom-murders-evidence-in-erin-patterson-case-to-stay-secret-due-to-massive-publicity/L4EMLOYZMBC3XK7NZVNQ6DVCPE/
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/GandM_Flare_DXM_bat-Purist_156g_ball.jpg/1280px-GandM_Flare_DXM_bat-Purist_156g_ball.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Marie-Lan Nguyen · CC BY 2.5 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:GandM_Flare_DXM_bat-Purist_156g_ball.jpg
+    query: cricket bat
+- title: Australian businesses push for more China access as PM Anthony Albanese manages Beijing relations
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-20/albanese-to-meet-xi-for-trade/107406222
   good: false
   trending: false
-  why: ''
-  cat: JUSTICE
+  why: Trade access affects local jobs, prices, and business growth.
+  cat: ECONOMY
   visual:
     type: map
-    country: Australia
-    place: Victoria
-    lat: -37.8136
-    lon: 144.9631
-    span: 12
-- title: Australia is launching an artificial intelligence safety watchdog following an OpenAI violation
-  source: New York Daily News
-  url: https://www.nydailynews.com/2026/11/10/australia-ai-safety-regulator/
-  good: false
-  trending: false
-  why: ''
-  cat: TECH
-  visual:
-    type: map
-    country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
+    country: China
+    place: Beijing
+    lat: 39.9042
+    lon: 116.4074
     span: 25
-- title: Missing Australian Teen With Autism Rescued Alive After Six Days in Wilderness
-  source: Free Press Journal
-  url: https://www.freepressjournal.in/world/australian-teen-with-autism-found-alive-after-6-days-missing-in-wilderness-as-police-helicopter-rescues-17-year-old-near-melbourne-watch
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Cargo_ship_PONTIAC%2C_ENI_02320416%2C_MMSI_244660959._15-07-2024._%28actm.%29.jpg/1280px-Cargo_ship_PONTIAC%2C_ENI_02320416%2C_MMSI_244660959._15-07-2024._%28actm.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Agnes Monkelbaan · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Cargo_ship_PONTIAC,_ENI_02320416,_MMSI_244660959._15-07-2024._(actm.).jpg
+    query: cargo ship port
+- title: Power outages drag on across the Eyre Peninsula after severe storms knock down transmission towers
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-20/impact-of-widespread-power-supply-cut-across-eyre-peninsula/107406428
+  good: false
+  trending: false
+  why: Extended power outages disrupt daily life, safety, and local commerce.
+  cat: ENERGY
+  visual:
+    type: chart
+    chart: scale
+    unit: ''
+    prefix: ''
+    decimals: 1
+    source: SA Power Networks
+    hedge: false
+    title_en: Eyre Peninsula Power Outages
+    items:
+    - label_en: Properties lost power
+      value: 24000
+    - label_en: Power restored in Port Lincoln
+      value: 10000
+    - label_en: Pirie without electricity
+      value: 1700
+    - label_en: Metropolitan properties lost power
+      value: 3000
+    highlight: 24000
+    fallback:
+      type: map
+      country: Australia
+      place: Eyre Peninsula
+      lat: -33.7197
+      lon: 135.9144
+      span: 12
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Transmission_towers_at_sunset_in_East_Texas.jpg/1280px-Transmission_towers_at_sunset_in_East_Texas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Matthew T Rader · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Transmission_towers_at_sunset_in_East_Texas.jpg
+    query: electricity transmission tower
+  chart_check:
+    result: ok
+    template: scale
+- title: Laura Harris smashes the fastest WBBL fifty to power the Sydney Thunder to a record chase
+  source: Lokmat Times
+  url: https://www.lokmattimes.com/other-sports/laura-harris-smashes-fastest-wbbl-fifty-powers-sydney-thunder-to-record-chase-a001-w02/
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+  chart_check:
+    result: 'not used: 16 isn''t in the article; a quoted sentence isn''t in the article'
+- title: Genomic breakthrough offers new hope for the endangered southern corroboree frog
+  source: Phys.org
+  url: https://phys.org/news/2026-11-genomic-breakthrough-southern-corroboree-frog.html
   good: true
   trending: false
   why: ''
   cat: GOOD NEWS
   visual:
-    type: number
-    number: '6'
-    label: days in wilderness
+    type: icon
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mossy_forest_in_Lierneux_%28DSC01260%29.jpg/1280px-Mossy_forest_in_Lierneux_%28DSC01260%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Trougnouf (Benoit Brummer) · CC BY 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Mossy_forest_in_Lierneux_(DSC01260).jpg
+    query: mossy forest floor
 hashtags:
-- '#ErinPatterson'
-- '#OpenAI'
-- '#CraigMcRae'
-- '#JustinLongmuir'
-question: Should multinational companies face stricter penalties for shifting their profits overseas?
+- '#Sandpapergate'
+- '#EyrePeninsula'
+- '#SydneyThunder'
+- '#SouthernCorroboreeFrog'
+question: Should cricket officials reopen the investigation into the Sandpapergate scandal?

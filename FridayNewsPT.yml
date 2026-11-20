@@ -1,67 +1,107 @@
-date: 2026-11-13
+date: 2026-11-20
 day: Friday
 news:
-- title: Dados fiscais da Austrália geram nova preocupação sobre empresas que transferem lucros para o exterior
-  source: Bloomberg Tax News
-  url: https://news.bloombergtax.com/daily-tax-report/australia-public-tax-data-raises-fresh-profit-shifting-concerns
-  good: false
-  trending: false
-  why: A transferência de lucros corporativos reduz a receita fiscal disponível para serviços públicos.
-  cat: ECONOMY
-  visual:
-    type: map
-    country: Australia
-    place: Austrália
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
-  chart_check:
-    result: 'not used: one number without a change — the count-up number is used instead'
-- title: Craig McRae e Justin Longmuir vão treinar seleções estaduais no próximo confronto Origin da AFL
-  source: 7NEWS Australia
-  url: https://7news.com.au/sport/afl/craig-mcrae-to-coach-south-australia-and-justin-longmuir-to-coach-western-australia-in-afls-next-state-of-origin-battle-c-23156639
+- title: Michael Clarke e Mitchell Johnson criticam a condução do caso Sandpapergate após novas declarações de Cameron Bancroft
+  source: The New Zealand Herald
+  url: https://www.nzherald.co.nz/sport/cricket/sandpapergate-michael-clarke-mitchell-johnson-critial-over-handling-of-scandal-after-cameron-bancroft-allegations/OUJ7P3QIIVABBF5SANYDL23UYY/
   good: false
   trending: false
   why: ''
   cat: SPORT
   visual:
     type: icon
-- title: Provas do caso de homicídio por envenenamento com cogumelos de Erin Patterson continuarão sigilosas devido à enorme atenção da mídia
-  source: The New Zealand Herald
-  url: https://www.nzherald.co.nz/world/mushroom-murders-evidence-in-erin-patterson-case-to-stay-secret-due-to-massive-publicity/L4EMLOYZMBC3XK7NZVNQ6DVCPE/
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/GandM_Flare_DXM_bat-Purist_156g_ball.jpg/1280px-GandM_Flare_DXM_bat-Purist_156g_ball.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Marie-Lan Nguyen · CC BY 2.5 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:GandM_Flare_DXM_bat-Purist_156g_ball.jpg
+    query: cricket bat
+- title: Empresas australianas pressionam por mais acesso à China enquanto o premiê Anthony Albanese gerencia relações com Pequim
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-20/albanese-to-meet-xi-for-trade/107406222
   good: false
   trending: false
-  why: ''
-  cat: JUSTICE
+  why: O acesso comercial afeta empregos locais, preços e o crescimento dos negócios.
+  cat: ECONOMY
   visual:
     type: map
-    country: Australia
-    place: Victoria
-    lat: -37.8136
-    lon: 144.9631
-    span: 12
-- title: Austrália lança órgão regulador de segurança em inteligência artificial após violação da OpenAI
-  source: New York Daily News
-  url: https://www.nydailynews.com/2026/11/10/australia-ai-safety-regulator/
-  good: false
-  trending: false
-  why: ''
-  cat: TECH
-  visual:
-    type: map
-    country: Australia
-    place: Austrália
-    lat: -25.2744
-    lon: 133.7751
+    country: China
+    place: Pequim
+    lat: 39.9042
+    lon: 116.4074
     span: 25
-- title: Adolescente autista australiano desaparecido é resgatado com vida após seis dias na natureza
-  source: Free Press Journal
-  url: https://www.freepressjournal.in/world/australian-teen-with-autism-found-alive-after-6-days-missing-in-wilderness-as-police-helicopter-rescues-17-year-old-near-melbourne-watch
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Cargo_ship_PONTIAC%2C_ENI_02320416%2C_MMSI_244660959._15-07-2024._%28actm.%29.jpg/1280px-Cargo_ship_PONTIAC%2C_ENI_02320416%2C_MMSI_244660959._15-07-2024._%28actm.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Agnes Monkelbaan · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Cargo_ship_PONTIAC,_ENI_02320416,_MMSI_244660959._15-07-2024._(actm.).jpg
+    query: cargo ship port
+- title: Quedas de energia continuam na Península Eyre após tempestades severas derrubarem torres de transmissão
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-20/impact-of-widespread-power-supply-cut-across-eyre-peninsula/107406428
+  good: false
+  trending: false
+  why: Longas faltas de energia interrompem a vida diária, a segurança e o comércio local.
+  cat: ENERGY
+  visual:
+    type: chart
+    chart: scale
+    unit: ''
+    prefix: ''
+    decimals: 1
+    source: SA Power Networks
+    hedge: false
+    title_en: Eyre Peninsula Power Outages
+    items:
+    - label_en: Properties lost power
+      value: 24000
+      label_pt: Imóveis ficaram sem energia
+    - label_en: Power restored in Port Lincoln
+      value: 10000
+      label_pt: Energia restabelecida em Port Lincoln
+    - label_en: Pirie without electricity
+      value: 1700
+      label_pt: Pirie sem eletricidade
+    - label_en: Metropolitan properties lost power
+      value: 3000
+      label_pt: Imóveis metropolitanos ficaram sem energia
+    highlight: 24000
+    title_pt: Apagões na Península de Eyre
+    fallback:
+      type: map
+      country: Australia
+      place: Península de Eyre
+      lat: -33.7197
+      lon: 135.9144
+      span: 12
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Transmission_towers_at_sunset_in_East_Texas.jpg/1280px-Transmission_towers_at_sunset_in_East_Texas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Matthew T Rader · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Transmission_towers_at_sunset_in_East_Texas.jpg
+    query: electricity transmission tower
+  chart_check:
+    result: ok
+    template: scale
+- title: Laura Harris bate o fifty mais rápido da WBBL para conduzir o Sydney Thunder a uma vitória recorde em perseguição
+  source: Lokmat Times
+  url: https://www.lokmattimes.com/other-sports/laura-harris-smashes-fastest-wbbl-fifty-powers-sydney-thunder-to-record-chase-a001-w02/
+  good: false
+  trending: false
+  why: ''
+  cat: SPORT
+  visual:
+    type: icon
+  chart_check:
+    result: 'not used: 16 isn''t in the article; a quoted sentence isn''t in the article'
+- title: Avanço genômico oferece nova esperança para a ameaçada rã-corroboree-do-sul
+  source: Phys.org
+  url: https://phys.org/news/2026-11-genomic-breakthrough-southern-corroboree-frog.html
   good: true
   trending: false
   why: ''
   cat: GOOD NEWS
   visual:
-    type: number
-    number: '6'
-    label: dias na natureza
+    type: icon
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mossy_forest_in_Lierneux_%28DSC01260%29.jpg/1280px-Mossy_forest_in_Lierneux_%28DSC01260%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Trougnouf (Benoit Brummer) · CC BY 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Mossy_forest_in_Lierneux_(DSC01260).jpg
+    query: mossy forest floor
