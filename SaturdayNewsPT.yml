@@ -1,68 +1,100 @@
-date: 2026-11-14
+date: 2026-11-21
 day: Saturday
 news:
-- title: Capitão do críquete da Austrália, Pat Cummins, chama alegação de Khawaja sobre Sandpapergate de total absurdo
-  source: The Economic Times
-  url: https://economictimes.indiatimes.com/news/sports/cricket/australia-cricket-captain-pat-cummins-describes-khawajas-sandpapergate-claim-as-utter-nonsense/articleshow/135815790.cms
+- title: Centro de dados australiano apoiado pela Anthropic enfrenta quase 600 contestações sobre energia, água e tráfego.
+  source: Times of India
+  url: https://timesofindia.indiatimes.com/world/rest-of-world/an-australian-data-centre-with-anthropic-as-its-anchor-tenant-drew-595-objections-or-requests-for-delay-and-just-two-supportive-submissions-as-people-raised-concerns-about-electricity-water-traffic-and-noise/articleshow/136023409.cms
+  good: false
+  trending: false
+  why: Massivos centros de dados de IA sobrecarregam a eletricidade local, o abastecimento de água e o tráfego.
+  cat: TECH
+  visual:
+    type: map
+    country: Australia
+    place: Austrália
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Back_of_Eastfield_Mills%2C_Hawick_showing_modern_carpark_for_visitor_centre.jpg/1280px-Back_of_Eastfield_Mills%2C_Hawick_showing_modern_carpark_for_visitor_centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Mainlymazza · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Back_of_Eastfield_Mills,_Hawick_showing_modern_carpark_for_visitor_centre.jpg
+    query: modern data centre
+- title: Austrália e China concordam em discutir IA enquanto primeiro-ministro Albanese encerra viagem internacional.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-21/australia-strikes-deal-on-ai-talks-with-china-after-apec/107411592
   good: false
   trending: false
   why: ''
-  cat: SPORT
+  cat: TECH
   visual:
-    type: icon
-- title: Austrália e Filipinas fecham grande acordo de defesa em meio a crescentes tensões com a China
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-14/major-defence-deal-astralia-philippines-clashes-china/107381694
+    type: map
+    country: Australia
+    place: Austrália
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+    country2: China
+    place2: China
+    lat2: 35.8617
+    lon2: 104.1954
+    span2: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg/1280px-Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: mikemacmarketing · CC BY 2.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg
+    query: artificial intelligence servers
+  chart_check:
+    result: 'not used: bars need 2–8 values (got 0)'
+- title: Primeiro-ministro Albanese é pego em microfone aberto com ministro do Clima sobre posicionamento de telefone.
+  source: Republic World
+  url: https://www.republicworld.com/world-news/because-of-your-dk-australian-pm-albanese-s-hot-mic-exchange-with-climate-minister-over-phone-placement-goes-viral-2026-11-15-141081
   good: false
   trending: false
-  why: Afeta a segurança regional e o potencial envolvimento militar em conflitos.
+  why: ''
   cat: POLITICS
   visual:
-    type: map
-    country: Australia
-    place: Austrália e Filipinas
-    lat: -15.0
-    lon: 125.0
-    span: 25
-    country2: Philippines
-    place2: Filipinas
-    lat2: 12.8797
-    lon2: 121.774
-- title: Home Affairs prendeu ilegalmente cidadão australiano por 945 dias, conclui ouvidoria
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-10-15/federal-politics-australian-citizen-among-30-unlawfully-detained/107270564
+    type: icon
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Canberra_%28AU%29%2C_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg/1280px-Canberra_%28AU%29%2C_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Canberra_(AU),_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg
+    query: parliament house canberra
+- title: Dê uma olhada por dentro da enorme reforma de US$ 580 milhões do Memorial de Guerra Australiano.
+  source: The Canberra Times
+  url: https://www.canberratimes.com.au/story/9384971/australian-war-memorial-inside-the-major-580m-revamp/
   good: false
   trending: false
-  why: Destaca a falha do governo que pode arriscar a detenção injusta de qualquer pessoa.
+  why: ''
+  cat: SOCIETY
+  visual:
+    type: map
+    country: Australia
+    place: Camberra
+    lat: -35.2809
+    lon: 149.13
+    span: 3
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/ANZAC_Parade_from_the_Australian_War_Memorial%2C_Canberra_ACT.jpg/1280px-ANZAC_Parade_from_the_Australian_War_Memorial%2C_Canberra_ACT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Thennicke · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:ANZAC_Parade_from_the_Australian_War_Memorial,_Canberra_ACT.jpg
+    query: Australian War Memorial
+- title: Adolescente australiano enfrenta acusações de crime de ódio após abusar racialmente de família indiana e ameaçar seu apartamento.
+  source: Times of India
+  url: https://timesofindia.indiatimes.com/world/rest-of-world/australian-teen-charged-with-hate-crime-for-racially-abusing-indian-family-threatening-to-blow-up-brisbane-apartment-family-considers-leaving/articleshow/135118083.cms
+  good: false
+  trending: false
+  why: ''
   cat: JUSTICE
   visual:
-    type: number
-    number: '945'
-    label: dias de detenção
-  chart_check:
-    result: 'not used: 0 isn''t in the article'
-- title: Investigação revela maus-tratos a mães indígenas no David Berry Hospital
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-11/berry-hospital-aboriginal-engagement-report/107362854
-  good: false
-  trending: false
-  why: ''
-  cat: HEALTH
-  visual:
     type: map
     country: Australia
-    place: David Berry Hospital
-    lat: -34.865
-    lon: 150.753
-    span: 3
-- title: Jóquei Izzy Neale morre aos 22 anos após queda terrível, e família presta homenagem
-  source: The daily Star
-  url: https://www.dailystar.co.uk/sport/horse-racing/breaking-izzy-neale-jockey-dead-37860981
-  good: false
-  trending: false
-  why: ''
-  cat: SPORT
-  visual:
-    type: icon
-  chart_check:
-    result: 'not used: 0 isn''t in the article'
+    place: Austrália
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Carl_B._Stokes_Federal_Court_House_Building_%282018%29.jpg/1280px-Carl_B._Stokes_Federal_Court_House_Building_%282018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Cards84664 · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Carl_B._Stokes_Federal_Court_House_Building_(2018).jpg
+    query: court house building

@@ -1,68 +1,100 @@
-date: 2026-11-14
+date: 2026-11-21
 day: Saturday
 news:
-- title: Kapten Kriket Australia Pat Cummins Sebut Klaim Sandpapergate Khawaja Omong Kosong
-  source: The Economic Times
-  url: https://economictimes.indiatimes.com/news/sports/cricket/australia-cricket-captain-pat-cummins-describes-khawajas-sandpapergate-claim-as-utter-nonsense/articleshow/135815790.cms
+- title: Pusat data di Australia yang didukung Anthropic hadapi hampir 600 penolakan terkait masalah daya, air, dan lalu lintas.
+  source: Times of India
+  url: https://timesofindia.indiatimes.com/world/rest-of-world/an-australian-data-centre-with-anthropic-as-its-anchor-tenant-drew-595-objections-or-requests-for-delay-and-just-two-supportive-submissions-as-people-raised-concerns-about-electricity-water-traffic-and-noise/articleshow/136023409.cms
+  good: false
+  trending: false
+  why: Pusat data AI besar membebani listrik lokal, pasokan air, dan lalu lintas.
+  cat: TECH
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Back_of_Eastfield_Mills%2C_Hawick_showing_modern_carpark_for_visitor_centre.jpg/1280px-Back_of_Eastfield_Mills%2C_Hawick_showing_modern_carpark_for_visitor_centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Mainlymazza · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Back_of_Eastfield_Mills,_Hawick_showing_modern_carpark_for_visitor_centre.jpg
+    query: modern data centre
+- title: Australia dan China sepakat bahas AI saat PM Albanese akhiri kunjungan internasionalnya.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-21/australia-strikes-deal-on-ai-talks-with-china-after-apec/107411592
   good: false
   trending: false
   why: ''
-  cat: SPORT
+  cat: TECH
   visual:
-    type: icon
-- title: Australia dan Filipina Teken Kesepakatan Pertahanan Utama di Tengah Meningkatnya Ketegangan dengan China
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-14/major-defence-deal-astralia-philippines-clashes-china/107381694
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+    country2: China
+    place2: China
+    lat2: 35.8617
+    lon2: 104.1954
+    span2: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg/1280px-Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: mikemacmarketing · CC BY 2.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg
+    query: artificial intelligence servers
+  chart_check:
+    result: 'not used: bars need 2–8 values (got 0)'
+- title: PM Albanese tertangkap basah terekam mikrofon terbuka dengan menteri iklimnya soal penempatan ponsel.
+  source: Republic World
+  url: https://www.republicworld.com/world-news/because-of-your-dk-australian-pm-albanese-s-hot-mic-exchange-with-climate-minister-over-phone-placement-goes-viral-2026-11-15-141081
   good: false
   trending: false
-  why: Ini memengaruhi keamanan regional dan potensi keterlibatan militer dalam konflik.
+  why: ''
   cat: POLITICS
   visual:
-    type: map
-    country: Australia
-    place: Australia & Filipina
-    lat: -15.0
-    lon: 125.0
-    span: 25
-    country2: Philippines
-    place2: Filipina
-    lat2: 12.8797
-    lon2: 121.774
-- title: Ombudsman Temukan Kementerian Dalam Negeri Secara Melawan Hukum Penjara Warga Negara Australia Selama 945 Hari
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-10-15/federal-politics-australian-citizen-among-30-unlawfully-detained/107270564
+    type: icon
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Canberra_%28AU%29%2C_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg/1280px-Canberra_%28AU%29%2C_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Canberra_(AU),_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg
+    query: parliament house canberra
+- title: Intip renovasi besar-besaran senilai $580 juta di Australian War Memorial.
+  source: The Canberra Times
+  url: https://www.canberratimes.com.au/story/9384971/australian-war-memorial-inside-the-major-580m-revamp/
   good: false
   trending: false
-  why: Ini menyoroti kegagalan pemerintah yang dapat mempertaruhkan penahanan semena-mena siapa pun.
+  why: ''
+  cat: SOCIETY
+  visual:
+    type: map
+    country: Australia
+    place: Canberra
+    lat: -35.2809
+    lon: 149.13
+    span: 3
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/ANZAC_Parade_from_the_Australian_War_Memorial%2C_Canberra_ACT.jpg/1280px-ANZAC_Parade_from_the_Australian_War_Memorial%2C_Canberra_ACT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Thennicke · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:ANZAC_Parade_from_the_Australian_War_Memorial,_Canberra_ACT.jpg
+    query: Australian War Memorial
+- title: Remaja Australia hadapi dakwaan kejahatan rasial usai melecehkan keluarga India secara rasial danancam apartemen mereka.
+  source: Times of India
+  url: https://timesofindia.indiatimes.com/world/rest-of-world/australian-teen-charged-with-hate-crime-for-racially-abusing-indian-family-threatening-to-blow-up-brisbane-apartment-family-considers-leaving/articleshow/135118083.cms
+  good: false
+  trending: false
+  why: ''
   cat: JUSTICE
   visual:
-    type: number
-    number: '945'
-    label: hari dalam penahanan
-  chart_check:
-    result: 'not used: 0 isn''t in the article'
-- title: Investigasi Ungkap Perlakuan Buruk terhadap Ibu-Ibu Pribumi di David Berry Hospital
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-11/berry-hospital-aboriginal-engagement-report/107362854
-  good: false
-  trending: false
-  why: ''
-  cat: HEALTH
-  visual:
     type: map
     country: Australia
-    place: David Berry Hospital
-    lat: -34.865
-    lon: 150.753
-    span: 3
-- title: Joki Izzy Neale Meninggal pada Usia 22 Tahun Akibat Kecelakaan Mengerikan Saat Keluarga Berikan Penghormatan
-  source: The daily Star
-  url: https://www.dailystar.co.uk/sport/horse-racing/breaking-izzy-neale-jockey-dead-37860981
-  good: false
-  trending: false
-  why: ''
-  cat: SPORT
-  visual:
-    type: icon
-  chart_check:
-    result: 'not used: 0 isn''t in the article'
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Carl_B._Stokes_Federal_Court_House_Building_%282018%29.jpg/1280px-Carl_B._Stokes_Federal_Court_House_Building_%282018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Cards84664 · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Carl_B._Stokes_Federal_Court_House_Building_(2018).jpg
+    query: court house building
