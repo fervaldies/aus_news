@@ -1,100 +1,136 @@
-date: 2026-11-15
+date: 2026-11-22
 day: Sunday
 news:
-- title: Un año después del ataque en Bondi Beach, el héroe Ahmed Al Ahmed se enfrenta a una discapacidad permanente y a la tensión familiar.
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-15/nsw-bondi-terror-attack-hero-ahmed-al-ahmed-one-year-on/107379802
+- title: La cumbre del clima COP31 se prolonga mientras los países siguen divididos en cuestiones clave
+  source: The Economic Times
+  url: https://economictimes.indiatimes.com/news/international/world-news/cop31-talks-stretch-into-overtime-as-countries-remain-divided-on-key-climate-issues/articleshow/136060200.cms
   good: false
   trending: false
-  why: ''
-  cat: JUSTICE
+  why: Los acuerdos climáticos globales impactan directamente en los futuros costos energéticos y políticas ambientales.
+  cat: CLIMATE
   visual:
-    type: number
-    number: '1'
-    label: año después del ataque
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Sydney_%28AU%29%2C_Bondi_Beach_--_2019_--_2354.jpg/1280px-Sydney_%28AU%29%2C_Bondi_Beach_--_2019_--_2354.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Bondi_Beach_--_2019_--_2354.jpg
-    query: Bondi Beach
-- title: La esquiadora australiana Madison Hoffman entra por primera vez en el top 10 en el eslalon de Levi.
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-15/madison-hoffman-fis-world-cup-levi-eighth-place-slalom/107387056
+    type: icon
+- title: Drones térmicos descubren serpientes ocultas en las copas de los árboles en Australia por primera vez
+  source: Times of India
+  url: https://timesofindia.indiatimes.com/science/nature/scientists-used-thermal-drones-to-detect-snakes-hiding-high-in-australian-forest-canopies-for-the-first-time-the-technology-recorded-20-sightings-of-carpet-pythons-and-green-tree-snakes-across-three-forest-systems/articleshow/135981310.cms
   good: false
   trending: false
   why: ''
-  cat: SPORT
-  visual:
-    type: map
-    country: Finland
-    place: Levi
-    lat: 67.8042
-    lon: 24.8114
-    span: 3
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Brelin_from_slope_on_snowy_day.jpg/1280px-Brelin_from_slope_on_snowy_day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: DimiTalen · CC0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Brelin_from_slope_on_snowy_day.jpg
-    query: snowy ski slope
-  chart_check:
-    result: 'not used: one number without a change — the count-up number is used instead; 8 isn''t in the article'
-- title: Anthony Albanese se enfrenta a un choque entre objetivos climáticos y presión política en la COP31.
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-15/climate-ambition-political-reality-cop31-albanese/107383424
-  good: false
-  trending: false
-  why: ''
-  cat: POLITICS
+  cat: SCIENCE
   visual:
     type: map
     country: Australia
-    place: Canberra
-    lat: -35.2809
-    lon: 149.13
-    span: 12
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Parlament_Wien_abends.jpg/1280px-Parlament_Wien_abends.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Thomas Wolf , www.foto-tw.de · CC BY-SA 3.0 de · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Parlament_Wien_abends.jpg
-    query: parliament building
-- title: Pat Cummins afirma que está preparado para abordar ante los medios las acusaciones de manipulación de la bola de Usman Khawaja.
-  source: Firstpost
-  url: https://www.firstpost.com/firstcricket/pat-cummins-to-present-his-side-over-khawajas-ball-tampering-allegations-happy-to-speak-with-media-14059450.html
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/CSIRO_ScienceImage_3814_Taking_Organic_Vapour_Samples.jpg/1280px-CSIRO_ScienceImage_3814_Taking_Organic_Vapour_Samples.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: David McClenaghan, CSIRO · CC BY 3.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_3814_Taking_Organic_Vapour_Samples.jpg
+    query: eucalypt tree canopy
+- title: El gigante del bricolaje Bunnings recorta su plantilla tecnológica un 40 por ciento y deslocaliza puestos
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/business/hardware-giant-bunnings-slashes-tech-workforce-by-40-per-cent-to-offshore-roles-c-23173203
+  good: false
+  trending: false
+  why: Los despidos tecnológicos masivos a nivel local señalan cambios laborales más amplios en el sector minorista.
+  cat: BUSINESS
+  visual:
+    type: chart
+    chart: scale
+    unit: ''
+    prefix: ''
+    decimals: 1
+    source: Bunnings
+    hedge: false
+    title_en: Technology team roles
+    items:
+    - label_en: Permanently lost roles
+      value: 230
+      label_es: Roles perdidos permanentemente
+    - label_en: Contractors retired
+      value: 120
+      label_es: Contratistas jubilados
+    - label_en: Remaining technology team members
+      value: 500
+      label_es: Miembros restantes del equipo de tecnología
+    highlight: 350
+    title_es: Roles del equipo de tecnología
+    fallback:
+      type: map
+      country: Australia
+      place: Australia
+      lat: -25.2744
+      lon: 133.7751
+      span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Robertson%27s_Hardware_%26_Warehouse_store_front.jpg/1280px-Robertson%27s_Hardware_%26_Warehouse_store_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Mkhondza · CC BY-SA 3.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Robertson%27s_Hardware_%26_Warehouse_store_front.jpg
+    query: hardware store warehouse
+  chart_check:
+    result: ok
+    template: scale
+- title: Violentas tormentas dejan sin luz a 24.000 hogares en Australia del Sur y provocan retrasos en los vuelos
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/flights-delayed-24000-south-australian-homes-without-power-across-eyre-peninsula-as-wild-storms-hit-c-23187547
   good: false
   trending: false
   why: ''
-  cat: SPORT
+  cat: WEATHER
   visual:
-    type: icon
+    type: chart
+    chart: bars
+    unit: ''
+    prefix: ''
+    decimals: 1
+    source: SA Power Networks
+    hedge: false
+    title_en: South Australian homes without power
+    labels_en:
+    - Adelaide homes
+    - Eyre Peninsula properties
+    - Total homes without power
+    values:
+    - 3000
+    - 10000
+    - 28000
+    title_es: Hogares de Australia Meridional sin electricidad
+    labels_es:
+    - Hogares de Adelaida
+    - Propiedades de la península de Eyre
+    - Total de hogares sin electricidad
+    fallback:
+      type: map
+      country: Australia
+      place: Australia Meridional
+      lat: -30.0
+      lon: 135.0
+      span: 12
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Loughton_Cricket_Club_cricket_pitch_covers_at_Loughton%2C_Essex%2C_England_01.jpg/1280px-Loughton_Cricket_Club_cricket_pitch_covers_at_Loughton%2C_Essex%2C_England_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Acabashi · CC BY-SA 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Loughton_Cricket_Club_cricket_pitch_covers_at_Loughton,_Essex,_England_01.jpg
-    query: cricket pitch
-- title: Se calcula que 335.000 personas acuden a la Cabalgata de Navidad de Adelaida para dar inicio a la temporada festiva.
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-14/father-christmas-arrives-in-adelaide-at-annual-christmas-pageant/107385880
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg/1280px-Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Maxime Raynal from France · CC BY 2.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Port_and_lighthouse_overnight_storm_with_lightning_in_Port-la-Nouvelle.jpg
+    query: storm clouds lightning
+  chart_check:
+    result: ok
+    template: bars
+- title: Adolescente desaparecido es hallado con vida tras sobrevivir seis días en los bosques australianos
+  source: The Atlanta Journal-Constitution
+  url: https://www.ajc.com/news/2026/11/a-missing-teen-found-alive-after-6-days-in-australian-woodlands/
   good: false
   trending: false
   why: ''
   cat: SOCIETY
   visual:
-    type: map
-    country: Australia
-    place: Adelaide
-    lat: -34.9285
-    lon: 138.6007
-    span: 3
+    type: number
+    number: '6'
+    label: días faltantes
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Snoopy_float_Dunedin_Christmas_parade_2023.jpg/1280px-Snoopy_float_Dunedin_Christmas_parade_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: DrThneed · CC BY 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Snoopy_float_Dunedin_Christmas_parade_2023.jpg
-    query: Christmas parade float
-  chart_check:
-    result: 'not used: one number without a change — the count-up number is used instead'
-hashtags:
-- '#PlayaDeBondi'
-- '#MadisonHoffman'
-- '#AnthonyAlbanese'
-- '#PatCummins'
-question: ¿Cómo deberían las comunidades apoyar mejor a héroes como Ahmed Al Ahmed tras estas tragedias?
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/%28Banksia_coccinea_habitat_and_Toolbrunup_Peak_in_Gnowangerup_Shire%2C_Australia%29_-_DPLA_-_e3fe3f922925b9ee22b92d55dd0c6763.jpg/1280px-%28Banksia_coccinea_habitat_and_Toolbrunup_Peak_in_Gnowangerup_Shire%2C_Australia%29_-_DPLA_-_e3fe3f922925b9ee22b92d55dd0c6763.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Carlquist, Sherwin John, 1930-2021 · CC BY 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:(Banksia_coccinea_habitat_and_Toolbrunup_Peak_in_Gnowangerup_Shire,_Australia)_-_DPLA_-_e3fe3f922925b9ee22b92d55dd0c6763.jpg
+    query: dense Australian bushland
+hashtags: []
+question: ''
