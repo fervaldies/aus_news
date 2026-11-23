@@ -1,13 +1,22 @@
-date: 2026-11-16
+date: 2026-11-23
 day: Monday
 news:
-- title: Crece el rechazo a los planes para el primer recinto de la Pequeña India en Australia
-  source: EUROPE SAYS
-  url: https://www.europesays.com/3377733/
+- title: Muere a los 83 años Molly Meldrum, presentador de Countdown
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-23/live-updates-molly-meldrum-dead-reactions/101801706
   good: false
   trending: false
-  why: Los cambios en los distritos culturales locales afectan la identidad de la comunidad y a los negocios locales.
+  why: ''
   cat: SOCIETY
+  visual:
+    type: icon
+- title: Los residentes se oponen firmemente al nuevo centro de datos australiano de Anthropic
+  source: U.S. News & World Report
+  url: https://www.usnews.com/news/world/articles/2026-11-19/anthropics-australian-data-centre-overwhelmingly-opposed-by-residents
+  good: false
+  trending: false
+  why: Los nuevos centros de datos pueden aumentar las facturas de electricidad locales y el consumo de agua.
+  cat: TECH
   visual:
     type: map
     country: Australia
@@ -16,88 +25,89 @@ news:
     lon: 133.7751
     span: 25
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Little_Italy_2.jpg/1280px-Little_Italy_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Sgroey · CC BY-SA 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Little_Italy_2.jpg
-    query: cultural precinct street
-  chart_check:
-    result: 'not used: a quoted sentence isn''t in the article; the year 2024 isn''t in the article'
-- title: Qantas externalizará 850 empleos de su oficina central a Accenture
-  source: Devdiscourse
-  url: https://www.devdiscourse.com/article/business/4004249-qantas-airways-to-outsource-850-head-office-jobs-to-accenture-services-to-be-largely-delivered-from-india
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Abigor · CC BY-SA 3.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg
+    query: server racks
+- title: Pro Medicus cierra un acuerdo sanitario de 128 millones de dólares en Nueva York
+  source: MarketScreener
+  url: https://www.marketscreener.com/news/pro-medicus-unit-signs-10-year-au-128-million-deal-with-nyc-health-hospitals-ce785ed2de8bf521
   good: false
   trending: false
-  why: ''
+  why: Los grandes acuerdos de tecnología sanitaria afectan a la eficiencia hospitalaria y a los costes de atención al paciente.
   cat: BUSINESS
   visual:
-    type: icon
+    type: map
+    country: United States of America
+    place: Nueva York
+    lat: 40.7128
+    lon: -74.006
+    span: 3
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Cummins_Corporate_Office_Building_-_April_2008_-_Holly_Higgins_03.jpg/1280px-Cummins_Corporate_Office_Building_-_April_2008_-_Holly_Higgins_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Holly Higgins · CC BY 2.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Cummins_Corporate_Office_Building_-_April_2008_-_Holly_Higgins_03.jpg
-    query: corporate office building
-- title: Echa un primer vistazo a los diseños iniciales del nuevo Hospital del Norte de Canberra
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Guangzhou_Fosun_Chancheng_Hospital_Building_Exterior.jpg/1280px-Guangzhou_Fosun_Chancheng_Hospital_Building_Exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Cx1son · CC0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Guangzhou_Fosun_Chancheng_Hospital_Building_Exterior.jpg
+    query: hospital building
+- title: El laborismo de Victoria se enfrenta a una inminente derrota electoral mientras el primer ministro Albanese se retira
   source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-16/early-designs-for-new-north-canberra-hospital/107387498
+  url: https://www.abc.net.au/news/2026-11-23/election-victorian-labor-election-defeat-albanese-stays-away/107414442
   good: false
   trending: false
   why: ''
-  cat: HEALTH
+  cat: POLITICS
   visual:
-    type: map
-    country: Australia
-    place: Norte de Canberra
-    lat: -35.2535
-    lon: 149.1344
-    span: 3
+    type: chart
+    chart: waffle
+    unit: '%'
+    prefix: ''
+    decimals: 1
+    source: ABC
+    hedge: false
+    title_en: NSW Labor primary vote
+    labels_en:
+    - primary vote
+    values:
+    - 25.6
+    title_es: Voto primario laborista en NSW
+    labels_es:
+    - voto primario
+    fallback:
+      type: map
+      country: Australia
+      place: Victoria
+      lat: -37.8136
+      lon: 144.9631
+      span: 12
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/19th_century_hospital_building_at_Figeac._Innerside_rather_modern_-_panoramio.jpg/1280px-19th_century_hospital_building_at_Figeac._Innerside_rather_modern_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Henk Monster · CC BY 3.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:19th_century_hospital_building_at_Figeac._Innerside_rather_modern_-_panoramio.jpg
-    query: modern hospital building
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Parlament_Wien_abends.jpg/1280px-Parlament_Wien_abends.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Thomas Wolf , www.foto-tw.de · CC BY-SA 3.0 de · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Parlament_Wien_abends.jpg
+    query: parliament building
   chart_check:
-    result: 'not used: a size comparison needs 2–4 amounts'
-- title: Los Liberales de Canberra presionan para legalizar los paneles solares enchufables aptos para inquilinos
-  source: The Canberra Times
-  url: https://www.canberratimes.com.au/story/9391279/canberra-liberals-push-to-legalise-renter-friendly-plug-in-solar/
+    result: ok
+    template: waffle
+- title: El primer ministro de Singapur, Wong, llega a Australia en el primer vuelo al nuevo aeropuerto de Sídney
+  source: The Star
+  url: https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/22/singapore-pm-wong-to-visit-australia-for-leaders-meeting-arrive-on-inaugural-sia-flight-to-new-sydney-airport
   good: false
   trending: false
   why: ''
-  cat: ECONOMY
+  cat: TRANSPORT
   visual:
     type: map
     country: Australia
-    place: Canberra
-    lat: -35.2809
-    lon: 149.13
+    place: Sídney
+    lat: -33.8688
+    lon: 151.2093
     span: 3
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Solar_panels_on_house_roof.jpg/1280px-Solar_panels_on_house_roof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Gray Watson User:E090 · CC BY-SA 3.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Solar_panels_on_house_roof.jpg
-    query: solar panels roof
-- title: Familias de Canberra varadas y frente a recortes de financiación del NDIS
-  source: The Canberra Times
-  url: https://www.canberratimes.com.au/story/9391581/ndis-cuts-canberra-families-stranded-as-funding-slashed/
-  good: false
-  trending: false
-  why: Los recortes de financiación afectan directamente a los servicios esenciales de apoyo a la discapacidad para las familias.
-  cat: HEALTH
-  visual:
-    type: map
-    country: Australia
-    place: Canberra
-    lat: -35.2809
-    lon: 149.13
-    span: 3
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Interior_view_of_Holcombe_family_home_with_guests%2C_Stillwater%2C_Minnesota_-_DPLA_-_2689ce12f9d2e74315cf2b72cc532734.jpg/1280px-Interior_view_of_Holcombe_family_home_with_guests%2C_Stillwater%2C_Minnesota_-_DPLA_-_2689ce12f9d2e74315cf2b72cc532734.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Holcombe, Frederick · Public domain · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Interior_view_of_Holcombe_family_home_with_guests,_Stillwater,_Minnesota_-_DPLA_-_2689ce12f9d2e74315cf2b72cc532734.jpg
-    query: family home interior
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Berlin_Brandenburg_Airport_Terminal_1.jpg/1280px-Berlin_Brandenburg_Airport_Terminal_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Arne Müseler · CC BY-SA 3.0 de · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Berlin_Brandenburg_Airport_Terminal_1.jpg
+    query: airport terminal
 hashtags:
-- '#LittleIndia'
-- '#Qantas'
-- '#Accenture'
-- '#HospitalDeCanberra'
-question: Apoyas los planes para el primer recinto de Little India en Australia?
+- '#MollyMeldrum'
+- '#Anthropic'
+- '#ProMedicus'
+- '#AeropuertoDeSídney'
+question: ¿Qué recuerdos tienes de Molly Meldrum y su impacto en la música?
