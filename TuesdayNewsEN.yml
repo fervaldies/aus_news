@@ -1,47 +1,47 @@
-date: 2026-11-17
+date: 2026-11-24
 day: Tuesday
 news:
-- title: An Australian lawmaker has left the hospital after losing both legs in a car attack.
-  source: U.S. News & World Report
-  url: https://www.usnews.com/news/world/articles/2026-11-15/australian-lawmaker-leaves-hospital-after-losing-both-legs-in-car-attack
+- title: Pauline Hanson faces a major test as debt and anger collide in the state election
+  source: The Straits Times
+  url: https://www.straitstimes.com/asia/australianz/australias-pauline-hanson-faces-biggest-test-as-debt-and-anger-align-in-state-vote
   good: false
   trending: false
-  why: Violent attacks on public figures raise concerns about lawmaker safety.
-  cat: JUSTICE
+  why: State election results affect local services, taxes, and policies.
+  cat: POLITICS
   visual:
     type: map
     country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
+    place: Queensland
+    lat: -27.5
+    lon: 133.0
     span: 25
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Guangzhou_Fosun_Chancheng_Hospital_Building_Exterior.jpg/1280px-Guangzhou_Fosun_Chancheng_Hospital_Building_Exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Cx1son · CC0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Guangzhou_Fosun_Chancheng_Hospital_Building_Exterior.jpg
-    query: hospital building
-- title: ASEAN and Australia pledge to strengthen trade, education, and climate cooperation.
-  source: The Tribune
-  url: https://www.tribuneindia.com/news/world/asean-australia-vow-to-deepen-ties-in-trade-education-and-climate-action/
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Queensland_Parliament_House.jpg/1280px-Queensland_Parliament_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Brian Dean · CC BY 2.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Queensland_Parliament_House.jpg
+    query: Queensland Parliament House
+- title: Qantas and Virgin skip a Brisbane Airport trial aimed at reducing noise
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-24/qantas-virgin-jetstar-shun-brisbane-airport-tailwind-trial/107409604
   good: false
   trending: false
-  why: ''
-  cat: WORLD
+  why: Airport noise affects residents' health and quality of life.
+  cat: TRANSPORT
   visual:
     type: map
     country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
-    country2: Indonesia
-    place2: ASEAN region
-    lat2: -2.5489
-    lon2: 118.0149
-    span2: 25
-- title: Robert Irwin sparks a fresh debate by claiming Australia invented the pavlova.
-  source: The New Zealand Herald
-  url: https://www.nzherald.co.nz/entertainment/robert-irwin-claims-australia-invented-pavlova-reignites-transtasman-debate/V2TBWPFCJFD2ZMZCOL6MG74KJY/
+    place: Brisbane Airport
+    lat: -27.3842
+    lon: 153.1175
+    span: 3
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Skyway_at_Brisbane_Airport_Domestic_Terminal%2C_2023.jpg/1280px-Skyway_at_Brisbane_Airport_Domestic_Terminal%2C_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Kgbo · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Skyway_at_Brisbane_Airport_Domestic_Terminal,_2023.jpg
+    query: Brisbane Airport terminal
+- title: Macquarie Dictionary names Australia's word of the year for a tough 12 months
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/australia/the-name-represents-the-year-weve-all-endured-macquarie-dictionary-crowns-australias-word-of-the-year-c-23204213
   good: false
   trending: false
   why: ''
@@ -49,60 +49,42 @@ news:
   visual:
     type: icon
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Pavlova_dessert.JPG/1280px-Pavlova_dessert.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Hazel Fowler · Public domain · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Pavlova_dessert.JPG
-    query: pavlova dessert
-- title: A second weight-loss pill is hitting Australian shelves in just days.
-  source: Australian Financial Review
-  url: https://www.afr.com/companies/healthcare-and-fitness/second-weight-loss-pill-to-be-sold-in-australia-within-days-20261117-p61eps
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Showell%27s_Dictionary_of_Birmingham_-_title_page.jpg/1280px-Showell%27s_Dictionary_of_Birmingham_-_title_page.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Thomas T Harman · Public domain · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Showell%27s_Dictionary_of_Birmingham_-_title_page.jpg
+    query: dictionary pages
+- title: Australia rejects a US warning that the AUKUS submarine deal will hurt the Navy
+  source: Times of India
+  url: https://timesofindia.indiatimes.com/world/rest-of-world/they-are-wrong-australia-dismisses-us-report-warning-aukus-submarine-deal-could-hurt-navy/articleshow/136071282.cms
   good: false
   trending: false
-  why: Weight-loss medication access expands treatment options for Australians.
-  cat: HEALTH
+  why: AUKUS submarine plan affects Australia's defense capability and regional security.
+  cat: CONFLICT
   visual:
-    type: icon
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Medication_WV_banner.jpg/1280px-Medication_WV_banner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Unknown author · CC BY-SA 3.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Medication_WV_banner.jpg
-    query: medication pill capsule
-- title: Darwin homeowners are selling their properties ahead of a potential market slump.
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-10-24/darwin-home-owners-sell-property-possible-house-price-downturn/107295680
+    url: https://live.staticflickr.com/7215/7315372288_86791a0ab5_b.jpg
+    credit: DVIDSHUB · CC BY 2.0 · Flickr
+    page: https://www.flickr.com/photos/28650594@N03/7315372288
+    query: military submarine
+- title: The Albanese government will ban photos and recordings of defense bases
+  source: PerthNow
+  url: https://www.perthnow.com.au/news/albanese-government-to-pass-new-legislation-banning-photographs-recordings-of-defence-bases-c-23183156
   good: false
   trending: false
   why: ''
-  cat: ECONOMY
+  cat: JUSTICE
   visual:
-    type: chart
-    chart: bars
-    unit: '%'
-    prefix: ''
-    decimals: 1
-    source: Cotality
-    hedge: false
-    title_en: Property price changes in September
-    labels_en:
-    - House prices
-    - Units
-    values:
-    - 0.3
-    - 0.8
-    fallback:
-      type: map
-      country: Australia
-      place: Darwin
-      lat: -12.4634
-      lon: 130.8456
-      span: 3
+    type: icon
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Ardmore_residential_gnangarra-1.jpg/1280px-Ardmore_residential_gnangarra-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: User:Gnangarra · CC BY 2.5 au · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Ardmore_residential_gnangarra-1.jpg
-    query: residential houses street
-  chart_check:
-    result: ok
-    template: bars
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Italian_Minister_of_Defense_Guido_Crosetto_greets_United_States_Secretary_of_Defense_Lloyd_Austin_at_the_25th_iteration_of_the_Ukraine_Defense_Contact_Group_at_Ramstein_Air_Base%2C_Germany%2C_9_January_2025.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: U.S. Secretary of Defense · Public domain · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Italian_Minister_of_Defense_Guido_Crosetto_greets_United_States_Secretary_of_Defense_Lloyd_Austin_at_the_25th_iteration_of_the_Ukraine_Defense_Contact_Group_at_Ramstein_Air_Base,_Germany,_9_January_2025.jpg
+    query: military defense base
 hashtags: []
 question: ''
