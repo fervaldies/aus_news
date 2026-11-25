@@ -1,119 +1,87 @@
-date: 2026-11-18
+date: 2026-11-25
 day: Wednesday
 news:
-- title: Leis de barriga de aluguel na Austrália enfrentam grande reformulação após revisão histórica
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-18/new-surrogacy-laws-alrc-report/107376594
+- title: Influenciadora do BookTok ChaptersWithThais revela que marido morreu afogado tragicamente ao salvar os filhos
+  source: TMZ
+  url: https://www.tmz.com/2026/11/24/booktok-influencer-husband-drowned-in-australia/
   good: false
   trending: false
   why: ''
   cat: SOCIETY
   visual:
+    type: icon
+- title: Donos tradicionais se opõem a planos de novo campo de golfe na Costa Limestone
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-25/nora-creina-golf-course-development-limestone-coast-sa/107420614
+  good: false
+  trending: false
+  why: Novos empreendimentos podem impactar o acesso à terra local e o patrimônio comunitário.
+  cat: BUSINESS
+  visual:
     type: map
     country: Australia
-    place: Austrália
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
+    place: Limestone Coast
+    lat: -37.2
+    lon: 140.7
+    span: 3
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Newborn_infant_with_footprints_and_group_at_hospital_LCCN2016888306.jpg/1280px-Newborn_infant_with_footprints_and_group_at_hospital_LCCN2016888306.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Harris &amp; Ewing, photographer · Public domain · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Newborn_infant_with_footprints_and_group_at_hospital_LCCN2016888306.jpg
-    query: newborn baby footprint
-- title: Albanese afasta temores de retaliação da China enquanto o Quad aprofunda laços
-  source: SBS Australia
-  url: https://www.sbs.com.au/news/article/albanese-brushes-off-prospect-of-china-blowback-after-quad-agrees-to-deepen-cooperation/oc4lt5hyg
-  good: false
-  trending: false
-  why: ''
-  cat: POLITICS
-  visual:
-    type: map
-    country: China
-    place: Pequim
-    lat: 39.9042
-    lon: 116.4074
-    span: 25
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Bangladesh_Flag_%26_Parliament_Building.jpg/1280px-Bangladesh_Flag_%26_Parliament_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Gary Todd · CC0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Bangladesh_Flag_%26_Parliament_Building.jpg
-    query: parliament building flag
+    url: https://upload.wikimedia.org/wikipedia/commons/e/e8/Sefton_Coastal_Path_crossing_Hesketh_Golf_Course%2C_Marshside_-_geograph.org.uk_-_4707037.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit: Mike Pennington · CC BY-SA 2.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Sefton_Coastal_Path_crossing_Hesketh_Golf_Course,_Marshside_-_geograph.org.uk_-_4707037.jpg
+    query: coastal golf course
   chart_check:
-    result: 'not used: bars need 2–8 values (got 0)'
-- title: Austrália impõe novas sanções a assentamentos israelenses
-  source: PerthNow
-  url: https://www.perthnow.com.au/news/world/australia-targets-israeli-settlements-with-fresh-sanctions-c-23177154
+    result: 'not used: a size comparison needs 2–4 amounts'
+- title: Condições empresariais na Austrália encolhem no ritmo mais rápido em cinco anos
+  source: MarketScreener
+  url: https://www.marketscreener.com/news/australia-business-conditions-contract-at-fastest-pace-in-5-years-ce785ed3d18ff326
   good: false
   trending: false
-  why: ''
-  cat: WORLD
-  visual:
-    type: map
-    country: Israel
-    place: Israel
-    lat: 31.0461
-    lon: 34.8516
-    span: 12
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Capitol_Building_Full_View.jpg/1280px-Capitol_Building_Full_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Noclip · Public domain · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Capitol_Building_Full_View.jpg
-    query: government building exterior
-  chart_check:
-    result: 'not used: 910000 isn''t in the article; 3.6e+06 isn''t in the article'
-- title: Austrália regional reage ao recuo do governo sobre visto para mochileiros
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-18/federal-government-backpacker-backdown-regional-reactions/107394924
-  good: false
-  trending: false
-  why: As mudanças nos vistos para mochileiros afetam diretamente a mão de obra agrícola regional e os custos das empresas locais.
+  why: A contração econômica pode levar à perda de empregos e à redução dos gastos das famílias.
   cat: ECONOMY
   visual:
     type: map
     country: Australia
-    place: Austrália Regional
-    lat: -28.0
-    lon: 135.0
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
     span: 25
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Rural_Land_With_a_Few_Houses_in_the_Back_-_Ground_Farm_Buildings%28GN05040%29.jpg/1280px-Rural_Land_With_a_Few_Houses_in_the_Back_-_Ground_Farm_Buildings%28GN05040%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: State Government Photographer · CC0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Rural_Land_With_a_Few_Houses_in_the_Back_-_Ground_Farm_Buildings(GN05040).jpg
-    query: rural Australian farm
-- title: Austrália aprova local no fundo do mar para armazenamento de carbono japonês
-  source: The Atlanta Journal-Constitution
-  url: https://www.ajc.com/news/2026/11/australia-approves-seabed-site-where-a-japanese-company-will-store-carbon-pollution/
+- title: ASX cai enquanto Coles investiga violação cibernética e Adore corta perspectiva financeira
+  source: Australian Financial Review
+  url: https://www.afr.com/markets/equity-markets/asx-to-wobble-australian-dollar-hits-10-month-lows-20261116-p61e95
   good: false
   trending: false
-  why: Novos locais de armazenamento de carbono mudam os projetos de energia regional e a gestão ambiental local.
-  cat: CLIMATE
+  why: ''
+  cat: BUSINESS
   visual:
-    type: chart
-    chart: bars
-    unit: '%'
-    prefix: ''
-    decimals: 1
-    source: The Atlanta Journal-Constitution
-    hedge: false
-    title_en: Japan carbon emissions reduction goals
-    labels_en:
-    - '2035'
-    - '2040'
-    values:
-    - 60
-    - 73
-    title_pt: Metas de redução de emissões de carbono do Japão
-    labels_pt:
-    - '2035'
-    - '2040'
-    fallback:
-      type: map
-      country: Australia
-      place: Austrália
-      lat: -25.2744
-      lon: 133.7751
-      span: 25
+    type: map
+    country: Australia
+    place: Australian Securities Exchange
+    lat: -33.8688
+    lon: 151.2093
+    span: 3
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/New_York_Stock_Exchange_building%2C_20231002_171816.jpg/1280px-New_York_Stock_Exchange_building%2C_20231002_171816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Jakub Hałun · CC BY 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_building,_20231002_171816.jpg
+    query: stock exchange building
   chart_check:
-    result: ok
-    template: bars
+    result: 'not used: 9982.2 isn''t in the article'
+- title: Qantas corta 850 empregos na Austrália e transfere mais trabalho para a Índia
+  source: Times Now
+  url: https://www.timesnownews.com/business-economy/economy/qantas-airways-to-cut-850-australian-jobs-as-it-moves-more-work-to-india-article-156489171
+  good: false
+  trending: false
+  why: ''
+  cat: BUSINESS
+  visual:
+    type: map
+    country: Australia
+    place: Australia
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Boeing_Commercial_Airplanes_former_headquarters_in_Renton%2C_WA_-_November_2021.jpg/1280px-Boeing_Commercial_Airplanes_former_headquarters_in_Renton%2C_WA_-_November_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: SmartAn01 · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Boeing_Commercial_Airplanes_former_headquarters_in_Renton,_WA_-_November_2021.jpg
+    query: commercial airplane
