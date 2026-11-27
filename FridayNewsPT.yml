@@ -1,99 +1,89 @@
-date: 2026-11-20
+date: 2026-11-27
 day: Friday
 news:
-- title: Michael Clarke e Mitchell Johnson criticam a condução do caso Sandpapergate após novas declarações de Cameron Bancroft
-  source: The New Zealand Herald
-  url: https://www.nzherald.co.nz/sport/cricket/sandpapergate-michael-clarke-mitchell-johnson-critial-over-handling-of-scandal-after-cameron-bancroft-allegations/OUJ7P3QIIVABBF5SANYDL23UYY/
+- title: Sul e centro da Austrália enfrentam verão brutal com alto risco de incêndios florestais e ondas de calor extremas
+  source: The Guardian
+  url: https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves
   good: false
   trending: false
-  why: ''
-  cat: SPORT
-  visual:
-    type: icon
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/GandM_Flare_DXM_bat-Purist_156g_ball.jpg/1280px-GandM_Flare_DXM_bat-Purist_156g_ball.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Marie-Lan Nguyen · CC BY 2.5 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:GandM_Flare_DXM_bat-Purist_156g_ball.jpg
-    query: cricket bat
-- title: Empresas australianas pressionam por mais acesso à China enquanto o premiê Anthony Albanese gerencia relações com Pequim
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-20/albanese-to-meet-xi-for-trade/107406222
-  good: false
-  trending: false
-  why: O acesso comercial afeta empregos locais, preços e o crescimento dos negócios.
-  cat: ECONOMY
+  why: Ondas de calor extremas e incêndios florestais ameaçam diretamente casas, segurança e saúde.
+  cat: CLIMATE
   visual:
     type: map
-    country: China
-    place: Pequim
-    lat: 39.9042
-    lon: 116.4074
+    country: Australia
+    place: Austrália Central
+    lat: -25.2744
+    lon: 133.7751
     span: 25
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Cargo_ship_PONTIAC%2C_ENI_02320416%2C_MMSI_244660959._15-07-2024._%28actm.%29.jpg/1280px-Cargo_ship_PONTIAC%2C_ENI_02320416%2C_MMSI_244660959._15-07-2024._%28actm.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Agnes Monkelbaan · CC BY-SA 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Cargo_ship_PONTIAC,_ENI_02320416,_MMSI_244660959._15-07-2024._(actm.).jpg
-    query: cargo ship port
-- title: Quedas de energia continuam na Península Eyre após tempestades severas derrubarem torres de transmissão
-  source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-20/impact-of-widespread-power-supply-cut-across-eyre-peninsula/107406428
-  good: false
-  trending: false
-  why: Longas faltas de energia interrompem a vida diária, a segurança e o comércio local.
-  cat: ENERGY
-  visual:
-    type: chart
-    chart: scale
-    unit: ''
-    prefix: ''
-    decimals: 1
-    source: SA Power Networks
-    hedge: false
-    title_en: Eyre Peninsula Power Outages
-    items:
-    - label_en: Properties lost power
-      value: 24000
-      label_pt: Imóveis ficaram sem energia
-    - label_en: Power restored in Port Lincoln
-      value: 10000
-      label_pt: Energia restabelecida em Port Lincoln
-    - label_en: Pirie without electricity
-      value: 1700
-      label_pt: Pirie sem eletricidade
-    - label_en: Metropolitan properties lost power
-      value: 3000
-      label_pt: Imóveis metropolitanos ficaram sem energia
-    highlight: 24000
-    title_pt: Apagões na Península de Eyre
-    fallback:
-      type: map
-      country: Australia
-      place: Península de Eyre
-      lat: -33.7197
-      lon: 135.9144
-      span: 12
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Transmission_towers_at_sunset_in_East_Texas.jpg/1280px-Transmission_towers_at_sunset_in_East_Texas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Matthew T Rader · CC BY-SA 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Transmission_towers_at_sunset_in_East_Texas.jpg
-    query: electricity transmission tower
-  chart_check:
-    result: ok
-    template: scale
-- title: Laura Harris bate o fifty mais rápido da WBBL para conduzir o Sydney Thunder a uma vitória recorde em perseguição
-  source: Lokmat Times
-  url: https://www.lokmattimes.com/other-sports/laura-harris-smashes-fastest-wbbl-fifty-powers-sydney-thunder-to-record-chase-a001-w02/
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bushfire_smoke_under_clouds_Tamala_park_western_Australia.jpg/1280px-Bushfire_smoke_under_clouds_Tamala_park_western_Australia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Leon Brooks · Public domain · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Bushfire_smoke_under_clouds_Tamala_park_western_Australia.jpg
+    query: australian bushfire landscape
+- title: Nova revisão contundente critica órgão de fiscalização de sanções sem dentes da Austrália
+  source: The Canberra Times
+  url: https://www.canberratimes.com.au/story/9399213/scathing-report-slams-toothless-sanctions-watchdog/
   good: false
   trending: false
   why: ''
-  cat: SPORT
+  cat: POLITICS
   visual:
-    type: icon
+    type: map
+    country: Australia
+    place: Austrália
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Parlament_Wien_abends.jpg/1280px-Parlament_Wien_abends.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Thomas Wolf , www.foto-tw.de · CC BY-SA 3.0 de · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Parlament_Wien_abends.jpg
+    query: parliament house building
   chart_check:
-    result: 'not used: 16 isn''t in the article; a quoted sentence isn''t in the article'
-- title: Avanço genômico oferece nova esperança para a ameaçada rã-corroboree-do-sul
-  source: Phys.org
-  url: https://phys.org/news/2026-11-genomic-breakthrough-southern-corroboree-frog.html
+    result: 'not used: 0 isn''t in the article'
+- title: Moedas de prata roubadas de naufrágio de 1712 finalmente retornam à Austrália após três séculos no exterior
+  source: Times of India
+  url: https://timesofindia.indiatimes.com/world/rest-of-world/in-1712-a-dutch-east-india-company-ship-sank-off-western-australia-with-thousands-of-silver-coins-314-years-later-23-coins-stolen-from-its-wreck-have-returned-from-california-and-amsterdam-after-an-international-investigation/articleshow/136177968.cms
+  good: false
+  trending: false
+  why: ''
+  cat: SOCIETY
+  visual:
+    type: map
+    country: Australia
+    place: Austrália
+    lat: -25.2744
+    lon: 133.7751
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Various_antique_and_rare_coins_in_a_coin_album.jpg/1280px-Various_antique_and_rare_coins_in_a_coin_album.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Billjones94 · CC BY-SA 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Various_antique_and_rare_coins_in_a_coin_album.jpg
+    query: antique silver coins
+  chart_check:
+    result: 'not used: 0 isn''t in the article; a quoted sentence isn''t in the article'
+- title: Senadora liberal sul-australiana Leah Blyth migra para o One Nation
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-26/federal-politics-live-blog-november-26/107427220
+  good: false
+  trending: false
+  why: ''
+  cat: POLITICS
+  visual:
+    type: map
+    country: Australia
+    place: Austrália do Sul
+    lat: -34.9285
+    lon: 138.6007
+    span: 12
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Parlament_Wien_abends.jpg/1280px-Parlament_Wien_abends.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Thomas Wolf , www.foto-tw.de · CC BY-SA 3.0 de · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Parlament_Wien_abends.jpg
+    query: parliament building
+- title: Adolescente cria site para preservar memórias familiares e mensagens póstumas para entes queridos
+  source: Times of India
+  url: https://timesofindia.indiatimes.com/world/rest-of-world/17-year-old-on-australias-gold-coast-feared-her-nans-stories-would-be-lost-so-she-built-a-website-where-people-record-messages-for-loved-ones-to-receive-on-birthdays-and-christmases-after-they-die/articleshow/136161647.cms
   good: true
   trending: false
   why: ''
@@ -101,7 +91,7 @@ news:
   visual:
     type: icon
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mossy_forest_in_Lierneux_%28DSC01260%29.jpg/1280px-Mossy_forest_in_Lierneux_%28DSC01260%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Trougnouf (Benoit Brummer) · CC BY 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Mossy_forest_in_Lierneux_(DSC01260).jpg
-    query: mossy forest floor
+    url: https://upload.wikimedia.org/wikipedia/commons/3/38/Macbook_apple_imac_computer_screen_laptop_notebook_technology-758989.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+    credit: PXHERE · CC0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Macbook_apple_imac_computer_screen_laptop_notebook_technology-758989.jpg
+    query: laptop computer screen
