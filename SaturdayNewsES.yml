@@ -1,32 +1,32 @@
-date: 2026-11-21
+date: 2026-11-28
 day: Saturday
 news:
-- title: Un centro de datos australiano respaldado por Anthropic se enfrenta a casi 600 alegaciones por problemas de energía, agua y tráfico.
-  source: Times of India
-  url: https://timesofindia.indiatimes.com/world/rest-of-world/an-australian-data-centre-with-anthropic-as-its-anchor-tenant-drew-595-objections-or-requests-for-delay-and-just-two-supportive-submissions-as-people-raised-concerns-about-electricity-water-traffic-and-noise/articleshow/136023409.cms
-  good: false
-  trending: false
-  why: Los centros de datos de IA masivos saturan la electricidad local, el suministro de agua y el tráfico.
-  cat: TECH
-  visual:
-    type: map
-    country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Back_of_Eastfield_Mills%2C_Hawick_showing_modern_carpark_for_visitor_centre.jpg/1280px-Back_of_Eastfield_Mills%2C_Hawick_showing_modern_carpark_for_visitor_centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Mainlymazza · CC BY-SA 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Back_of_Eastfield_Mills,_Hawick_showing_modern_carpark_for_visitor_centre.jpg
-    query: modern data centre
-- title: Australia y China acuerdan hablar sobre IA mientras el primer ministro Albanese concluye su viaje internacional.
+- title: Se abren pronto las urnas en Victoria mientras los votantes se preparan para decidir el próximo gobierno estatal.
   source: ABC (Australian Broadcasting Corporation)
-  url: https://www.abc.net.au/news/2026-11-21/australia-strikes-deal-on-ai-talks-with-china-after-apec/107411592
+  url: https://www.abc.net.au/news/2026-11-28/victorian-election-live-updates-voting-results-seat-count/107418038
+  good: false
+  trending: false
+  why: Las elecciones estatales determinan las leyes locales, la sanidad y la financiación de la educación.
+  cat: POLITICS
+  visual:
+    type: map
+    country: Australia
+    place: Victoria
+    lat: -37.4713
+    lon: 144.7852
+    span: 12
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Parliament_House_Melbourne_2010.jpg/1280px-Parliament_House_Melbourne_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Elekhh · CC BY-SA 3.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Parliament_House_Melbourne_2010.jpg
+    query: Victorian Parliament House Melbourne
+- title: Tormentas violentas ponen fin a la primavera de El Niño más húmeda registrada en Australia.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-28/australia-wild-weekend-weather-caps-off-wettest-el-nino-spring/107435544
   good: false
   trending: false
   why: ''
-  cat: TECH
+  cat: CLIMATE
   visual:
     type: map
     country: Australia
@@ -34,73 +34,63 @@ news:
     lat: -25.2744
     lon: 133.7751
     span: 25
-    country2: China
-    place2: China
-    lat2: 35.8617
-    lon2: 104.1954
-    span2: 25
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg/1280px-Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: mikemacmarketing · CC BY 2.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg
-    query: artificial intelligence servers
-  chart_check:
-    result: 'not used: bars need 2–8 values (got 0)'
-- title: El primer ministro Albanese, pillado en un micrófono abierto con su ministro de Clima hablando sobre la ubicación de un teléfono.
-  source: Republic World
-  url: https://www.republicworld.com/world-news/because-of-your-dk-australian-pm-albanese-s-hot-mic-exchange-with-climate-minister-over-phone-placement-goes-viral-2026-11-15-141081
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mammatus_Clouds_and_Lightning_ahead_of_a_Severe_Storm.jpg/1280px-Mammatus_Clouds_and_Lightning_ahead_of_a_Severe_Storm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Jim Vajda · CC BY 2.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Mammatus_Clouds_and_Lightning_ahead_of_a_Severe_Storm.jpg
+    query: severe storm lightning
+- title: Cada vez se cría más ganado australiano en cebaderos en un cambio importante para la industria.
+  source: ABC (Australian Broadcasting Corporation)
+  url: https://www.abc.net.au/news/2026-11-28/australian-cattle-feedlot-industry-record-growth/107420348
   good: false
   trending: false
   why: ''
-  cat: POLITICS
+  cat: BUSINESS
   visual:
     type: icon
   photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Canberra_%28AU%29%2C_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg/1280px-Canberra_%28AU%29%2C_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Canberra_(AU),_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg
-    query: parliament house canberra
-- title: Echa un vistazo al interior de la enorme renovación de 580 millones de dólares del Memorial de Guerra Australiano.
-  source: The Canberra Times
-  url: https://www.canberratimes.com.au/story/9384971/australian-war-memorial-inside-the-major-580m-revamp/
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Cattle_feedlot_south_of_Portales%2C_New_Mexico.jpg/1280px-Cattle_feedlot_south_of_Portales%2C_New_Mexico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Quintin Soloviev · CC BY 4.0 · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Cattle_feedlot_south_of_Portales,_New_Mexico.jpg
+    query: cattle in feedlot
+  chart_check:
+    result: 'not used: 1.6e+06 isn''t in the article; 1e+06 isn''t in the article'
+- title: China advierte que un acuerdo de defensa entre Australia y Filipinas avivará las tensiones.
+  source: The New Indian Express
+  url: https://www.newindianexpress.com/world/2026/Nov/26/china-warns-australia-philippines-defence-deal-to-fuel-tensions
+  good: false
+  trending: false
+  why: ''
+  cat: CONFLICT
+  visual:
+    type: map
+    country: China
+    place: Pekín
+    lat: 39.9042
+    lon: 116.4074
+    span: 25
+  photo:
+    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Chinese_honor_guard_in_column_070322-F-0193C-014.JPEG/1280px-Chinese_honor_guard_in_column_070322-F-0193C-014.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+    credit: Staff Sgt. D. Myles Cullen (USAF) · Public domain · Wikimedia Commons
+    page: https://commons.wikimedia.org/wiki/File:Chinese_honor_guard_in_column_070322-F-0193C-014.JPEG
+    query: Chinese flag Beijing
+- title: Australia pide perdón a los veteranos LGTBIQ por la discriminación militar pasada.
+  source: The Straits Times
+  url: https://www.straitstimes.com/asia/australia-apologises-to-lgbtq-veterans-for-past-discrimination-in-the-military
   good: false
   trending: false
   why: ''
   cat: SOCIETY
   visual:
-    type: map
-    country: Australia
-    place: Canberra
-    lat: -35.2809
-    lon: 149.13
-    span: 3
+    type: icon
   photo:
     url: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/ANZAC_Parade_from_the_Australian_War_Memorial%2C_Canberra_ACT.jpg/1280px-ANZAC_Parade_from_the_Australian_War_Memorial%2C_Canberra_ACT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
     credit: Thennicke · CC BY-SA 4.0 · Wikimedia Commons
     page: https://commons.wikimedia.org/wiki/File:ANZAC_Parade_from_the_Australian_War_Memorial,_Canberra_ACT.jpg
     query: Australian War Memorial
-- title: Un adolescente australiano se enfrenta a cargos por delitos de odio tras insultar racista a una familia india y amenazar su piso.
-  source: Times of India
-  url: https://timesofindia.indiatimes.com/world/rest-of-world/australian-teen-charged-with-hate-crime-for-racially-abusing-indian-family-threatening-to-blow-up-brisbane-apartment-family-considers-leaving/articleshow/135118083.cms
-  good: false
-  trending: false
-  why: ''
-  cat: JUSTICE
-  visual:
-    type: map
-    country: Australia
-    place: Australia
-    lat: -25.2744
-    lon: 133.7751
-    span: 25
-  photo:
-    url: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Carl_B._Stokes_Federal_Court_House_Building_%282018%29.jpg/1280px-Carl_B._Stokes_Federal_Court_House_Building_%282018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-    credit: Cards84664 · CC BY-SA 4.0 · Wikimedia Commons
-    page: https://commons.wikimedia.org/wiki/File:Carl_B._Stokes_Federal_Court_House_Building_(2018).jpg
-    query: court house building
 hashtags:
-- '#Anthropic'
-- '#AnthonyAlbanese'
-- '#MemorialDeGuerraAustraliano'
-- '#India'
-question: ¿Deberían las comunidades locales tener más poder para bloquear grandes proyectos de centros de datos?
+- '#EleccionesVictoria'
+- '#ElNino'
+- '#AustraliaFilipinas'
+- '#VeteranosLGBTI'
+question: Estais preparados para emitir vuestro voto en las elecciones estatales de Victoria?
